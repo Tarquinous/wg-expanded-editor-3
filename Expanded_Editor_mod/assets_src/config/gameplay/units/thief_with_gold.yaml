@@ -20,7 +20,7 @@ unitClasses:
     isRecruitable: false
     appearsInLists: true
     inPalette: true
-    sightRange: 5
+    sightRange: 2
     deathVerbId: death_give_gold
     codexClass: thief
 ...
