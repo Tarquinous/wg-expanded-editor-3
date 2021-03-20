@@ -42,4 +42,5 @@ Mods are currently only available for Windows Steam versions. It is not usable f
 * Currently no access to hidden menuing for map or player properties. This includes:
   * Export and Import of maps to campaigns
   * Stars requirements to play maps
+  * Screen filters
 * The Loaded Thief unit type is not placable
