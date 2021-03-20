@@ -40,7 +40,7 @@ music:
     name: music_name_desert_river_ambience
     audioEvent: environmental/desertRiverAmbience
     isAmbience: true
-    hidden: true
+    hidden: false
   - id: field_ambience
     name: music_name_field_ambience
     audioEvent: environmental/fieldAmbience
@@ -49,7 +49,7 @@ music:
     name: music_name_field_river_ambience
     audioEvent: environmental/fieldRiverAmbience
     isAmbience: true
-    hidden: true
+    hidden: false
   - id: forest_ambience
     name: music_name_forest_ambience
     audioEvent: environmental/forestAmbience
