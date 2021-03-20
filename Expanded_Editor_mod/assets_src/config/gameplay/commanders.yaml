@@ -1,0 +1,279 @@
+---
+
+commanders:
+  - id: elodie
+    name: character_elodie_name
+    title: character_elodie_title
+    faction: guardian
+    factionIndex: 0
+    portrait:
+      neutral: portraits/commanders/small/elodie_portrait_small.png
+      happy: portraits/commanders/small/elodie_portrait_happy.png
+      sad: portraits/commanders/small/elodie_portrait_sad.png
+    cutscenePortrait: portraits/commanders/big/elodie_portrait
+    portraitOffset: [-10, -40]
+    namePlate: ui/character_select/charlabel/charlabel_elodie.png
+    themeSong: music/elodie
+    skinColour: typeIV
+    unitClassId: commander_elodie
+    selectionSound: elodie/elodieShoutShallIPlayYouASong
+    dialogueBoxVoice: ui/dialogue/textScrollElodie
+    # unlock: character_elodie # Remove unlock condition
+    deathFade: false
+    deathTime: 5
+
+  - id: darkmercia
+    name: character_darkmercia_name
+    title: character_darkmercia_title
+    faction: guardian
+    factionIndex: 1
+    portrait:
+      neutral: portraits/commanders/small/darkmercia_portrait_small.png
+      happy: portraits/commanders/small/darkmercia_portrait_happy.png
+      sad: portraits/commanders/small/darkmercia_portrait_sad.png
+    cutscenePortrait: portraits/commanders/big/darkmercia_portrait
+    portraitOffset: [0, -45]
+    namePlate: ui/character_select/charlabel/charlabel_darkmercia.png
+    themeSong: music/darkmercia
+    skinColour: typeII
+    unitClassId: commander_darkmercia
+    selectionSound: darkmercia/darkmerciaShoutDarknessFalls
+    dialogueBoxVoice: ui/dialogue/textScrollDarkMercia
+    # unlock: character_darkmercia # Remove unlock condition
+    deathFade: false
+
+  - id: mercival
+    name: character_mercival_name
+    title: character_mercival_title
+    faction: cherrystone
+    factionIndex: 3
+    portrait:
+      neutral: portraits/commanders/small/mercival_portrait_small.png
+      happy: portraits/commanders/small/mercival_portrait_happy.png
+      sad: portraits/commanders/small/mercival_portrait_sad.png
+      extra: portraits/commanders/small/mercival_portrait_ghost.png
+    cutscenePortrait: portraits/commanders/big/mercival_portrait
+    namePlate: ui/character_select/charlabel/charlabel_mercival.png
+    themeSong: music/mercival
+    skinColour: typeII
+    unitClassId: commander_mercival
+    selectionSound: mercival/mercivalShoutIAmWithYou
+    dialogueBoxVoice: ui/dialogue/textScrollMercival
+    # unlock: character_mercival # Remove unlock condition
+
+  - id: orla
+    name: character_orla_name
+    title: character_orla_title
+    faction: outlaw
+    playable: false
+    hideInMapEditor: false
+    portrait:
+      neutral: portraits/commanders/small/orla_portrait_small.png
+      happy: portraits/commanders/small/orla_portrait_happy.png
+      sad: portraits/commanders/small/orla_portrait_sad.png
+      extra: portraits/commanders/small/orla_portrait_extra.png
+    cutscenePortrait: portraits/commanders/big/orla_portrait
+    portraitOffset: [15, 0]
+    namePlate: ui/character_select/charlabel/charlabel_outlaw.png
+    themeSong: music/twins
+    skinColour: typeVI
+    unitClassId: commander_orla
+    selectionSound: mercia/merciaShoutWontLetYouDown
+    dialogueBoxVoice: ui/dialogue/textScrollOrla
+
+  - id: errol
+    name: character_errol_name
+    title: character_errol_title
+    faction: outlaw
+    playable: false
+    hideInMapEditor: false
+    portrait:
+      neutral: portraits/commanders/small/errol_portrait_small.png
+      happy: portraits/commanders/small/errol_portrait_happy.png
+      sad: portraits/commanders/small/errol_portrait_sad.png
+      extra: portraits/commanders/small/errol_portrait_scared.png
+    cutscenePortrait: portraits/commanders/big/errol_portrait
+    portraitOffset: [15, 0]
+    namePlate: ui/character_select/charlabel/charlabel_outlaw.png
+    themeSong: music/twins
+    skinColour: typeVI
+    unitClassId: commander_errol
+    selectionSound: mercia/merciaShoutWontLetYouDown
+    dialogueBoxVoice: ui/dialogue/textScrollTwins
+
+  - id: generic_cherrystone
+    name: character_generic_cherrystone_name
+    faction: cherrystone
+    playable: false
+    portrait:
+      neutral: portraits/commanders/small/cherrystone_portrait_small.png
+      happy: portraits/commanders/small/cherrystone_portrait_small.png
+      sad: portraits/commanders/small/cherrystone_portrait_small.png
+      extra: portraits/commanders/small/cherrystone_portrait_small.png
+    cutscenePortrait: portraits/commanders/big/cherrystone_portrait
+    themeSong: music/hostile
+    skinColour: typeIV
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+
+  - id: generic_felheim
+    name: character_generic_felheim_name
+    faction: felheim
+    playable: false
+    portrait:
+      neutral: portraits/commanders/small/felheim_portrait_small.png
+      happy: portraits/commanders/small/felheim_portrait_small.png
+      sad: portraits/commanders/small/felheim_portrait_small.png
+    cutscenePortrait: portraits/commanders/big/felheim_portrait
+    themeSong: music/hostile
+    skinColour: typeI
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+
+  - id: generic_floran
+    name: character_generic_floran_name
+    faction: floran
+    playable: false
+    portrait:
+      neutral: portraits/commanders/small/floran_portrait_small.png
+      happy: portraits/commanders/small/floran_portrait_small.png
+      sad: portraits/commanders/small/floran_portrait_small.png
+    cutscenePortrait: portraits/commanders/big/floran_portrait
+    themeSong: music/hostile
+    skinColour: green
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+
+  - id: generic_heavensong
+    name: character_generic_heavensong_name
+    faction: heavensong
+    playable: false
+    portrait:
+      neutral: portraits/commanders/small/heavensong_portrait_small.png
+      happy: portraits/commanders/small/heavensong_portrait_small.png
+      sad: portraits/commanders/small/heavensong_portrait_small.png
+    cutscenePortrait: portraits/commanders/big/heavensong_portrait
+    themeSong: music/hostile
+    skinColour: typeIII
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+
+  - id: generic_outlaw
+    name: character_generic_outlaw_name
+    faction: outlaw
+    playable: false
+    portrait:
+      neutral: portraits/commanders/small/outlaw_portrait_small.png
+      happy: portraits/commanders/small/outlaw_portrait_small.png
+      sad: portraits/commanders/small/outlaw_portrait_small.png
+    cutscenePortrait: portraits/commanders/big/outlaw_portrait
+    portraitOffset: [0, 20]
+    themeSong: music/hostile
+    skinColour: typeII
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+    
+  - id: generic_soldier
+    name: character_generic_soldier_name
+    faction: cherrystone
+    playable: false
+    hidden: false
+    portrait:
+      neutral: portraits/commanders/small/soldier_portrait_small.png
+      happy: portraits/commanders/small/soldier_portrait_happy.png
+      sad: portraits/commanders/small/soldier_portrait_sad.png
+      extra: portraits/commanders/small/soldier_portrait_extra.png
+    cutscenePortrait: portraits/commanders/big/cherrystone_portrait
+    themeSong: music/hostile
+    skinColour: typeVI
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+    
+  - id: generic_soldier2
+    name: character_generic_soldier2_name
+    faction: heavensong
+    playable: false
+    hidden: false
+    portrait:
+      neutral: portraits/commanders/small/soldier2_portrait_small.png
+      happy: portraits/commanders/small/soldier2_portrait_happy.png
+      sad: portraits/commanders/small/felheim_soldier_portrait.png
+      extra: portraits/commanders/small/floran_soldier_portrait.png
+    cutscenePortrait: portraits/commanders/big/cherrystone_portrait
+    themeSong: music/hostile
+    skinColour: typeII
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+
+  - id: generic_soldier3
+    name: character_generic_soldier3_name
+    faction: cherrystone
+    playable: false
+    hidden: false
+    portrait:
+      neutral: portraits/commanders/small/mage_portrait.png
+      happy: portraits/commanders/small/merfolk_portrait.png
+      sad: portraits/commanders/small/thief_portrait.png
+    cutscenePortrait: portraits/commanders/big/cherrystone_portrait
+    themeSong: music/hostile
+    skinColour: typeII
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+
+  - id: generic_villager
+    name: unit_class_name_villager
+    faction: cherrystone
+    playable: false
+    hidden: false
+    portrait:
+      neutral: portraits/commanders/small/villager_portrait_small.png
+      happy: portraits/commanders/small/villager_portrait_happy.png
+      sad: portraits/commanders/small/villager_portrait_sad.png
+      extra: portraits/commanders/small/villager_felheim_portrait.png
+    cutscenePortrait: portraits/commanders/big/cherrystone_portrait
+    themeSong: music/hostile
+    skinColour: typeII
+    unitClassId: knight
+    dialogueBoxVoice: ui/dialogue/textScroll
+
+  - id: vesper_boss
+    name: character_vesper_boss_name
+    faction: outlaw
+    factionIndex: 2
+    playable: false
+    hidden: false
+    portrait:
+      neutral: portraits/commanders/small/vesper_portrait_small.png
+      happy: portraits/commanders/small/vesper_portrait_happy.png
+      sad: portraits/commanders/small/vesper_portrait_sad.png
+      extra: portraits/commanders/small/vesper_portrait_angry.png
+    cutscenePortrait: portraits/commanders/big/vesper_portrait
+    portraitOffset: [-10, -40]
+    namePlate: ui/character_select/charlabel/charlabel_outlaw.png
+    themeSong: music/vesper
+    skinColour: typeVI
+    unitClassId: commander_vesper_boss
+    selectionSound: vesper/vesperShoutNoSmokeWithoutFire
+    dialogueBoxVoice: ui/dialogue/textScrollVesper
+
+  - id: shadow_vesper
+    name: unit_class_name_shadow_sister
+    faction: outlaw
+    factionIndex: 2
+    playable: false
+    hidden: false
+    portrait:
+      neutral: portraits/commanders/small/vesper_portrait_small.png
+      happy: portraits/commanders/small/vesper_portrait_happy.png
+      sad: portraits/commanders/small/vesper_portrait_sad.png
+      extra: portraits/commanders/small/vesper_portrait_angry.png
+    cutscenePortrait: portraits/commanders/big/vesper_portrait
+    portraitOffset: [-10, -40]
+    namePlate: ui/character_select/charlabel/charlabel_outlaw.png
+    themeSong: music/vesper
+    skinColour: typeVI
+    unitClassId: shadow_vesper
+    selectionSound: vesper/vesperShoutNoSmokeWithoutFire
+    dialogueBoxVoice: ui/dialogue/textScrollVesper
+
+...

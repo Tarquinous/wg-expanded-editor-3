@@ -1,0 +1,23 @@
+---
+
+cutscene_vfx:
+    # HIDDEN
+  - id: cutscene_teleport_fx
+    path: fx/cutscene/cutscene_teleport_fx
+    hidden: false
+  - id: cutscene_bluebird
+    path: fx/cutscene/cutscene_bluebird
+    hidden: false
+  - id: cutscene_door_open
+    path: fx/cutscene/cutscene_door_open
+    hidden: false
+  - id: cutscene_ragna_sink
+    path: fx/cutscene/cutscene_ragna_sink
+    hidden: false
+  - id: cutscene_crown_falls
+    path: fx/cutscene/cutscene_crown_falls
+    hidden: false
+  - id: cutscene_four_orbs
+    path: fx/cutscene/cutscene_four_orbs
+    hidden: false
+...

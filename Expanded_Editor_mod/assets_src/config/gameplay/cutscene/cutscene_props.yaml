@@ -1,0 +1,28 @@
+---
+
+cutscene_props:
+  - id: "ragnawarship_sail"
+    path: "backgrounds/props/ragnawarship_sail"
+    hidden: false
+  - id: "cherryship_sail"
+    path: "backgrounds/props/cherryship_sail"
+    hidden: false
+  - id: "felheimship_sail"
+    path: "backgrounds/props/felheimship_sail"
+    hidden: false
+  - id: "felheimship_sail"
+    path: "backgrounds/props/felheimship_sail"
+    hidden: false
+  - id: "outlawship_sail"
+    path: "backgrounds/props/outlawship_sail"
+    hidden: false
+  - id: "cutscene_bush"
+    path: "backgrounds/props/cutscene_bush"
+    hidden: false
+  - id: "cactus_trio"
+    path: "backgrounds/props/cactus_trio"
+    hidden: false
+  - id: "tavernfire"
+    path: "backgrounds/props/tavernfire"
+    hidden: false
+...

@@ -1,0 +1,70 @@
+---
+
+#layers: ground, underArrow, behind, units, above
+#placements: center, all 
+
+location_highlights:
+  - id: btn_primary
+    hidden: false
+    layers:
+      - button: primary
+        placement: center
+        layer: above
+        offset: [0,0]
+      - animation: "world/locations/tutorial_cross"
+        placement: all
+        layer: underArrow
+        alphaPulse: false
+  - id: btn_primary_low
+    hidden: false
+    layers:
+      - button: primary
+        placement: center
+        layer: above
+        offset: [0,0]
+      - animation: "world/locations/tutorial_cross"
+        placement: all
+        layer: underArrow
+        alphaPulse: false
+  - id: btn_cancel
+    hidden: false
+    layers:
+      - button: cancel
+        placement: center
+        layer: above
+        offset: [0,0]
+      - animation: "world/locations/tutorial_cross"
+        placement: all
+        layer: underArrow
+        alphaPulse: false
+  - id: btn_primary_below
+    hidden: false
+    layers:
+      - button: primary_below
+        placement: center
+        layer: above
+        offset: [0,0]
+      - animation: "world/locations/tutorial_cross"
+        placement: all
+        layer: underArrow
+        alphaPulse: false
+  - id: btn_cancel_below
+    hidden: false
+    layers:
+      - button: cancel_below
+        placement: center
+        layer: above
+        offset: [0,0]
+      - animation: "world/locations/tutorial_cross"
+        placement: all
+        layer: underArrow
+        alphaPulse: false
+  - id: btn_overview
+    hidden: false
+    layers:
+      - button: btn_overview
+        placement: center
+        layer: above
+        offset: [0,0]
+
+... 

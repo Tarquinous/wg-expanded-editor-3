@@ -1,0 +1,112 @@
+---
+# default height: 34
+cutscene_backgrounds:
+  - id: grass_sky
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_sky_foreground
+    background: grass_battlescreen_extendedbackgrounds_sky
+  - id: grass_river
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_river_foreground
+    background: grass_battlescreen_extendedbackgrounds_river
+  - id: snow_river
+    hidden: false
+    spritesheet: backgrounds/snow_battlescreen_extendedbackgrounds
+    foreground: snow_battlescreen_extendedbackgrounds_river_foreground
+    background: snow_battlescreen_extendedbackgrounds_river
+  - id: forest_edited
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_forest_foreground
+    background: grass_battlescreen_extendedbackgrounds_forest_edited
+  - id: sand_river
+    hidden: false
+    spritesheet: backgrounds/sand_battlescreen_extendedbackgrounds
+    foreground: sand_battlescreen_extendedbackgrounds_river_foreground
+    background: sand_battlescreen_extendedbackgrounds_river
+  - id: boat_felheim
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_boat_felheim_foreground
+    background: grass_battlescreen_extendedbackgrounds_boat_felheim
+    tileHeight: 32
+  - id: boat_felheimcherry
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_boat_felheimcherry_foreground
+    background: grass_battlescreen_extendedbackgrounds_boat_felheimcherry
+    tileHeight: 32
+  - id: boat_felheimcherry2
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_boat_felheimcherry2_foreground
+    background: grass_battlescreen_extendedbackgrounds_boat_felheimcherry2
+    tileHeight: 32
+  - id: boat_cherry
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_boat_cherry_foreground
+    background: grass_battlescreen_extendedbackgrounds_boat_cherry
+    tileHeight: 32
+  - id: boat_cherry_snow
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_boat_cherry_snow_foreground
+    background: grass_battlescreen_extendedbackgrounds_boat_cherry_snow
+    tileHeight: 32
+  - id: boat_cherry2
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_boat_cherry2_foreground
+    background: grass_battlescreen_extendedbackgrounds_boat_cherry2
+    tileHeight: 35
+  - id: boat_outlaw
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_boat_outlaw_foreground
+    background: grass_battlescreen_extendedbackgrounds_boat_outlaw
+    tileHeight: 35
+  - id: boat_cherry3
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_boat_cherry3_foreground
+    background: grass_battlescreen_extendedbackgrounds_boat_cherry3
+    tileHeight: 35
+  - id: ocean
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    background: grass_battlescreen_extendedbackgrounds_ocean
+  - id: caveentrance
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_caveentrance_foreground
+    background: grass_battlescreen_extendedbackgrounds_caveentrance
+  - id: caveentrance_closed
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_caveentrance_foreground
+    background: grass_battlescreen_extendedbackgrounds_caveentrance_closed
+  - id: sunset_castle
+    hidden: false
+    spritesheet: backgrounds/story_battlescreen
+    foreground: story_battlescreen_sunset_foreground
+    background: story_battlescreen_sunset_castle
+  - id: grass_road_tower
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_road_foreground
+    background: grass_battlescreen_extendedbackgrounds_road_tower
+  - id: grass_road_tower2
+    hidden: false
+    spritesheet: backgrounds/grass_battlescreen_extendedbackgrounds
+    foreground: grass_battlescreen_extendedbackgrounds_road_tower2_foreground
+    background: grass_battlescreen_extendedbackgrounds_road_tower2
+  - id: sand_forest_edited
+    hidden: false
+    spritesheet: backgrounds/sand_battlescreen_extendedbackgrounds
+    foreground: sand_battlescreen_extendedbackgrounds_forest_foreground
+    background: sand_battlescreen_extendedbackgrounds_forest_edited
+
+...

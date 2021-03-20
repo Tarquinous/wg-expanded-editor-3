@@ -1,0 +1,101 @@
+---
+
+triggerActions:
+  - id: set_conditional_location_highlight
+    hidden: false
+    parameters:
+      - type: location_real
+      - type: location_highlight
+      - type: player_colour_star
+      - type: boolean
+      - type: highlight_condition
+
+  - id: reveal_fow
+    hidden: false # This is intended to be user-facing, but it's not implemented at this time
+    parameters:
+      - type: location_star
+      - type: player_star
+  
+  - id: message
+    hidden: false
+    parameters:
+      - type: string
+
+  - id: dialogue_box
+    hidden: false
+    parameters:
+      - type: character_expression
+      - type: character_non_playable
+      - type: string
+      - type: string
+
+  - id: force_action
+    hidden: false
+    parameters:
+      - type: location_star
+      - type: action
+      - type: location_star
+      - type: location_star      
+      - type: boolean
+      - type: character_expression
+      - type: character
+      - type: string
+
+  - id: force_open_ui_tutorial
+    hidden: false
+    parameters:
+      - type: tutorial_ui_script
+      - type: location_star
+      - type: character_expression
+      - type: character
+      - type: string
+      - type: map_flag_star
+      - type: boolean
+
+  - id: add_ui_tutorial
+    hidden: false
+    parameters:
+      - type: tutorial_ui_script
+      - type: location_star
+      - type: map_flag_star
+      - type: boolean
+
+  - id: queue_force_action
+    hidden: false
+    parameters:
+      - type: location_star
+      - type: action
+      - type: location_star
+      - type: location_star      
+      - type: boolean
+      - type: character_expression
+      - type: character
+      - type: string
+
+  - id: queue_force_open_ui_tutorial
+    hidden: false
+    parameters:
+      - type: tutorial_ui_script
+      - type: location_star
+      - type: character_expression
+      - type: character
+      - type: string
+      - type: map_flag_star
+      - type: boolean
+
+  - id: play_credits
+    hidden: false
+    parameters:
+        - type: credits_type
+
+  - id: set_match_seed
+    hidden: false
+    parameters:
+      - type: integer
+
+  - id: play_groove_cutscene
+    hidden: false
+    parameters:
+      - type: character_non_playable
+
+...

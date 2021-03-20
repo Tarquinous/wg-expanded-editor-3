@@ -1,0 +1,22 @@
+---
+
+triggerConditions:
+  - id: number_of_stars_map
+    scope: map
+    hidden: false
+    parameters:
+      - type: integer
+
+  - id: number_of_stars_campaign
+    scope: campaign
+    hidden: false
+    parameters:
+      - type: integer
+
+  - id: number_of_stars_after_victory
+    hidden: false
+    parameters:
+      - type: operator
+      - type: integer
+
+...

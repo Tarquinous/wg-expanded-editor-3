@@ -1,0 +1,42 @@
+---
+
+modifyingUnitClasses:
+  - id: crystal
+    replace: 
+      isHidden: false
+      classIcon: unit_icons_summon
+  - id: vine
+    replace:
+      isHidden: false
+      classIcon: unit_icons_summon  
+  - id: drone
+    replace:
+      isHidden: false
+      classIcon: unit_icons_summon  
+  - id: shadow_vesper
+    replace:
+      isHidden: false
+      classIcon: unit_icons_summon  
+  - id: garrison
+    replace:
+      isHidden: false
+  - id: commander_vesper_boss
+    replace:
+      isHidden: false
+      appearsInLists: true
+  - id: commander_orla
+    replace:
+      isHidden: false
+  - id: commander_errol
+    replace:
+      isHidden: false
+  - id: thief_with_gold # Seems to not work right now? Not sure why not.
+    replace:
+      appearsInLists: true
+    remove:
+      codexClass: thief
+  - id: ghost_mercival
+    replace:
+      isHidden: false    
+      
+...
