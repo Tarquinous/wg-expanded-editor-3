@@ -70,7 +70,7 @@ Below is a list of documentated unusual behaviours:
 
 Due to limitations of the Official Modpacker, not all features possible in the [Expanded Editor](https://www.nexusmods.com/wargroove/mods/28) mod by Unicarn are available. If you absolutely require these, I highly recommend installing and learning to use the [Unofficial Modpacker](https://www.nexusmods.com/wargroove/mods/1). These features include:
 
-* No access to hidden menuing for map or player propertie, including:
+* No access to hidden menuing for map or player properties, including:
   * Exporting Campaign maps to individual map files
   * Importing working maps into a Campaign
   * Stars requirements to play maps
