@@ -1,7 +1,177 @@
 ---
 
 music:
-
+    # Remove unlock requirement in the Map Editor
+  - id: requiem
+    name: music_name_requiem
+    audioEvent: music/requiem
+  - id: newlife
+    name: music_name_newlife
+    audioEvent: music/newlife
+  - id: mercia
+    name: music_name_mercia
+    audioEvent: music/mercia
+    unlock: jukebox_mercia
+    jukebox:
+      animation: units/commanders/mercia/battle_mercia
+      animationSequence: emote_dance
+      playerColour: red
+      skinColour: typeII
+  - id: emeric
+    name: music_name_emeric
+    audioEvent: music/emeric
+    unlock: jukebox_emeric
+    jukebox:
+      animation: units/commanders/emeric/battle_emeric
+      animationSequence: emote_dance
+      playerColour: red
+      skinColour: typeVI
+  - id: caesar
+    name: music_name_caesar
+    audioEvent: music/caesar
+    unlock: jukebox_caesar
+    jukebox:
+      animation: units/commanders/caesar/battle_caesar
+      animationSequence: emote_dance
+      playerColour: red
+      skinColour: typeII
+  - id: valder
+    name: music_name_valder
+    audioEvent: music/valder
+    unlock: jukebox_valder
+    jukebox:
+      animation: units/commanders/valder/battle_valder
+      animationSequence: emote_dance
+      playerColour: blue
+      skinColour: typeIV
+  - id: ragna
+    name: music_name_ragna
+    audioEvent: music/ragna
+    unlock: jukebox_ragna
+    jukebox:
+      animation: units/commanders/ragna/battle_ragna
+      animationSequence: emote_dance
+      playerColour: blue
+      skinColour: typeI
+  - id: sigrid
+    name: music_name_sigrid
+    audioEvent: music/sigrid
+    unlock: jukebox_sigrid
+    jukebox:
+      animation: units/commanders/sigrid/battle_sigrid
+      animationSequence: emote_dance
+      playerColour: blue
+      skinColour: typeI
+  - id: greenfinger
+    name: music_name_greenfinger
+    audioEvent: music/greenfinger
+    unlock: jukebox_greenfinger
+    jukebox:
+      animation: units/commanders/greenfinger/battle_greenfinger
+      animationSequence: emote_dance
+      playerColour: green
+      skinColour: green
+  - id: nuru
+    name: music_name_nuru
+    audioEvent: music/nuru
+    unlock: jukebox_nuru
+    jukebox:
+      animation: units/commanders/nuru/battle_nuru
+      animationSequence: emote_dance
+      playerColour: green
+      skinColour: green
+  - id: sedge
+    name: music_name_sedge
+    audioEvent: music/sedge
+    unlock: jukebox_sedge
+    jukebox:
+      animation: units/commanders/sedge/battle_sedge
+      animationSequence: emote_dance
+      playerColour: green
+      skinColour: green
+  - id: tenri
+    name: music_name_tenri
+    audioEvent: music/tenri
+    unlock: jukebox_tenri
+    jukebox:
+      animation: units/commanders/tenri/battle_tenri
+      animationSequence: emote_dance
+      playerColour: yellow
+      skinColour: typeIII
+  - id: ryota
+    name: music_name_ryota
+    audioEvent: music/ryota
+    unlock: jukebox_ryota
+    jukebox:
+      animation: units/commanders/ryota/battle_ryota
+      animationSequence: emote_dance
+      playerColour: yellow
+      skinColour: typeIII
+  - id: koji
+    name: music_name_koji
+    audioEvent: music/koji
+    unlock: jukebox_koji
+    jukebox:
+      animation: units/commanders/koji/battle_koji
+      animationSequence: emote_dance
+      playerColour: yellow
+      skinColour: typeIII
+  - id: elodie
+    name: music_name_elodie
+    audioEvent: music/elodie
+    unlock: jukebox_elodie
+    jukebox:
+      animation: units/commanders/elodie/battle_elodie
+      animationSequence: emote_dance
+      playerColour: purple
+      skinColour: typeIV
+  - id: darkmercia
+    name: music_name_darkmercia
+    audioEvent: music/darkmercia
+    unlock: jukebox_darkmercia
+    jukebox:
+      animation: units/commanders/darkmercia/battle_darkmercia
+      animationSequence: emote_dance
+      playerColour: purple
+      skinColour: typeII
+  - id: mercival
+    name: music_name_mercival
+    audioEvent: music/mercival
+    unlock: jukebox_mercival
+    jukebox:
+      animation: units/commanders/mercival/battle_mercival
+      animationSequence: emote_dance
+      playerColour: red
+      skinColour: typeII
+  - id: wulfar
+    name: music_name_wulfar
+    audioEvent: music/wulfar
+    unlock: jukebox_wulfar
+    jukebox:
+      animation: units/commanders/wulfar/battle_wulfar
+      animationSequence: emote_dance
+      playerColour: black
+      skinColour: typeII
+  - id: twins
+    name: music_name_twins
+    audioEvent: music/twins
+    unlock: jukebox_twins
+    jukebox:
+      animation: units/commanders/twins/battle_twins
+      animationSequence: emote_dance
+      playerColour: black
+      skinColour: typeVI
+  - id: vesper
+    name: music_name_vesper
+    audioEvent: music/vesper
+    unlock: jukebox_vesper
+    jukebox:
+      animation: units/commanders/vesper/battle_vesper
+      animationSequence: emote_dance
+      playerColour: black
+      skinColour: typeVI
+      
+    # Unhide unused songs
   - id: victory
     name: music_name_victory
     audioEvent: music/victory_only
@@ -29,6 +199,7 @@ music:
       skinColour: typeII
     availableOnMap: true
     
+    # Unhide unused ambient sounds
   - id: no_ambience
     name: music_name_none
     isAmbience: true
