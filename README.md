@@ -29,7 +29,9 @@ Inspired and based off the [Expanded Editor](https://www.nexusmods.com/wargroove
 
 Load up a custom map you want to work on, open the "Mods" menu and enable the Expanded Editor mod. Click "Reload map" and all of the features should now be accessible! When you're finished and wish to upload your map, simply disable the mod.
 
-None of these changes will be lost when the mod is removed, as they are all used in vanilla WarGroove!
+None of your changes to the map will be lost when the mod is removed, as they are all used in vanilla WarGroove!
+
+Unlockable content will return to being locked once the mod is removed if you have not yet unlocked them.
 
 ## Installation
 
