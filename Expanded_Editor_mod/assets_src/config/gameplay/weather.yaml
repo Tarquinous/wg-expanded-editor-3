@@ -1,0 +1,39 @@
+---
+
+# Modifiers:
+# Stats:
+#	  DamageMultiplier
+#   PassiveMultiplier
+#   SightRange
+#   RangedAttackMaxRange
+#
+# Operations:
+#   Add
+#   Subtract
+#   Multiply
+#   Divide
+#
+# For the tags list, an affected unit must have at least one of the tags
+#
+
+weather:
+  - id: ash
+    iconSpriteSheet: ui
+    iconSprite: weather_icons_ash
+    ambience: volcano_ambience
+    hidden: false
+    modifiers:
+      - stat: DamageMultiplier
+        operation: Multiply
+        value: 0.8f
+        tags: [type.air]
+      - stat: MoveRange
+        operation: Subtract
+        value: 2
+        tags: [type.sea]
+      - stat: RangedAttackMaxRange
+        operation: Subtract
+        value: 1
+        tags: [type.ground.light, type.ground.heavy]
+
+...
