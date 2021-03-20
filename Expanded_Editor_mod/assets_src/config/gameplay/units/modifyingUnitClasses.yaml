@@ -24,12 +24,15 @@ modifyingUnitClasses:
     replace:
       isHidden: false
       appearsInLists: true
+      isSpawnable: true
   - id: commander_orla
     replace:
       isHidden: false
+      isSpawnable: true
   - id: commander_errol
     replace:
       isHidden: false
+      isSpawnable: true
   - id: ghost_mercival
     replace:
       isHidden: false    
