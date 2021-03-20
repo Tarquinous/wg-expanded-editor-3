@@ -65,7 +65,7 @@ commanders:
     name: character_orla_name
     title: character_orla_title
     faction: outlaw
-    playable: false
+    playable: true
     hideInMapEditor: false
     portrait:
       neutral: portraits/commanders/small/orla_portrait_small.png
@@ -85,7 +85,7 @@ commanders:
     name: character_errol_name
     title: character_errol_title
     faction: outlaw
-    playable: false
+    playable: true
     hideInMapEditor: false
     portrait:
       neutral: portraits/commanders/small/errol_portrait_small.png
@@ -240,7 +240,7 @@ commanders:
     name: character_vesper_boss_name
     faction: outlaw
     factionIndex: 2
-    playable: false
+    playable: true
     hidden: false
     portrait:
       neutral: portraits/commanders/small/vesper_portrait_small.png
