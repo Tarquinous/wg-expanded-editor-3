@@ -49,6 +49,7 @@ Not all unlocked features are 100% stable for use. If you do use them please be 
 * The "victory" and "defeat" music tracks will never loop, and are barely a few seconds long.
 * the "Groove Cutscene" event does not have an appropriate entry for Errol & Orla, and will display `#MISSING#` when used.
 * All events checking Stars are based on the player's achieved Stars, which cannot be awarded in custom content and thus unlikely to be useful in the way it is used officially.
+* Loaded Thief always begins with 300 Gold.
 
 ## Missing Features and Known Issues
 
@@ -62,9 +63,6 @@ Due to limitations of the Official Modpacker, not all features possible in the [
 * Input restraints removed. This includes:
   * Negative starting gold for players
 
-These aside, the mod also currently has these limitations:
-* The Loaded Thief unit type is not placable
-
 For the curious, these are a list of features not provided due to in-game lack of support:
 * City terrain - Crashes due to lack of sprites
 * smoke_producer, heal_area, and damage_area units - Crashes due to lack of sprites
@@ -75,3 +73,4 @@ Below are some features I would like to implement, if it is found to be possible
 * Ambient sounds as 'music' options for maps
 * Place more than one Commander on the map at a time even after the mod is disabled
 * Allow terrain to be placed in any location regardless of adjacent terrain
+* Allow custom values for Ammo and Gold of newly placed Rifleman, Thief, and Thief_with_gold
