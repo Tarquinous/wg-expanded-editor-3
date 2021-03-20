@@ -2,7 +2,9 @@
 
 An Expanded Editor mod developed on the Official Modpacker.
 
-Inspired and based off the [Expanded Editor](https://www.nexusmods.com/wargroove/mods/28) mod by Unicarn, this one aims to bring the mod tools without reliance upon the unsupported [Unofficial Modpacker](https://www.nexusmods.com/wargroove/mods/1), and continuing the trend of Expanded Editor mods.
+Inspired and based off the [Expanded Editor](https://www.nexusmods.com/wargroove/mods/28) mod by Unicarn, this one aims to bring the mod tools without reliance upon the unsupported [Unofficial Modpacker](https://www.nexusmods.com/wargroove/mods/1).
+
+The first mod to provide this functionality was the [Unlock Hidden Map Editor Contents](https://www.nexusmods.com/wargroove/mods/11) mod by Ophelia, making this the third mod in a series of editor feature mods!
 
 ## Features
 
@@ -41,8 +43,15 @@ Mods are currently only available for Windows Steam versions. It is not usable f
 
 ## Missing Features and Known Issues
 
-* Currently no access to hidden menuing for map or player properties. This includes:
-  * Export and Import of maps to campaigns
+Due to limitations of the Official Modpacker, not all features possible in the [Expanded Editor](https://www.nexusmods.com/wargroove/mods/28) mod by Unicarn are available. If you absolutely require these, I highly recommend installing and learning to use the [Unofficial Modpacker](https://www.nexusmods.com/wargroove/mods/1). These features include:
+
+* No access to hidden menuing for map or player properties. This includes:
+  * Exporting Campaign maps to individual map files
+  * Importing working maps into a Campaign
   * Stars requirements to play maps
   * Screen filters
+* Input restraints removed. This includes:
+  * Negative starting gold for players
+
+These aside, the mod also currently has these limitations that may be implemented in the future:
 * The Loaded Thief unit type is not placable
