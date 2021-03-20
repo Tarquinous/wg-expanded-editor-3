@@ -20,6 +20,7 @@ modifyingUnitClasses:
   - id: garrison
     replace:
       isHidden: false
+      isSpawnable: true
   - id: commander_vesper_boss
     replace:
       isHidden: false
