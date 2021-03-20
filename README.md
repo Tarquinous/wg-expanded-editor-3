@@ -22,10 +22,7 @@ The first mod to provide this functionality was the [Unlock Hidden Map Editor Co
   * Cutscene VFX
   * Placable units
   * Dialogue portraits
-* Removes unlock requirements for the three unlockable commanders including:
-  * Mercival
-  * Elodie
-  * Dark Mercia
+* Removes unlock requirements for the three unlockable commanders
 
 ## How to Use
 
@@ -41,6 +38,18 @@ Download the latest release file of the packed mod. Drop the mod folder into you
 
 Mods are currently only available for Windows Steam versions. It is not usable for XBox Gamepass, MacOS, or console versions.
 
+## Unstable Tools
+
+Not all unlocked features are 100% stable for use. If you do use them please be aware they may cause crashes or unexpected behaviour:
+* The "Garrison" unit type will return you to the Main Menu if you open its Unit Info screen.
+* The seperate commanders Errol and Orla (not to be confused with Errol & Orla) cannot move, attack, or groove. They are functionally useless as units.
+* The "Ghost" unit cannot attack, move, or perform any actions (it cannot even "Wait"), and lacks most animations. Its colour will not show its Player alignment (however you can see it as the background colour of their corner icon). It will not cause any crashes, but is functionally a breakable wall.
+* the "Volcano" terrain tile looks identical to Plains and is indistinquishably invisible.
+* The button location highlights depend on the platform, showing different controls.
+* The "victory" and "defeat" music tracks will never loop, and are barely a few seconds long.
+* the "Groove Cutscene" event does not have an appropriate entry for Errol & Orla, and will display `#MISSING#` when used.
+* All events checking Stars are based on the player's achieved Stars, which cannot be awarded in custom content and thus unlikely to be useful in the way it is used officially.
+
 ## Missing Features and Known Issues
 
 Due to limitations of the Official Modpacker, not all features possible in the [Expanded Editor](https://www.nexusmods.com/wargroove/mods/28) mod by Unicarn are available. If you absolutely require these, I highly recommend installing and learning to use the [Unofficial Modpacker](https://www.nexusmods.com/wargroove/mods/1). These features include:
@@ -53,5 +62,16 @@ Due to limitations of the Official Modpacker, not all features possible in the [
 * Input restraints removed. This includes:
   * Negative starting gold for players
 
-These aside, the mod also currently has these limitations that may be implemented in the future:
+These aside, the mod also currently has these limitations:
 * The Loaded Thief unit type is not placable
+
+For the curious, these are a list of features not provided due to in-game lack of support:
+* City terrain - Crashes due to lack of sprites
+* smoke_producer, heal_area, and damage_area units - Crashes due to lack of sprites
+
+## Future ideas
+
+Below are some features I would like to implement, if it is found to be possible:
+* Ambient sounds as 'music' options for maps
+* Place more than one Commander on the map at a time even after the mod is disabled
+* Allow terrain to be placed in any location regardless of adjacent terrain
