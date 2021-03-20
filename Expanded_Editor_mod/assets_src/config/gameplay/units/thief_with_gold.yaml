@@ -1,0 +1,26 @@
+---
+
+unitClasses:
+  - id: thief_with_gold
+    name: unit_class_name_thief_with_gold
+    cost: 400
+    movement: walking
+    moveRange: 3
+    damageMultiplier: 1
+    aiPriority: 2.5
+    weapons: []
+    verbs:
+      - load
+      - deposit
+      - bypass_gate
+    tags:
+      - thief
+      - type.ground.hideout
+    battleUnitCount: 1
+    isRecruitable: false
+    appearsInLists: true
+    inPalette: true
+    sightRange: 5
+    deathVerbId: death_give_gold
+    codexClass: thief
+...
