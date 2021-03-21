@@ -81,6 +81,7 @@ Due to limitations of the Official Modpacker, not all features possible in the [
 Not all features possible are provided, due to a lack of practical use in-game:
 * City terrain - identical to "Sky" terrain.
 * smoke_producer, heal_area, and damage_area units - Crashes game due to lack of sprites.
+* `Player: Reveal Fog of War` event action - doesn't do anything, purely a placeholder.
 
 ## Future ideas
 
