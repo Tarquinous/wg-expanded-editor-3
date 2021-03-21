@@ -37,7 +37,7 @@ Unlockable content will return to being locked once the mod is removed if you ha
 
 ## Installation
 
-Download the latest [release file](https://github.com/Tarquinous/wg-expanded-editor-3/releases/latest) of the packed mod (not to be confused with the Source Code!). Drop the contained folder into your mods folder at the `%appdata%/chucklefish/wargroove/mods` directory. Reload your game and it should now show up in your "Mods" menu in the map editor.
+Download the [latest release file](https://github.com/Tarquinous/wg-expanded-editor-3/releases/latest) of the packed mod (not to be confused with the Source Code!). Drop the contained folder into your mods folder at the `%appdata%/chucklefish/wargroove/mods` directory. Reload your game and it should now show up in your "Mods" menu in the map editor.
 
 Mods are currently only available for Windows Steam versions. It is not usable for XBox Gamepass, MacOS, or console versions.
 
