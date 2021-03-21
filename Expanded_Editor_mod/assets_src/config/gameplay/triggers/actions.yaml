@@ -10,8 +10,9 @@ triggerActions:
       - type: boolean
       - type: highlight_condition
 
+    # This one doesn't do anything, so has been left hidden.
   - id: reveal_fow
-    hidden: false # This is intended to be user-facing, but it's not implemented at this time
+    hidden: true # This is intended to be user-facing, but it's not implemented at this time
     parameters:
       - type: location_star
       - type: player_star
