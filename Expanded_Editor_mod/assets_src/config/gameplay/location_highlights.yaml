@@ -1,6 +1,6 @@
 ---
 # These location highlights are controller/keyboard controls, as specified in location_highlight_buttons.yaml (not changed in this mod).
-# Each one lists the type of control it will display as PC, Playstation, Switch Joycon, Switch full, Xbox
+# The displayed graphic varies between PC, Playstation, Switch (Joycon), Switch (controller), and Xbox
 
 # btm_primary_low is not unhidden because it is completely identical to btn_primary, offering no additional functionality. 
 location_highlights:
