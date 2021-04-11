@@ -1,5 +1,6 @@
 ---
-
+# To unlock the thief_with_gold fully, the 'inPalette' must be set to true.
+# Unfortunately, modifyingUnitClasses cannot edit this due to an oversight, so the entire unit class is re-defined.
 unitClasses:
   - id: thief_with_gold
     name: unit_class_name_thief_with_gold
