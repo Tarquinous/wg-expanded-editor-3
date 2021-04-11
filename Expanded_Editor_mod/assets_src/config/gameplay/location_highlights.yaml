@@ -4,7 +4,7 @@
 
 # btm_primary_low is not unhidden because it is completely identical to btn_primary, offering no additional functionality. 
 location_highlights:
-  - id: btn_primary # LMB, X, ▶, A, A
+  - id: btn_primary
     hidden: false
     layers:
       - button: primary
@@ -16,7 +16,7 @@ location_highlights:
         layer: underArrow
         alphaPulse: false
   - id: btn_primary_low
-    hidden: true
+    hidden: true # Left intentionally hidden.
     layers:
       - button: primary
         placement: center
