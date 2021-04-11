@@ -1,26 +1,29 @@
 ---
-
+# Properties are set to the following:
+# isHidden: false   -- This allows it to be seen in the map editor and menus.
+# isSpawnable: true -- This allows the Unit: Spawn event use the unit.
+# classIcon:        -- A bug in modifyingUnitClasses makes it wrongly override the classIcon based on the units' names.
+#                      These are manually specified to prevent erroneous changes.
 modifyingUnitClasses:
-  - id: crystal
+  # Groove units
+  - id: crystal # Emeric's Crystal
     replace: 
       isHidden: false
       classIcon: unit_icons_summon
-  - id: vine
+  - id: vine # Greenfinger's Vine
     replace:
       isHidden: false
       classIcon: unit_icons_summon  
-  - id: drone
+  - id: drone # Koji's Sparrow Bomb
     replace:
       isHidden: false
       classIcon: unit_icons_summon  
-  - id: shadow_vesper
+  - id: shadow_vesper # Shadow Sister
     replace:
       isHidden: false
-      classIcon: unit_icons_summon  
-  - id: garrison
-    replace:
-      isHidden: false
-      isSpawnable: true
+      classIcon: unit_icons_summon
+  
+  # Commander units
   - id: commander_vesper_boss
     replace:
       isHidden: false
@@ -34,8 +37,13 @@ modifyingUnitClasses:
     replace:
       isHidden: false
       isSpawnable: true
-  - id: ghost_mercival
+  
+  # Other hidden units
+  - id: ghost_mercival # Mercival's ghost (seen in Act 3, Mission 2)
     replace:
       isHidden: false    
-      
+  - id: garrison # Garrison (the attacker for buildings)
+    replace:
+      isHidden: false
+      isSpawnable: true
 ...
