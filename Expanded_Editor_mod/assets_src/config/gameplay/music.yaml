@@ -4,6 +4,7 @@
 #  - availableOnMap
 #  - cutsceneUnlock
 #  - hidden
+#  - isAmbience
 
 music:
     # Special unlockable themes - Remove unlock requirement in the Map Editor
@@ -229,83 +230,82 @@ music:
       skinColour: typeII
     #availableOnMap: false
     
-    # Hidden ambience - Unhide unused ambient sounds
-    # Note: All ambient songs are left in the file for future use.
+    # Hidden ambience - Unhide unused ambient sounds and make them categorise as regular music
     # - - - - - - - - - - - - - - - - - - - -
   - id: no_ambience
     name: music_name_none
-    isAmbience: true
+    #isAmbience: true
   - id: desert_ambience
     name: music_name_desert_ambience
     audioEvent: environmental/desertAmbience
-    isAmbience: true
+    #isAmbience: true
   - id: desert_river_ambience
     name: music_name_desert_river_ambience
     audioEvent: environmental/desertRiverAmbience
-    isAmbience: true
+    #isAmbience: true
     #hidden: true
   - id: field_ambience
     name: music_name_field_ambience
     audioEvent: environmental/fieldAmbience
-    isAmbience: true
+    #isAmbience: true
   - id: field_river_ambience
     name: music_name_field_river_ambience
     audioEvent: environmental/fieldRiverAmbience
-    isAmbience: true
+    #isAmbience: true
     #hidden: true
   - id: forest_ambience
     name: music_name_forest_ambience
     audioEvent: environmental/forestAmbience
-    isAmbience: true
+    #isAmbience: true
   - id: mountain_ambience
     name: music_name_mountain_ambience
     audioEvent: environmental/mountainAmbience
-    isAmbience: true
+    #isAmbience: true
   - id: ocean_ambience
     name: music_name_ocean_ambience
     audioEvent: environmental/oceanAmbience
-    isAmbience: true
+    #isAmbience: true
   - id: snow_ambience
     name: music_name_snow_ambience
     audioEvent: environmental/snowAmbience
-    isAmbience: true
+    #isAmbience: true
   - id: snow_river_ambience
     name: music_name_snow_river_ambience
     audioEvent: environmental/snowRiverAmbience
-    isAmbience: true
+    #isAmbience: true
     #hidden: true
   - id: tundra_ambience
     name: music_name_tundra_ambience
     audioEvent: environmental/tundraAmbience
-    isAmbience: true
+    #isAmbience: true
   - id: volcano_ambience    
     name: music_name_volcano_ambience
     audioEvent: environmental/volcanoAmbience
-    isAmbience: true
+    #isAmbience: true
   - id: tavern_ambience    
     name: music_name_tavern_ambience
     audioEvent: environmental/barAmbience
-    isAmbience: true
+    #isAmbience: true
     
   - id: weather_blizzard
     name: music_name_weather_blizzard
     audioEvent: environmental/weatherBlizzard
-    isAmbience: true
+    #isAmbience: true
   - id: weather_rain
     name: music_name_weather_rain
     audioEvent: environmental/weatherRain
-    isAmbience: true
+    #isAmbience: true
   - id: weather_sandstorm
     name: music_name_weather_sandstorm
     audioEvent: environmental/weatherSandstorm
-    isAmbience: true
+    #isAmbience: true
   - id: weather_storm
     name: music_name_weather_storm
     audioEvent: environmental/weatherStorm
-    isAmbience: true
+    #isAmbience: true
   - id: weather_windy
     name: music_name_weather_windy
     audioEvent: environmental/weatherWindy
-    isAmbience: true
+    #isAmbience: true
 
 ...
