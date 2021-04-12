@@ -1,10 +1,12 @@
 ---
 # Properties are set to the following:
-# isHidden: false                -- This allows it to be seen in the map editor and menus.
-# isSpawnable: true              -- This allows the Unit: Spawn event use the unit.
-# classIcon: ___                 -- A bug in modifyingUnitClasses makes it wrongly override the classIcon based on the units' names.
-#                                   These are manually specified to prevent erroneous changes.
-# isHiddenInCutsceneEditor: false -- This allows it to be chosen in the Cutscene Editor as an 'actor'.
+# isHidden: false                  -- This allows it to be seen in the map editor and menus.
+# isSpawnable: true                -- This allows the Unit: Spawn event use the unit.
+# classIcon: ___                   -- A bug in modifyingUnitClasses makes it wrongly override the classIcon based on the units' names.
+#                                     These are manually specified to prevent erroneous changes.
+# hiddenFromCutsceneEditior: false -- This allows it to be chosen in the Cutscene Editor as an 'actor'.
+# isHiddenInCutsceneEditor: false  -- This property actually doesn't work anyway, but is overwritten in case it is patched in future.
+
 modifyingUnitClasses:
   # Naval units
   - id: travelboat # Barge
