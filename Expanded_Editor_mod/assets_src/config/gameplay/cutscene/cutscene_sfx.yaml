@@ -1,7 +1,6 @@
 ---
-
+# Set SFX hidden properties to false to display in the editor.
 cutscene_sfx:
-    # HIDDEN
   - id: spell_binding
     path: cutscene/spellBinding
     hidden: false
