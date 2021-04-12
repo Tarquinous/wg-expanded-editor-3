@@ -63,7 +63,6 @@ Allows Ambient sounds to be used as music on maps and cutscenes, and allowing mu
 ## Features wishlist
 
 Below are some features I would like to implement, if it is found to be possible:
-* Ambient sounds as 'music' options for maps
 * Place more than one Commander on the map at a time even after the mod is disabled
 * Allow terrain to be placed in any location regardless of adjacent terrain
 * Allow custom values for Ammo and Gold of newly placed Rifleman, Thief, and Thief_with_gold
@@ -73,6 +72,7 @@ Below are some features I would like to implement, if it is found to be possible
 - [x] Unhide previously hidden content to expand the mod
   - [x] Unhide emotes in the Cutscene Editor
   - [x] Unhide voicelines in the Cutscene Editor
+  - [x] Set all ambient sounds as possible music
 - [ ] Improve usability of the mod with clearer UI
   - [ ] Introduce modified strings (e.g. removing "#MISSING#" from menues)
   - [x] Add custom icons for Volcano and Sky terrain
