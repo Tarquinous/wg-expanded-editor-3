@@ -1,7 +1,6 @@
 ---
-
+# Set VFX hidden properties to false to display in the editor.
 cutscene_vfx:
-    # HIDDEN
   - id: cutscene_teleport_fx
     path: fx/cutscene/cutscene_teleport_fx
     hidden: false
