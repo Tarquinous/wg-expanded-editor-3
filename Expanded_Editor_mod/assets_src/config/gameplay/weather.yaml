@@ -1,27 +1,12 @@
 ---
-
-# Modifiers:
-# Stats:
-#	  DamageMultiplier
-#   PassiveMultiplier
-#   SightRange
-#   RangedAttackMaxRange
-#
-# Operations:
-#   Add
-#   Subtract
-#   Multiply
-#   Divide
-#
-# For the tags list, an affected unit must have at least one of the tags
-#
+# Removing hidden property to make ash weather usable
 
 weather:
   - id: ash
     iconSpriteSheet: ui
     iconSprite: weather_icons_ash
     ambience: volcano_ambience
-    hidden: false
+    #hidden: true
     modifiers:
       - stat: DamageMultiplier
         operation: Multiply
@@ -35,5 +20,4 @@ weather:
         operation: Subtract
         value: 1
         tags: [type.ground.light, type.ground.heavy]
-
 ...
