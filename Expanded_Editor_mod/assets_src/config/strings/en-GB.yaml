@@ -1,0 +1,8 @@
+---
+en-GB:
+    # Cutscene props
+    ui_cutscene_prop_cherryship_sail: Sail - Cherrystone
+    ui_cutscene_prop_ragnawarship_sail: Sail - Felheim (Torn)
+    ui_cutscene_prop_tavernfire: Tavern Fireplace
+    ui_cutscene_prop_cutscene_bush: Large Bush
+...
