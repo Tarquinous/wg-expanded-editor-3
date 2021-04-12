@@ -1081,22 +1081,2174 @@ units:
     # ----------------------------------------------------------------------------------------------------
     
     # Greenfinger
+  - class: commander_greenfinger
+    faction: floran
+    name: character_greenfinger_name
+    mapAnimation: units/commanders/greenfinger/map_greenfinger
+    battleAnimation: units/commanders/greenfinger/battle_greenfinger
+    battleAnimationRiver: fx/river_overlay/battle_greenfinger_river
+    smallPortrait: units/commanders/greenfinger/portrait_greenfinger_small.png
+    mediumPortrait: units/commanders/greenfinger/portrait_greenfinger_medium.png
+    menuIdleSequence: capture_idle
+    mapSpeed: 4.0
+    grabPos: [25, 39]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    stayAfterDeath: true
+    sounds:
+      attackMap: unitAttack
+      attack: greenfinger/greenfingerAttack
+      attackShout: greenfinger/greenfingerPreAttack
+      attackCommander: greenfinger/greenfingerCommanderKillAttack
+      attackCommanderShout: greenfinger/greenfingerCommanderKillShout
+      captureShout: greenfinger/greenfingerShoutThisPlaceWillDo
+      death: greenfinger/greenfingerDie
+      deathMap: greenfinger/greenfingerDieGhost
+      deathMapNoBattle: greenfinger/greenfingerDieNoBattle
+      preIdle: greenfinger/greenfingerGrowth
+      run: infantryLightMapEntry
+      angryRun: greenfinger/greenfingerStagEntry
+      runMap: infantryLightMapEntry
+      firstHit: greenfinger/greenfingerHit
+      hit: hitWood
+      hitMap: hitOrganic
+      groove: greenfinger/greenfingerGrooveIntro
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 1.125
+        samePanel: true
+      - id: secondary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 1.125
+    cutscenePreIdle: ""
+    cutsceneIdle: capture_idle
+    cutsceneHit: hit_foot
+    emotes:
+      idle: capture_idle
+      idle_mounted: idle
+      surprise: emote_surprise
+      positive: emote_positive
+      negative: emote_negative
+      laugh: emote_laugh
+      bow: emote_bow
+      surprise_mounted: emote_surprise_mounted
+      negative_mounted: emote_negative_mounted
+      dance: emote_dance
+    shouts:
+      greenfinger_die: greenfinger/greenfingerShoutDie
+      greenfinger_attackvoice1: greenfinger/greenfingerShoutAttack1
+      greenfinger_attackvoice2: greenfinger/greenfingerShoutAttack2
+      greenfinger_attackvoice3: greenfinger/greenfingerShoutAttack3
+      greenfinger_attackvoice4: greenfinger/greenfingerShoutAttack4
+      greenfinger_attackvoice5: greenfinger/greenfingerShoutAttack5
+      greenfinger_capture: greenfinger/greenfingerShoutThisPlaceWillDo
+      greenfinger_goodbye: greenfinger/greenfingerShoutFarewell
+      greenfinger_florancallforaid: greenfinger/greenfingerShoutFloranCallForAid
+      greenfinger_florannotmonsters: greenfinger/greenfingerShoutFloranNotMonsters
+      greenfinger_goodluckfriends: greenfinger/greenfingerShoutGoodLuckFriends
+      greenfinger_groan: greenfinger/greenfingerShoutGroan
+      greenfinger_hmm: greenfinger/greenfingerShoutHmm
+      greenfinger_hello: greenfinger/greenfingerShoutHello
+      greenfinger_hit1: greenfinger/greenfingerShoutHit1
+      greenfinger_hit2: greenfinger/greenfingerShoutHit2
+      greenfinger_hit3: greenfinger/greenfingerShoutHit3
+      greenfinger_hit4: greenfinger/greenfingerShoutHit4
+      greenfinger_hit5: greenfinger/greenfingerShoutHit5
+      greenfinger_howcurious: greenfinger/greenfingerShoutHowCurious
+      greenfinger_introduction: greenfinger/greenfingerShoutIntroduction
+      greenfinger_believeinyou: greenfinger/greenfingerShoutBelieveInYou
+      greenfinger_ithinknot: greenfinger/greenfingerShoutIThinkNot
+      greenfinger_joke: greenfinger/greenfingerShoutMakeLikeATree
+      greenfinger_laugh1: greenfinger/greenfingerShoutLaugh1
+      greenfinger_laugh2: greenfinger/greenfingerShoutLaugh2
+      greenfinger_mythanks: greenfinger/greenfingerShoutMyThanks
+      greenfinger_groove: greenfinger/greenfingerShoutNaturesCry
+      greenfinger_threat: greenfinger/greenfingerShoutNatureWillClaimYou
+      greenfinger_no: greenfinger/greenfingerShoutNo
+      greenfinger_preattack1: greenfinger/greenfingerShoutCharge
+      greenfinger_preattack2: greenfinger/greenfingerShoutForward
+      greenfinger_select: greenfinger/greenfingerShoutOfCourse
+      greenfinger_sedge: greenfinger/greenfingerShoutSedge
+      greenfinger_sigh: greenfinger/greenfingerShoutSigh
+      greenfinger_victory: greenfinger/greenfingerShoutSuchAWaste
+      greenfinger_surprise: greenfinger/greenfingerShoutSurprise
+      greenfinger_thanks: greenfinger/greenfingerShoutThankYou
+      greenfinger_thatsenough: greenfinger/greenfingerShoutThatsEnough
+      greenfinger_welcome: greenfinger/greenfingerShoutWelcome
+      greenfinger_whoops: greenfinger/greenfingerShoutWhoops
+      greenfinger_yes: greenfinger/greenfingerShoutYes1
+      greenfinger_yes2: greenfinger/greenfingerShoutYes2
+      greenfinger_goodheart: greenfinger/greenfingerShoutGoodHeart
+    alternativeAttackSounds:
+      no_voice: greenfinger/greenfingerAttackNoVoice
+    #hidden:
+    #  shouts:
+    #    - greenfinger_hit4
+    #    - greenfinger_hit5
+    
     # Nuru
+    # Nuru does not actually begin with any hidden traits, so this one has been skipped.
+    
     # Sedge
+  - class: commander_sedge
+    faction: floran
+    name: character_sedge_name
+    mapAnimation: units/commanders/sedge/map_sedge
+    battleAnimation: units/commanders/sedge/battle_sedge
+    battleAnimationRiver: fx/river_overlay/battle_sedge_river
+    smallPortrait: units/commanders/sedge/portrait_sedge_small.png
+    mediumPortrait: units/commanders/sedge/portrait_sedge_medium.png
+    mapSpeed: 4.0
+    grabPos: [36, 62]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    attackRunTimeMin: 0
+    attackRunTimeMax: 0
+    sounds:
+      attackMap: unitAttack
+      attack: sedge/sedgeAttack
+      attackBuilding: sedge/sedgeAttackBuilding
+      preAttack: sedge/sedgePreAttack
+      captureShout: sedge/sedgeShoutAllBelongs
+      attackCommander: sedge/sedgeCommanderKillAttack
+      death: sedge/sedgeDie
+      deathMap: sedge/sedgeDieGhost
+      deathMapNoBattle: sedge/sedgeDieNoBattle
+      run: infantryLightMapEntry
+      runMap: infantryLightMapEntry
+      firstHit: sedge/sedgeHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: sedge/sedgeGrooveIntro  
+    attacks:
+      - id: secondary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 0.6
+        samePanel: true
+      - id: attackBuilding
+        attackAnimationSequence: attack_building
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 0.8
+        againstBuilding: true
+        attackSound: attackBuilding
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 0.6
+    emotes:
+      idle: idle
+      surprise: emote_surprise
+      positive: emote_positive
+      negative: emote_negative
+      laugh: emote_laugh
+      dying: emote_dying
+      dead: emote_dead
+      dance: emote_dance
+    shouts:
+      sedge_attackgloat1: sedge/sedgeShoutAttackGloat1
+      sedge_attackgloat2: sedge/sedgeShoutAttackGloat2
+      sedge_blades: sedge/sedgeShoutBlades
+      sedge_capture: sedge/sedgeShoutAllBelongs
+      sedge_die: sedge/sedgeShoutTheHuntEnds
+      sedge_hit1: sedge/sedgeShoutHit1
+      sedge_hit2: sedge/sedgeShoutHit2
+      sedge_hit3: sedge/sedgeShoutHit3
+      sedge_select: sedge/sedgeShoutTheHuntBegins
+      sedge_attack1: sedge/sedgeShoutAttack1
+      sedge_attack2: sedge/sedgeShoutAttack2
+      sedge_attack3: sedge/sedgeShoutAttack3
+      sedge_alwayswins: sedge/sedgeShoutAlwaysWins
+      sedge_doesntteleport: sedge/sedgeShoutDoesntTeleport
+      sedge_flyaway: sedge/sedgeShoutFlyAway
+      sedge_freshprey: sedge/sedgeShoutFreshPrey
+      sedge_goodbye: sedge/sedgeShoutGoodbye
+      sedge_hellofriends: sedge/sedgeShoutHelloFriends
+      sedge_hiss: sedge/sedgeShoutHiss
+      sedge_hmph1: sedge/sedgeShoutHmph1
+      sedge_hmph2: sedge/sedgeShoutHmph2
+      sedge_hungers: sedge/sedgeShoutHungers
+      sedge_laugh1: sedge/sedgeShoutLaugh1
+      sedge_laugh2: sedge/sedgeShoutLaugh2
+      sedge_laugh3: sedge/sedgeShoutLaugh3
+      sedge_look: sedge/sedgeShoutLook
+      sedge_neverloses: sedge/sedgeShoutNeverLoses
+      sedge_no: sedge/sedgeShoutNo
+      sedge_oops: sedge/sedgeShoutOops
+      sedge_sigh: sedge/sedgeShoutSigh
+      sedge_sighcontented: sedge/sedgeShoutSighContented
+      sedge_thanks: sedge/sedgeShoutThanks
+      sedge_thehunt: sedge/sedgeShoutTheHunt
+      sedge_thiswasfun: sedge/sedgeShoutThisWasFun
+      sedge_timetorun: sedge/sedgeShoutTimeToRun
+      sedge_trespassers: sedge/sedgeShoutTrespassers
+      sedge_watchyourstep: sedge/sedgeShoutWatchYourStep
+      sedge_what: sedge/sedgeShoutWhat
+      sedge_willbeeasy: sedge/sedgeShoutWillBeEasy
+      sedge_willcatchyou: sedge/sedgeShoutWillCatchYou
+      sedge_yes: sedge/sedgeShoutYes
+      sedge_youllregretthis: sedge/sedgeShoutYoullRegretThis
+      sedge_youlltastegood: sedge/sedgeShoutYoullTasteGood
+      sedge_yousmellgood: sedge/sedgeShoutYouSmellGood
+    alternativeAttackSounds:
+      no_voice: sedge/sedgeAttackNoVoice
+    #hidden:
+    #  emotes:
+    #    - dead
+    #    - dying
+    #  shouts:
+    #    - sedge_blades
+    #  alternativeRuns:
+    #    - angry_run
     
     # ----------------------------------------------------------------------------------------------------
     #   Outlaws
     # ----------------------------------------------------------------------------------------------------
     
     # Wulfar
-    # Errol & Orla
-    # Vesper
+  - class: commander_wulfar
+    faction: outlaw
+    name: character_wulfar_name
+    mapAnimation: units/commanders/wulfar/map_wulfar
+    battleAnimation: units/commanders/wulfar/battle_wulfar
+    battleAnimationRiver: fx/river_overlay/battle_wulfar_river
+    smallPortrait: units/commanders/wulfar/portrait_wulfar_small.png
+    mediumPortrait: units/commanders/wulfar/portrait_wulfar_medium.png
+    mapSpeed: 4.0
+    skinColour: typeII
+    grabPos: [47, 47]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    alternativeCapture:
+      endPosOffset: -190 #coming from the left
+    stayAfterDeath: true
+    sounds:
+      attackMap: unitAttack
+      attack: wulfar/wulfarAttack
+      attackShout: wulfar/wulfarAttackShout
+      attackCommanderShout: wulfar/wulfarCommanderKillShout
+      capture: wulfar/wulfarStructureEntry
+      captureShout: wulfar/wulfarCapture
+      death: wulfar/wulfarDie
+      deathMap: wulfar/wulfarDieGhost
+      deathMapNoBattle: wulfar/wulfarDieNoBattle
+      run: wulfar/wulfarEntry
+      runMap: wulfar/wulfarEntry
+      firstHit: wulfar/wulfarHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: wulfar/wulfarGrooveIntro
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.1, 2.05]
+    emotes:
+      idle: idle
+      surprise: emote_surprise
+      positive: emote_positive
+      negative: emote_negative
+      laugh: emote_laugh
+      crouching: emote_crouching
+      looking: emote_looking
+      grab: emote_grab
+      carrying: emote_carrying
+      rope: emote_rope
+      cactus: emote_cactus
+      dance: emote_dance
+      dark_wulfar: emote_dark_wulfar
+      dark_wulfar_handshake_1: emote_dark_wulfar_handshake_1
+      dark_wulfar_handshake_2: emote_dark_wulfar_handshake_2
+      dark_wulfar_handshake_3: emote_dark_wulfar_handshake_3
+      dark_wulfar_handshake_4: emote_dark_wulfar_handshake_4
+      handshake_1: emote_handshake_1
+      bush: emote_bush
+      bush2: emote_bush2
+      bush3: emote_bush3
+      handshake_2: emote_handshake_2
+      handshake_3: emote_handshake_3
+    shouts:
+      wulfar_agreed: wulfar/wulfarShoutAgreed
+      wulfar_aye1: wulfar/wulfarShoutAye1
+      wulfar_aye2: wulfar/wulfarShoutAye2
+      wulfar_beoffwithyou: wulfar/wulfarShoutBeOffWithYou
+      wulfar_boilyourhead: wulfar/wulfarShoutBoilYourHead
+      wulfar_bumsoutthewindow: wulfar/wulfarShoutBumsOutTheWindow
+      wulfar_didyouthreaten: wulfar/wulfarShoutDidYouThreaten
+      wulfar_dontdosomething: wulfar/wulfarShoutDontDoSomething
+      wulfar_followme: wulfar/wulfarShoutFollowMe
+      wulfar_formalcomplaint: wulfar/wulfarShoutFormalComplaint
+      wulfar_gonnaneedawagon: wulfar/wulfarShoutGonnaNeedAWagon
+      wulfar_goodlucklanding: wulfar/wulfarShoutGoodLuckLanding
+      wulfar_hammertime: wulfar/wulfarShoutHammerTime
+      wulfar_hello: wulfar/wulfarShoutHello
+      wulfar_hereicome: wulfar/wulfarShoutHereICome
+      wulfar_herestheplan: wulfar/wulfarShoutHeresThePlan
+      wulfar_hmm: wulfar/wulfarShoutHmm
+      wulfar_hmmlong: wulfar/wulfarShoutHmmLong
+      wulfar_hmph: wulfar/wulfarShoutHmph
+      wulfar_howcouldyou: wulfar/wulfarShoutHowCouldYou
+      wulfar_huh: wulfar/wulfarShoutHuh
+      wulfar_icannotfall: wulfar/wulfarShoutICannotFall
+      wulfar_illwallopyourhead: wulfar/wulfarShoutIllWallopYourHead
+      wulfar_introduction: wulfar/wulfarShoutIntroduction
+      wulfar_introductionfull: wulfar/wulfarShoutIntroductionFull
+      wulfar_itsdone: wulfar/wulfarShoutItsDone
+      wulfar_keepthehead: wulfar/wulfarShoutKeepTheHead
+      wulfar_laugh1: wulfar/wulfarShoutLaugh1
+      wulfar_laugh2: wulfar/wulfarShoutLaugh2
+      wulfar_letmehandlethis: wulfar/wulfarShoutLetMeHandleThis
+      wulfar_no: wulfar/wulfarShoutNo
+      wulfar_nodesperate: wulfar/wulfarShoutNoDesperate
+      wulfar_offyougo: wulfar/wulfarShoutOffYouGo
+      wulfar_oops: wulfar/wulfarShoutOops
+      wulfar_readyforawallop: wulfar/wulfarShoutReadyForAWallop
+      wulfar_shh: wulfar/wulfarShoutShh
+      wulfar_sigh: wulfar/wulfarShoutSigh
+      wulfar_takeahammering: wulfar/wulfarShoutTakeAHammering
+      wulfar_thankyou: wulfar/wulfarShoutThankYou
+      wulfar_thatsright: wulfar/wulfarShoutThatsRight
+      wulfar_thatsyoudone: wulfar/wulfarShoutThatsYouDone
+      wulfar_theclancoulddo: wulfar/wulfarShoutTheClanCouldDo
+      wulfar_theyllnevertake: wulfar/wulfarShoutTheyllNeverTake
+      wulfar_thismightbeasqueeze: wulfar/wulfarShoutThisMightBeASqueeze
+      wulfar_thismighthurtabit: wulfar/wulfarShoutThisMightHurtABit
+      wulfar_thiswillhurtmore: wulfar/wulfarShoutThisWillHurtMore
+      wulfar_trustyourself: wulfar/wulfarShoutTrustYourself
+      wulfar_tryandland: wulfar/wulfarShoutTryAndLand
+      wulfar_uh: wulfar/wulfarShoutUh
+      wulfar_upforthetask: wulfar/wulfarShoutUpForTheTask
+      wulfar_what: wulfar/wulfarShoutWhat
+      wulfar_youdidntthink: wulfar/wulfarShoutYouDidntThink
+      wulfar_youdidwell: wulfar/wulfarShoutYouDidWell
+      wulfar_youdumpling: wulfar/wulfarShoutYouDumpling
+      wulfar_yourebeaten: wulfar/wulfarShoutYoureBeaten
+      wulfar_youreoffyourhead: wulfar/wulfarShoutYoureOffYourHead
+      wulfar_youvebittenoff: wulfar/wulfarShoutYouveBittenOff
+      wulfar_youvemadeamistake: wulfar/wulfarShoutYouveMadeAMistake
+      wulfar_attack1: wulfar/wulfarShoutAttack1
+      wulfar_attack2: wulfar/wulfarShoutAttack2
+      wulfar_attack3: wulfar/wulfarShoutAttack3
+      wulfar_attack4: wulfar/wulfarShoutAttack4
+      wulfar_attack5: wulfar/wulfarShoutAttack5
+      wulfar_attack6: wulfar/wulfarShoutAttack6
+      wulfar_hit1: wulfar/wulfarShoutHit1
+      wulfar_hit2: wulfar/wulfarShoutHit2
+      wulfar_hit3: wulfar/wulfarShoutHit3
+      wulfar_hit4: wulfar/wulfarShoutHit4
+      wulfar_caesar: wulfar/wulfarShoutCaesar
+      wulfar_commanderryota: wulfar/wulfarShoutCommanderRyota
+      wulfar_dog: wulfar/wulfarShoutDog
+      wulfar_empresstenri: wulfar/wulfarShoutEmpressTenri
+      wulfar_enid: wulfar/wulfarShoutEnid
+      wulfar_errol: wulfar/wulfarShoutErrol
+      wulfar_errolorla: wulfar/wulfarShoutErrolOrla
+      wulfar_felllord: wulfar/wulfarShoutFellLord
+      wulfar_floran: wulfar/wulfarShoutFloran
+      wulfar_greenfinger: wulfar/wulfarShoutGreenfinger
+      wulfar_koji: wulfar/wulfarShoutKoji
+      wulfar_lordemeric: wulfar/wulfarShoutLordEmeric
+      wulfar_nuru: wulfar/wulfarShoutNuru
+      wulfar_orla: wulfar/wulfarShoutOrla
+      wulfar_queenmercia: wulfar/wulfarShoutQueenMercia
+      wulfar_ragna: wulfar/wulfarShoutRagna
+      wulfar_sedge: wulfar/wulfarShoutSedge
+      wulfar_sigrid: wulfar/wulfarShoutSigrid
+      wulfar_vampire: wulfar/wulfarShoutVampire
+      wulfar_vesper1: wulfar/wulfarShoutVesper1
+      wulfar_vesper2: wulfar/wulfarShoutVesper2
+    alternativeAttackSounds:
+      no_voice: wulfar/wulfarAttackNoVoice
+    alternativeRuns:
+      - id: emote_carrying_walk
+    #hidden:
+    #  emotes:
+    #    - dark_wulfar_handshake_1
+    #    - dark_wulfar_handshake_2
+    #    - dark_wulfar_handshake_3
+    #    - dark_wulfar_handshake_4
+    #    - handshake_1
+    #    - handshake_2
+    #    - handshake_3
+    #    - rope
+    #    - cactus
+    #    - bush
+    #    - bush2
+    #    - bush3
+    #    - grab
+    #  shouts:
+    #    - wulfar_attack2
+    #    - wulfar_attack5  
     
+    # Errol & Orla
+    # The Twins does not actually begin with any hidden traits, so this one has been skipped.
+    # Check lower down to see Errol and Orla individually!
+    
+    # Vesper
+  - class: commander_vesper
+    faction: outlaw
+    name: character_vesper_name
+    mapAnimation: units/commanders/vesper/map_vesper
+    battleAnimation: units/commanders/vesper/battle_vesper
+    battleAnimationRiver: fx/river_overlay/battle_vesper_river
+    smallPortrait: units/commanders/vesper/portrait_vesper_small.png
+    mediumPortrait: units/commanders/vesper/portrait_vesper_medium.png
+    mapSpeed: 4.0
+    skinColour: typeVI
+    grabPos: [47, 47]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    stayAfterDeath: true
+    sounds:
+      attackMap: unitAttack
+      attack: vesper/vesperAttack
+      attackCommander: vesper/vesperCommanderKillAttack
+      attackEffect: vesper/vesperAttackEffect
+      counter: vesper/vesperCounterAttack
+      captureShout: vesper/vesperCapture
+      death: vesper/vesperDie
+      deathMap: vesper/vesperDieGhost
+      deathMapNoBattle: vesper/vesperDieNoBattle
+      run: infantryLightMapEntry
+      runMap: infantryLightMapEntry
+      firstHit: vesper/vesperHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: vesper/vesperGrooveIntro
+    attacks:
+      - id: closeRange
+        attackAnimationSequence: counter
+        attackSound: counter
+        attackCommanderSound: counter
+        hitSpark: fx/bs_stab_attack
+        effectDelay: 0.60
+        hitDelay: 0.60
+        samePanel: true
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_vesper_attack
+        effectDelay: 2.2
+        effectPaletteSwaps: true
+        hitDelay: 2.5
+        ranged: true
+    emotes:
+      idle: idle
+      surprise: emote_surprise
+      hurt: emote_sad
+      positive: emote_positive
+      negative: emote_angry
+      laugh: emote_laugh
+      appear: emote_appear
+      appeared: emote_appeared
+      vanish: emote_vanish
+      seated: emote_seated
+      dance: emote_dance
+    shouts: 
+      vesper_aurevoir: vesper/vesperShoutAuRevoir
+      vesper_beautifullyappointed: vesper/vesperShoutBeautifullyAppointed
+      vesper_bonnechance: vesper/vesperShoutBonneChance
+      vesper_caesar: vesper/vesperShoutCaesar
+      vesper_canefaitrien: vesper/vesperShoutCaNeFaitRien
+      vesper_cestlaguerre: vesper/vesperShoutCestLaGuerre
+      vesper_commanderryota: vesper/vesperShoutCommanderRyota
+      vesper_dog: vesper/vesperShoutDog
+      vesper_empresstenri: vesper/vesperShoutEmpressTenri
+      vesper_enid: vesper/vesperShoutEnid
+      vesper_errol: vesper/vesperShoutErrol
+      vesper_errorandawful: vesper/vesperShoutErrorAndAwful
+      vesper_felllord: vesper/vesperShoutFellLord
+      vesper_floran: vesper/vesperShoutFloran
+      vesper_flymypretty: vesper/vesperShoutFlyMyPretty
+      vesper_greenfingerzawan: vesper/vesperShoutGreenfingerZawan
+      vesper_hardlysurprising: vesper/vesperShoutHardlySurprising
+      vesper_hellowulfar: vesper/vesperShoutHelloWulfar
+      vesper_hit1: vesper/vesperShoutHit1
+      vesper_hit2: vesper/vesperShoutHit2
+      vesper_hit3: vesper/vesperShoutHit3
+      vesper_hit4: vesper/vesperShoutHit4
+      vesper_hit5: vesper/vesperShoutHit5
+      vesper_hm: vesper/vesperShoutHm
+      vesper_hmm1: vesper/vesperShoutHmm1
+      vesper_hmm2: vesper/vesperShoutHmm2
+      vesper_hmm3: vesper/vesperShoutHmm3
+      vesper_hmph: vesper/vesperShoutHmph
+      vesper_howdareyou: vesper/vesperShoutHowDareYou
+      vesper_howdelightful: vesper/vesperShoutHowDelightful
+      vesper_huh: vesper/vesperShoutHuh
+      vesper_icastalongshadow: vesper/vesperShoutICastALongShadow
+      vesper_illjustbeonmywaynow: vesper/vesperShoutIllJustBeOnMyWayNow
+      vesper_illwinthisgame: vesper/vesperShoutIllWinThisGame
+      vesper_introduction: vesper/vesperShoutIntroduction
+      vesper_itsvesperdarling: vesper/vesperShoutItsVesperDarling
+      vesper_iwantriches: vesper/vesperShoutIWantRiches
+      vesper_justajoke: vesper/vesperShoutJustAJoke
+      vesper_justhereforthegold: vesper/vesperShoutJustHereForTheGold
+      vesper_justwhatineeded: vesper/vesperShoutJustWhatINeeded
+      vesper_laugh1: vesper/vesperShoutLaugh1
+      vesper_laugh2: vesper/vesperShoutLaugh2
+      vesper_laugh3: vesper/vesperShoutLaugh3
+      vesper_laugh4: vesper/vesperShoutLaugh4
+      vesper_laugh5: vesper/vesperShoutLaugh5
+      vesper_nestcepas: vesper/vesperShoutNestcePas
+      vesper_no1: vesper/vesperShoutNo1
+      vesper_no2: vesper/vesperShoutNo2
+      vesper_noangry: vesper/vesperShoutNoAngry
+      vesper_noupset: vesper/vesperShoutNoUpset
+      vesper_nosmokewithoutfire: vesper/vesperShoutNoSmokeWithoutFire
+      vesper_nuru: vesper/vesperShoutNuru
+      vesper_oopsie: vesper/vesperShoutOopsie
+      vesper_orla: vesper/vesperShoutOrla
+      vesper_pluscachange: vesper/vesperShoutPlusCaChange
+      vesper_princekoji: vesper/vesperShoutPrinceKoji
+      vesper_queenmercia: vesper/vesperShoutQueenMercia
+      vesper_queldommage: vesper/vesperShoutQuelDommage
+      vesper_quitethecoupdetheatre: vesper/vesperShoutQuiteTheCoupDeTheatre
+      vesper_ragna: vesper/vesperShoutRagna
+      vesper_sedge: vesper/vesperShoutSedge
+      vesper_shesclearlyamoron: vesper/vesperShoutShesClearlyAMoron
+      vesper_shh: vesper/vesperShoutShh
+      vesper_shush: vesper/vesperShoutShush
+      vesper_sicem: vesper/vesperShoutSicEm
+      vesper_sigh: vesper/vesperShoutSigh
+      vesper_sighannoyed: vesper/vesperShoutSighAnnoyed
+      vesper_sigrid: vesper/vesperShoutSigrid
+      vesper_siremeric: vesper/vesperShoutSirEmeric
+      vesper_smokeandshadows: vesper/vesperShoutSmokeAndShadows
+      vesper_sosad: vesper/vesperShoutSoSad
+      vesper_thankyou: vesper/vesperShoutThankYou
+      vesper_theloot: vesper/vesperShoutTheLoot
+      vesper_thishasbeenentertaining: vesper/vesperShoutThisHasBeenEntertaining
+      vesper_turnthatfrown: vesper/vesperShoutTurnThatFrown
+      vesper_valder: vesper/vesperShoutValder
+      vesper_vampire: vesper/vesperShoutVampire
+      vesper_watchthis: vesper/vesperShoutWatchThis
+      vesper_welcometothedarkness: vesper/vesperShoutWelcomeToTheDarkness
+      vesper_welldoneme: vesper/vesperShoutWellDoneMe
+      vesper_what: vesper/vesperShoutWhat
+      vesper_whatsalittleturpitude: vesper/vesperShoutWhatsALittleTurpitude
+      vesper_wonderful: vesper/vesperShoutWonderful
+      vesper_wulfar: vesper/vesperShoutWulfar
+      vesper_yes1: vesper/vesperShoutYes1
+      vesper_yes2: vesper/vesperShoutYes2
+      vesper_youwillchoke: vesper/vesperShoutYouWillChoke
+    #hidden:
+    #  emotes:
+    #    - seated
+ 
     # ----------------------------------------------------------------------------------------------------
-    #   Requiem / Other
+    #   Unlockables
     # ----------------------------------------------------------------------------------------------------
     
     # Elodie
+  - class: commander_elodie
+    faction: guardian
+    name: character_elodie_name
+    mapAnimation: units/commanders/elodie/map_elodie
+    battleAnimation: units/commanders/elodie/battle_elodie
+    battleAnimationRiver: fx/river_overlay/battle_elodie_river
+    smallPortrait: units/commanders/elodie/portrait_elodie_small.png
+    mediumPortrait: units/commanders/elodie/portrait_elodie_medium.png
+    mapSpeed: 4.0
+    deathMoveMin: 0
+    deathMoveMax: 0
+    skinColour: typeIV
+    grabPos: [38, 36]
+    stayAfterDeath: true
+    sounds:
+      attackMap: unitAttack
+      attack: elodie/elodieAttack
+      attackCommander: elodie/elodieCommanderKillAttack
+      attackEffect: elodie/elodieAttackEffect
+      captureShout: elodie/elodieCapture
+      death: elodie/elodieDie
+      deathMap: elodie/elodieDieGhost
+      deathMapNoBattle: elodie/elodieDieNoBattle
+      run: balloonEntry
+      runMap: balloonEntryMap
+      firstHit: elodie/elodieHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: elodie/elodieGrooveIntro
+    attacks:
+      - id: closeRange
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_elodie_attack_2
+        effectPaletteSwaps: true
+        effectDelay: 2.0
+        hitDelay: 2.0
+        samePanel: true
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_elodie_attack
+        effectPaletteSwaps: true
+        effectDelay: 2.0
+        hitDelay: 2.1
+        ranged: true
+    emotes:
+      idle: idle
+      play: emote_play
+      positive: emote_positive
+      negative: emote_negative
+      requiem_1: emote_requiem_1
+      requiem_2: emote_requiem_2
+      requiem_3: emote_requiem_3
+      requiem_4: emote_requiem_4
+      requiem_5: emote_requiem_5
+      human_1: emote_human_1
+      human_2: emote_human_2
+      dance: emote_dance
+    shouts:
+      elodie_amifree: elodie/elodieShoutAmIFree
+      elodie_anecessarymove: elodie/elodieShoutANecessaryMove
+      elodie_enteroblivion: elodie/elodieShoutEnterOblivion
+      elodie_farewell: elodie/elodieShoutFarewell
+      elodie_fatesworsethandeath: elodie/elodieShoutFatesWorseThanDeath
+      elodie_greetings: elodie/elodieShoutGreetings
+      elodie_hearmysong: elodie/elodieShoutHearMySong
+      elodie_hit1: elodie/elodieShoutHit1
+      elodie_hit2: elodie/elodieShoutHit2
+      elodie_hit3: elodie/elodieShoutHit3
+      elodie_hit4: elodie/elodieShoutHit4
+      elodie_hmm: elodie/elodieShoutHmm
+      elodie_hmph: elodie/elodieShoutHmph
+      elodie_iamsorry: elodie/elodieShoutIAmSorry
+      elodie_icannotallowthis: elodie/elodieShoutICannotAllowThis
+      elodie_iclaimyourheart: elodie/elodieShoutIClaimYourHeart
+      elodie_idowhatimust: elodie/elodieShoutIDoWhatIMust
+      elodie_introduction: elodie/elodieShoutIntroduction
+      elodie_isitover: elodie/elodieShoutIsItOver
+      elodie_isthereanotherway: elodie/elodieShoutIsThereAnotherWay
+      elodie_itisnotso: elodie/elodieShoutItIsNotSo
+      elodie_itmustbethisway: elodie/elodieShoutItMustBeThisWay
+      elodie_laugh1: elodie/elodieShoutLaugh1
+      elodie_laugh2: elodie/elodieShoutLaugh2
+      elodie_liar: elodie/elodieShoutLiar
+      elodie_myduty: elodie/elodieShoutMyDuty
+      elodie_no: elodie/elodieShoutNo
+      elodie_nodesperate: elodie/elodieShoutNoDesperate
+      elodie_requiem: elodie/elodieShoutRequiem
+      elodie_ishallplayyouasong: elodie/elodieShoutShallIPlayYouASong
+      elodie_sigh: elodie/elodieShoutSigh
+      elodie_silencefalls: elodie/elodieShoutSilenceFalls
+      elodie_thankyou: elodie/elodieShoutThankYou
+      elodie_thedarkness: elodie/elodieShoutTheDarkness
+      elodie_thisismyburden: elodie/elodieShoutThisIsMyBurden
+      elodie_thisisyourswansong: elodie/elodieShoutThisIsYourSwanSong
+      elodie_verywell: elodie/elodieShoutVeryWell
+      elodie_what: elodie/elodieShoutWhat
+      elodie_yes: elodie/elodieShoutYes
+      elodie_yourheartisweak: elodie/elodieShoutYourHeartIsWeak
+      elodie_youwontstopme: elodie/elodieShoutYouWontStopMe
+    alternativeAttackSounds:
+      no_voice: elodie/elodieAttackNoVoice
+    #hidden:
+    #  emotes:
+    #    - requiem_3
+    #    - requiem_4
+    #    - requiem_5
+    #    - positive
+    
     # Dark Mercia
+  - class: commander_darkmercia
+    faction: guardian
+    name: character_darkmercia_name
+    mapAnimation: units/commanders/darkmercia/map_darkmercia
+    battleAnimation: units/commanders/darkmercia/battle_darkmercia
+    battleAnimationRiver: fx/river_overlay/battle_darkmercia_river
+    smallPortrait: units/commanders/darkmercia/portrait_darkmercia_small.png
+    mediumPortrait: units/commanders/darkmercia/portrait_darkmercia_medium.png
+    mapSpeed: 4.0
+    skinColour: typeII
+    grabPos: [45, 64]
+    attackRunTimeMin: 1
+    attackRunTimeMax: 1.5
+    deathMoveMin: 0
+    deathMoveMax: 0
+    stayAfterDeath: true
+    sounds:
+      attackMap: unitAttack
+      preAttack: darkmercia/darkmerciaPreAttack
+      attack: darkmercia/darkmerciaAttack
+      attackShout: darkmercia/darkmerciaAttackShout
+      attackCommanderShout: darkmercia/darkmerciaCommanderKillShout
+      captureShout: darkmercia/darkmerciaCapture
+      death: darkmercia/darkmerciaDie
+      deathMap: darkmercia/darkmerciaDieGhost
+      deathMapNoBattle: darkmercia/darkmerciaDieNoBattle
+      run: balloonEntry
+      runMap: balloonEntryMap
+      firstHit: darkmercia/darkmerciaHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: darkmercia/darkmerciaGrooveIntro
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.4, 2.6]
+    emotes:
+      idle: idle
+      positive: emote_positive
+      charge: emote_charge
+      crouching: emote_crouching
+      idle_unarmed: idle_unarmed
+      idle_standing: idle_standing
+      idle_standing_2: idle_standing_2
+      idle_standing_3: idle_standing_3
+      equip_weapons: equip_weapons
+      equip_hurt: equip_hurt
+      dying: emote_dying
+      death: emote_death
+      dead: emote_dead
+      dance: emote_dance
+    shouts:
+      darkmercia_abandonallhope: darkmercia/darkmerciaShoutAbandonAllHope
+      darkmercia_absolutepower: darkmercia/darkmerciaShoutAbsolutePower
+      darkmercia_allshallfall: darkmercia/darkmerciaShoutAllShallFall
+      darkmercia_allwillfallbeforeme: darkmercia/darkmerciaShoutAllWillFallBeforeMe
+      darkmercia_attack1: darkmercia/darkmerciaShoutAttack1
+      darkmercia_attack2: darkmercia/darkmerciaShoutAttack2
+      darkmercia_attack3: darkmercia/darkmerciaShoutAttack3
+      darkmercia_attack4: darkmercia/darkmerciaShoutAttack4
+      darkmercia_attack5: darkmercia/darkmerciaShoutAttack5
+      darkmercia_darknessfalls: darkmercia/darkmerciaShoutDarknessFalls
+      darkmercia_dyinggasp: darkmercia/darkmerciaDieGasp
+      darkmercia_embraceyourend: darkmercia/darkmerciaShoutEmbraceYourEnd
+      darkmercia_farewell: darkmercia/darkmerciaShoutFarewell
+      darkmercia_greetings: darkmercia/darkmerciaShoutGreetings
+      darkmercia_hit1: darkmercia/darkmerciaShoutHit1
+      darkmercia_hit2: darkmercia/darkmerciaShoutHit2
+      darkmercia_hit3: darkmercia/darkmerciaShoutHit3
+      darkmercia_hit4: darkmercia/darkmerciaShoutHit4
+      darkmercia_hmph: darkmercia/darkmerciaShoutHmph
+      darkmercia_howcouldthisbe: darkmercia/darkmerciaShoutHowCouldThisBe
+      darkmercia_iamyou: darkmercia/darkmerciaShoutIAmYou
+      darkmercia_ibringruin: darkmercia/darkmerciaShoutIBringRuin
+      darkmercia_itsnotpossible: darkmercia/darkmerciaShoutItsNotPossible
+      darkmercia_joinme: darkmercia/darkmerciaShoutJoinMe
+      darkmercia_kingdomsfall: darkmercia/darkmerciaShoutKingdomsFall
+      darkmercia_laugh1: darkmercia/darkmerciaShoutLaugh1
+      darkmercia_laugh2: darkmercia/darkmerciaShoutLaugh2
+      darkmercia_laugh3: darkmercia/darkmerciaShoutLaugh3
+      darkmercia_no: darkmercia/darkmerciaShoutNo
+      darkmercia_oops: darkmercia/darkmerciaShoutOops
+      darkmercia_paletteswap: darkmercia/darkmerciaShoutPaletteSwap
+      darkmercia_pitiful: darkmercia/darkmerciaShoutPitiful
+      darkmercia_requiemspower: darkmercia/darkmerciaShoutRequiemsPower
+      darkmercia_sheisgone: darkmercia/darkmerciaShoutSheIsGone
+      darkmercia_sigh: darkmercia/darkmerciaShoutSigh
+      darkmercia_strongconquertheweak: darkmercia/darkmerciaShoutStrongConquerTheWeak
+      darkmercia_submittothedarkness: darkmercia/darkmerciaShoutSubmitToTheDarkness
+      darkmercia_thankyou: darkmercia/darkmerciaShoutThankYou
+      darkmercia_theabyssstaresback: darkmercia/darkmerciaShoutTheAbyssStaresBack
+      darkmercia_theendofallthings: darkmercia/darkmerciaShoutTheEndOfAllThings
+      darkmercia_thenproveit: darkmercia/darkmerciaShoutThenProveIt
+      darkmercia_verywell: darkmercia/darkmerciaShoutVeryWell
+      darkmercia_what: darkmercia/darkmerciaShoutWhat
+      darkmercia_whatisbestinlife: darkmercia/darkmerciaShoutWhatIsBestInLife
+      darkmercia_witnesstruestrength: darkmercia/darkmerciaShoutWitnessTrueStrength
+      darkmercia_yes: darkmercia/darkmerciaShoutYes
+      darkmercia_you: darkmercia/darkmerciaShoutYou
+      darkmercia_youareweak: darkmercia/darkmerciaShoutYouAreWeak
+      darkmercia_youchallengeme: darkmercia/darkmerciaShoutYouChallengeMe
+    alternativeAttackSounds:
+      no_voice: darkmercia/darkmerciaAttackNoVoice
+    #hidden:
+    #  shouts:
+    #    - darkmercia_dyinggasp    
+    
     # Mercival
+  - class: commander_mercival
+    faction: cherrystone
+    name: character_mercival_name
+    mapAnimation: units/commanders/mercival/map_mercival
+    battleAnimation: units/commanders/mercival/battle_mercival
+    battleAnimationRiver: fx/river_overlay/battle_mercival_river
+    smallPortrait: units/commanders/mercival/portrait_mercival_small.png
+    mediumPortrait: units/commanders/mercival/portrait_mercival_medium.png
+    mapSpeed: 4.0
+    skinColour: typeII
+    grabPos: [36, 20]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    stayAfterDeath: true
+    sounds:
+      attackMap: unitAttack
+      preAttack: mercival/mercivalPreAttack
+      attack: mercival/mercivalAttack
+      attackShout: mercival/mercivalAttackShout
+      attackCommanderShout: mercival/mercivalCommanderKillShout
+      captureShout: mercival/mercivalCapture
+      death: mercival/mercivalDie
+      deathMap: mercival/mercivalDieGhost
+      deathMapNoBattle: mercival/mercivalDieNoBattle
+      run: infantryHeavyMapEntry
+      runMap: infantryHeavyMapEntry
+      firstHit: mercival/mercivalHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: mercival/mercivalGrooveIntro
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 1.25
+    emotes:
+      idle: idle
+      positive: emote_positive
+      hurt: emote_hurt
+      dead: emote_dead
+      ghost_appear: emote_ghost_appear
+      ghost_idle: emote_ghost_idle
+      ghost_talk: emote_ghost_talk
+      ghost_fading: emote_ghost_fading
+      ghost_disappear: emote_ghost_disappear
+      dying: emote_dying
+      surprise: emote_surprise
+      hug: emote_hug
+      dance: emote_dance
+    shouts:
+      mercival_attack1: mercival/mercivalShoutAttack1
+      mercival_attack2: mercival/mercivalShoutAttack2
+      mercival_attack3: mercival/mercivalShoutAttack3
+      mercival_attack4: mercival/mercivalShoutAttack4
+      mercival_didnthavetobethisway: mercival/mercivalShoutDidntHaveToBeThisWay
+      mercival_die: mercival/mercivalShoutDie
+      mercival_donotfalter: mercival/mercivalShoutDoNotFalter
+      mercival_donotlosehope: mercival/mercivalShoutDoNotLoseHope
+      mercival_donotholdback: mercival/mercivalShoutDontHoldBack
+      mercival_doyouunderstand: mercival/mercivalShoutDoYouUnderstand
+      mercival_emeric: mercival/mercivalShoutEmeric
+      mercival_farewell: mercival/mercivalShoutFarewell
+      mercival_greetings: mercival/mercivalShoutGreetings
+      mercival_hellooldfriend: mercival/mercivalShoutHelloOldFriend
+      mercival_hit1: mercival/mercivalShoutHit1
+      mercival_hit2: mercival/mercivalShoutHit2
+      mercival_hit3: mercival/mercivalShoutHit3
+      mercival_hit4: mercival/mercivalShoutHit4
+      mercival_hmph: mercival/mercivalShoutHmph
+      mercival_iamwithyou: mercival/mercivalShoutIAmWithYou
+      mercival_ibelieveinyou: mercival/mercivalShoutIBelieveInYou
+      mercival_itsinsafehands: mercival/mercivalShoutItsInSafeHands
+      mercival_laugh1: mercival/mercivalShoutLaugh1
+      mercival_laugh2: mercival/mercivalShoutLaugh2
+      mercival_laugh3: mercival/mercivalShoutLaugh3
+      mercival_listen: mercival/mercivalShoutListen
+      mercival_mercia1: mercival/mercivalShoutMercia1
+      mercival_mercia2: mercival/mercivalShoutMercia2
+      mercival_mylittlebluebird1: mercival/mercivalShoutMyLittleBlueBird1
+      mercival_mylittlebluebird2: mercival/mercivalShoutMyLittleBlueBird2
+      mercival_no: mercival/mercivalShoutNo
+      mercival_offwego: mercival/mercivalShoutOffWeGo
+      mercival_safehands: mercival/mercivalShoutSafeHands
+      mercival_sigh: mercival/mercivalShoutSigh
+      mercival_steelyourself: mercival/mercivalShoutSteelYourself
+      mercival_tellmercia: mercival/mercivalShoutTellMercia
+      mercival_thankyou: mercival/mercivalShoutThankYou
+      mercival_thelightshallnotfade: mercival/mercivalShoutTheLightShallNotFade
+      mercival_themorethemerrier: mercival/mercivalShoutTheMoreTheMerrier
+      mercival_thisshallserveuswell: mercival/mercivalShoutThisShallServeUsWell
+      mercival_toarms: mercival/mercivalShoutToArms
+      mercival_togetherwestand: mercival/mercivalShoutTogetherWeStand
+      mercival_verywellthen: mercival/mercivalShoutVeryWellThen
+      mercival_weshallprevail: mercival/mercivalShoutWeShallPrevail
+      mercival_what: mercival/mercivalShoutWhat
+      mercival_whoops: mercival/mercivalShoutWhoops
+      mercival_worthyadversary: mercival/mercivalShoutWorthyAdversary
+      mercival_yes: mercival/mercivalShoutYes
+      mercival_youhaveneverletmedown: mercival/mercivalShoutYouHaveNeverLetMeDown
+      mercival_youhavetoknowthesethings: mercival/mercivalShoutYouHaveToKnowTheseThings
+      mercival_youmustlisten: mercival/mercivalShoutYouMustListen
+      mercival_ghost_attack1: mercival/mercivalGhostShoutAttack1
+      mercival_ghost_attack2: mercival/mercivalGhostShoutAttack2
+      mercival_ghost_attack3: mercival/mercivalGhostShoutAttack3
+      mercival_ghost_attack4: mercival/mercivalGhostShoutAttack4
+      mercival_ghost_die: mercival/mercivalGhostShoutDie
+      mercival_ghost_didnthavetobethisway: mercival/mercivalGhostShoutDidntHaveToBeThisWay
+      mercival_ghost_donotfalter: mercival/mercivalGhostShoutDoNotFalter
+      mercival_ghost_donotlosehope: mercival/mercivalGhostShoutDoNotLoseHope
+      mercival_ghost_donotholdback: mercival/mercivalGhostShoutDontHoldBack
+      mercival_ghost_doyouunderstand: mercival/mercivalGhostShoutDoYouUnderstand
+      mercival_ghost_emeric: mercival/mercivalGhostShoutEmeric
+      mercival_ghost_farewell: mercival/mercivalGhostShoutFarewell
+      mercival_ghost_greetings: mercival/mercivalGhostShoutGreetings
+      mercival_ghost_hellooldfriend: mercival/mercivalGhostShoutHelloOldFriend
+      mercival_ghost_hit1: mercival/mercivalGhostShoutHit1
+      mercival_ghost_hit2: mercival/mercivalGhostShoutHit2
+      mercival_ghost_hit3: mercival/mercivalGhostShoutHit3
+      mercival_ghost_hit4: mercival/mercivalGhostShoutHit4
+      mercival_ghost_hmph: mercival/mercivalGhostShoutHmph
+      mercival_ghost_iamwithyou: mercival/mercivalGhostShoutIAmWithYou
+      mercival_ghost_ibelieveinyou: mercival/mercivalGhostShoutIBelieveInYou
+      mercival_ghost_itsinsafehands: mercival/mercivalGhostShoutItsInSafeHands
+      mercival_ghost_laugh1: mercival/mercivalGhostShoutLaugh1
+      mercival_ghost_laugh2: mercival/mercivalGhostShoutLaugh2
+      mercival_ghost_laugh3: mercival/mercivalGhostShoutLaugh3
+      mercival_ghost_listen: mercival/mercivalGhostShoutListen
+      mercival_ghost_mercia1: mercival/mercivalGhostShoutMercia1
+      mercival_ghost_mercia2: mercival/mercivalGhostShoutMercia2
+      mercival_ghost_mylittlebluebird1: mercival/mercivalGhostShoutMyLittleBlueBird1
+      mercival_ghost_mylittlebluebird2: mercival/mercivalGhostShoutMyLittleBlueBird2
+      mercival_ghost_no: mercival/mercivalGhostShoutNo
+      mercival_ghost_offwego: mercival/mercivalGhostShoutOffWeGo
+      mercival_ghost_safehands: mercival/mercivalGhostShoutSafeHands
+      mercival_ghost_sigh: mercival/mercivalGhostShoutSigh
+      mercival_ghost_steelyourself: mercival/mercivalGhostShoutSteelYourself
+      mercival_ghost_tellmercia: mercival/mercivalGhostShoutTellMercia
+      mercival_ghost_thankyou: mercival/mercivalGhostShoutThankYou
+      mercival_ghost_thelightshallnotfade: mercival/mercivalGhostShoutTheLightShallNotFade
+      mercival_ghost_themorethemerrier: mercival/mercivalGhostShoutTheMoreTheMerrier
+      mercival_ghost_thisshallserveuswell: mercival/mercivalGhostShoutThisShallServeUsWell
+      mercival_ghost_toarms: mercival/mercivalGhostShoutToArms
+      mercival_ghost_togetherwestand: mercival/mercivalGhostShoutTogetherWeStand
+      mercival_ghost_verywellthen: mercival/mercivalGhostShoutVeryWellThen
+      mercival_ghost_weshallprevail: mercival/mercivalGhostShoutWeShallPrevail
+      mercival_ghost_what: mercival/mercivalGhostShoutWhat
+      mercival_ghost_whoops: mercival/mercivalGhostShoutWhoops
+      mercival_ghost_worthyadversary: mercival/mercivalGhostShoutWorthyAdversary
+      mercival_ghost_yes: mercival/mercivalGhostShoutYes
+      mercival_ghost_youhaveneverletmedown: mercival/mercivalGhostShoutYouHaveNeverLetMeDown
+      mercival_ghost_youhavetoknowthesethings: mercival/mercivalGhostShoutYouHaveToKnowTheseThings
+      mercival_ghost_youmustlisten: mercival/mercivalGhostShoutYouMustListen
+    alternativeAttackSounds:
+      no_voice: mercival/mercivalAttackNoVoice
+    #hidden:
+    #  emotes:
+    #    - dead
+    #    - dying
+    #    - ghost_appear
+    #    - ghost_disappear
+    #    - ghost_fading
+    #    - ghost_talk
+    #    - ghost_idle
+    #  shouts:
+    #    - mercival_ghost_attack1
+    #    - mercival_ghost_attack2
+    #    - mercival_ghost_attack3
+    #    - mercival_ghost_attack4
+    #    - mercival_ghost_didnthavetobethisway
+    #    - mercival_ghost_die
+    #    - mercival_ghost_donotfalter
+    #    - mercival_ghost_donotlosehope
+    #    - mercival_ghost_donotholdback
+    #    - mercival_ghost_doyouunderstand
+    #    - mercival_ghost_emeric
+    #    - mercival_ghost_farewell
+    #    - mercival_ghost_greetings
+    #    - mercival_ghost_hellooldfriend
+    #    - mercival_ghost_hit1
+    #    - mercival_ghost_hit2
+    #    - mercival_ghost_hit3
+    #    - mercival_ghost_hit4
+    #    - mercival_ghost_hmph
+    #    - mercival_ghost_iamwithyou
+    #    - mercival_ghost_ibelieveinyou
+    #    - mercival_ghost_itsinsafehands
+    #    - mercival_ghost_laugh1
+    #    - mercival_ghost_laugh2
+    #    - mercival_ghost_laugh3
+    #    - mercival_ghost_listen
+    #    - mercival_ghost_mercia1
+    #    - mercival_ghost_mercia2
+    #    - mercival_ghost_mylittlebluebird1
+    #    - mercival_ghost_mylittlebluebird2
+    #    - mercival_ghost_no
+    #    - mercival_ghost_offwego
+    #    - mercival_ghost_safehands
+    #    - mercival_ghost_sigh
+    #    - mercival_ghost_steelyourself
+    #    - mercival_ghost_tellmercia
+    #    - mercival_ghost_thankyou
+    #    - mercival_ghost_thelightshallnotfade
+    #    - mercival_ghost_themorethemerrier
+    #    - mercival_ghost_thisshallserveuswell
+    #    - mercival_ghost_toarms
+    #    - mercival_ghost_togetherwestand
+    #    - mercival_ghost_verywellthen
+    #    - mercival_ghost_weshallprevail
+    #    - mercival_ghost_what
+    #    - mercival_ghost_whoops
+    #    - mercival_ghost_worthyadversary
+    #    - mercival_ghost_yes
+    #    - mercival_ghost_youhaveneverletmedown
+    #    - mercival_ghost_youhavetoknowthesethings
+    #    - mercival_ghost_youmustlisten
+    #    - mercival_hit3
+    
+    # ----------------------------------------------------------------------------------------------------
+    #   Special / Other
+    # ----------------------------------------------------------------------------------------------------
+    
+    # Errol
+  - class: commander_errol
+    faction: outlaw
+    name: character_errol_name
+    mapAnimation: units/commanders/errol/map_errol
+    battleAnimation: units/commanders/errol/battle_errol
+    smallPortrait: units/commanders/errol/portrait_errol_small.png
+    mediumPortrait: units/commanders/errol/portrait_errol_medium.png
+    hasUnitInfo: false
+    hasBattleScreen: false
+    mapSpeed: 4.0
+    grabPos: [26, 16]
+    skinColour: typeVI
+    sounds:
+      run: infantryLightEntry
+      runMap: infantryLightMapEntry
+      hit: hitOrganic
+      groove: twins/errolGrooveIntro
+    emotes:
+      idle: idle
+      surprise: emote_surprise
+      positive: emote_happy
+      negative: emote_worried
+      laugh: emote_laugh
+      crying: emote_sad
+      rope: emote_rope
+      cactus: emote_cactus
+      dark_errol: emote_dark_errol
+      bush: emote_bush
+      bush2: emote_bush2
+      petting: emote_petting
+      cat: emote_cat
+      catsit: emote_catsit
+      catappears: emote_catappears
+      catsstop: emote_catstop
+      pet: emote_pet
+      catlay: emote_catlay
+      dance: emote_dance
+    shouts:
+      errol_anybodyhome: twins/errolShoutAnybodyHome
+      errol_aye: twins/errolShoutAye
+      errol_butyejustsaid: twins/errolShoutButYeJustSaid
+      errol_canwereallytakethis: twins/errolShoutCanWeReallyTakeThis
+      errol_doesthismeantheyllrun: twins/errolShoutWillTheyRunAway
+      errol_havewelostthem: twins/errolShoutHaveWeLostThem
+      errol_hello: twins/errolShoutHello
+      errol_herewego: twins/errolShoutHereWeGo
+      errol_hesamazin: twins/errolShoutHesAmazin
+      errol_hm1: twins/errolShoutHm1
+      errol_hm2: twins/errolShoutHm2
+      errol_hmm: twins/errolShoutHmm
+      errol_huh: twins/errolShoutHuh
+      errol_idinnaelikeit: twins/errolShoutIDidntLikeIt
+      errol_ifyoudonnaebackoff: twins/errolShoutIfYouDontBackOff
+      errol_imamagesortof: twins/errolShoutImAMage
+      errol_imerrol: twins/errolShoutIntroduction
+      errol_imscared: twins/errolShoutImScared
+      errol_ireadinabook: twins/errolShoutReadInABook
+      errol_keepyourheaddown: twins/errolShoutKeepYourHeadDown
+      errol_laugh1: twins/errolShoutLaugh1
+      errol_laugh2: twins/errolShoutLaugh2
+      errol_laugh3: twins/errolShoutLaugh3
+      errol_laughnervous: twins/errolShoutLaughNervous
+      errol_letshopethisworks: twins/errolShoutLetsHopeThisWorks
+      errol_letssticktogether: twins/errolShoutLetsStickTogether
+      errol_no: twins/errolShoutNo1
+      errol_nodistressed: twins/errolShoutNo2
+      errol_ochaye: twins/errolShoutOchAye
+      errol_ochno: twins/errolShoutOchNo
+      errol_oh: twins/errolShoutOh
+      errol_okayherewego: twins/errolShoutOkayHereWeGo
+      errol_oops: twins/errolShoutOops
+      errol_orlarun: twins/errolShoutOrlaRun
+      errol_shhh: twins/errolShoutShh
+      errol_sigh: twins/errolShoutSigh
+      errol_sorryda: twins/errolShoutSorryDa
+      errol_stronglywordedletter: twins/errolShoutStronglyWordedLetter
+      errol_thanksda: twins/errolShoutThanksDad
+      errol_thankye: twins/errolShoutThankYou
+      errol_thisisneright: twins/errolShoutThisIsntRight
+      errol_thisllbeloud: twins/errolShoutThisWillBeLoud
+      errol_thisllkeepussafe: twins/errolShoutThisWillKeepUsSafe
+      errol_uh: twins/errolShoutUh
+      errol_um: twins/errolShoutUm
+      errol_wedidit: twins/errolShoutWeDidIt
+      errol_wehavetobecareful: twins/errolShoutWeHaveToBeCareful
+      errol_wemadeit: twins/errolShoutWeMadeIt
+      errol_what: twins/errolShoutWhat
+      errol_whoa: twins/errolShoutWhoa
+      errol_wondertwinspower: twins/errolShoutWonderTwinPowers
+      errol_wontthatgetuskilled: twins/errolShoutWontThatGetUsKilled
+      errol_wow: twins/errolShoutWow
+      errol_wowitworked: twins/errolShoutWowItWorked
+      errol_attack1: twins/errolShoutAttack1
+      errol_attack2: twins/errolShoutAttack2
+      errol_attack3: twins/errolShoutAttack3
+      errol_hit1: twins/errolShoutHit1
+      errol_hit2: twins/errolShoutHit2
+      errol_hit3: twins/errolShoutHit3
+      errol_hit4: twins/errolShoutHit4
+      errol_hit5: twins/errolShoutHit5
+      errol_guard1: twins/errolShoutGuard1
+      errol_guard2: twins/errolShoutGuard2
+      errol_caesar: twins/errolShoutCaesar
+      errol_commanderryota: twins/errolShoutRyota
+      errol_da: twins/errolShoutDa1
+      errol_dashout: twins/errolShoutDa2
+      errol_dog: twins/errolShoutDog
+      errol_enid: twins/errolShoutEnid
+      errol_greenfinger: twins/errolShoutGreenfinger
+      errol_koji: twins/errolShoutKoji
+      errol_lordemeric: twins/errolShoutEmeric
+      errol_nuru: twins/errolShoutNuru
+      errol_orla: twins/errolShoutOrla1
+      errol_orlashout: twins/errolShoutOrla2
+      errol_queenmercia: twins/errolShoutMercia
+      errol_ragna: twins/errolShoutRagna
+      errol_sedge: twins/errolShoutSedge
+      errol_sigrid: twins/errolShoutSigrid
+      errol_sirvalder: twins/errolShoutValder
+      errol_tenri: twins/errolShoutTenri
+      errol_vesper: twins/errolShoutVesper1
+      errol_vespersurprised: twins/errolShoutVesper2
+      twins_da: twins/twinsShoutDa
+      twins_hit: twins/twinsShoutHit
+      twins_laugh: twins/twinsShoutLaugh
+      twins_wondertwinpowers: twins/twinsShoutWonderTwinPowers
+    alternativeRuns:
+      - id: run_requiem
+      - id: cat_running
+    #hidden:
+    #  emotes:
+    #    - rope
+    #    - cactus
+    #    - bush
+    #    - bush2
+    #    - cat
+    #    - catsit
+    #    - catappears
+    #    - catstop
+    #    - pet
+    #    - emote_catlay
+    #    - petting
+    #    - catsstop
+    #    - catlay
+    #  alternativeRuns:
+    #    - run_requiem
+    #    - cat_running
+    #  shouts:
+    #    - errol_wow
+    
+    # Orla
+  - class: commander_orla
+    faction: outlaw
+    name: character_orla_name
+    mapAnimation: units/commanders/orla/map_orla
+    battleAnimation: units/commanders/orla/battle_orla
+    smallPortrait: units/commanders/orla/portrait_orla_small.png
+    mediumPortrait: units/commanders/orla/portrait_orla_medium.png
+    hasUnitInfo: false
+    hasBattleScreen: false
+    mapSpeed: 4.0
+    grabPos: [26, 16]
+    skinColour: typeVI
+    sounds:
+      run: infantryLightEntry
+      runMap: infantryLightMapEntry
+      hit: hitOrganic
+      groove: twins/orlaGrooveIntro
+    emotes:
+      idle: idle
+      surprise: emote_surprise
+      crying: emote_sad
+      positive: emote_happy
+      negative: emote_angry
+      laugh: emote_laugh
+      aiming: emote_aiming
+      rope: emote_rope
+      cactus: emote_cactus
+      dark_orla: emote_dark_orla
+      petting: emote_petting
+      dance: emote_dance
+    shouts:
+      orla_acuteweebeastie: twins/orlaShoutCuteWeeBeastie
+      orla_alwright: twins/orlaShoutAlright
+      orla_arewethereyet: twins/orlaShoutAreWeThereYet
+      orla_aye: twins/orlaShoutAye
+      orla_bombsaway: twins/orlaShoutBombsAway
+      orla_bullseye: twins/orlaShoutBullseye
+      orla_didyeseeme: twins/orlaShoutDidYouSeeMe
+      orla_donnaeunderestimateme: twins/orlaShoutDontUnderestimateMe
+      orla_finderskeepers: twins/orlaShoutFindersKeepers
+      orla_goodgearcomesin: twins/orlaShoutGoodGear
+      orla_haha: twins/orlaShoutHaha
+      orla_hmm: twins/orlaShoutHm2
+      orla_hmmquestion: twins/orlaShoutHm1
+      orla_hmmthinking: twins/orlaShoutHmm
+      orla_huh: twins/orlaShoutHuh
+      orla_iknowahagwhen: twins/orlaShoutIKnowAHag
+      orla_imangry: twins/orlaShoutImAngry
+      orla_imgonnaehitemright: twins/orlaShoutRightBetweenTheEyes
+      orla_imorla: twins/orlaShoutIntroduction
+      orla_imsorryda: twins/orlaShoutImSorryDa
+      orla_ireckonicandothat: twins/orlaShoutReckonICanDoThat
+      orla_itsmeandyouerrol: twins/orlaShoutItsMeAndYou
+      orla_iwasne: twins/orlaShoutIWasne
+      orla_laugh1: twins/orlaShoutLaugh1
+      orla_laugh2: twins/orlaShoutLaugh2
+      orla_no: twins/orlaShoutNo
+      orla_nodistressed: twins/orlaShoutNoDistressed
+      orla_nowweretalking: twins/orlaShoutNowWereTalking
+      orla_oops: twins/orlaShoutOops
+      orla_peskycritter: twins/orlaShoutPeskyCritter
+      orla_restinpeace: twins/orlaShoutWhatHappenedToRestInPeace
+      orla_restinpieces: twins/orlaShoutRestInPieces
+      orla_shhh: twins/orlaShoutShhh
+      orla_shutyerface: twins/orlaShoutShutYourFace
+      orla_sneakierthanashadow: twins/orlaShoutSneakierThanAShadow
+      orla_sigh: twins/orlaShoutSigh
+      orla_thankye: twins/orlaShoutThankYou
+      orla_thatwasgreat: twins/orlaShoutThatWasGreat
+      orla_thatwastough: twins/orlaShoutThatWasTough
+      orla_theycannaehurtusnow: twins/orlaShoutTheyCantHurtUsNow
+      orla_theywontseethiscoming: twins/orlaShoutTheyWontSeeThisComing
+      orla_thislldonicely: twins/orlaShoutThisWillDoNicely
+      orla_timetogo: twins/orlaShoutTimeToGo
+      orla_twoheadsarebetter: twins/orlaShoutTwoHeadsAreBetter
+      orla_uh: twins/orlaShoutUh
+      orla_wereinvincible: twins/orlaShoutWereInvincible
+      orla_wevegotthiserrol: twins/orlaShoutWeveGotThis
+      orla_what: twins/orlaShoutWhat
+      orla_whatacowbag: twins/orlaShoutWhatACowbag
+      orla_whatsitfeelliketo: twins/orlaShoutWhatsItFeelLike
+      orla_wondertwinpowers: twins/orlaShoutWonderTwinPowers
+      orla_yebahookie: twins/orlaShoutYeBahookie
+      orla_youdonnaewanttomess: twins/orlaShoutImAnOutlaw
+      orla_yergoindown: twins/orlaShoutYoureGoingDown
+      orla_attack1: twins/orlaShoutAttack1
+      orla_attack2: twins/orlaShoutAttack2
+      orla_attack3: twins/orlaShoutAttack3
+      orla_attack4: twins/orlaShoutAttack4
+      orla_hit1: twins/orlaShoutHit1
+      orla_hit2: twins/orlaShoutHit2
+      orla_hit3: twins/orlaShoutHit3
+      orla_hit4: twins/orlaShoutHit4
+      orla_hit5: twins/orlaShoutHit5
+      orla_caesar: twins/orlaShoutCaesar
+      orla_da: twins/orlaShoutDa1
+      orla_dashout: twins/orlaShoutDa2
+      orla_dog: twins/orlaShoutDog
+      orla_enid: twins/orlaShoutEnid
+      orla_errol: twins/orlaShoutErrol1
+      orla_errolshout: twins/orlaShoutErrol2
+      orla_greenfinger: twins/orlaShoutGreenfinger
+      orla_koji: twins/orlaShoutKoji
+      orla_mercia: twins/orlaShoutMercia
+      orla_mremeric: twins/orlaShoutEmeric
+      orla_nuru: twins/orlaShoutNuru
+      orla_ragna: twins/orlaShoutRagna
+      orla_ryota: twins/orlaShoutRyota
+      orla_sedge: twins/orlaShoutSedge
+      orla_sigrid: twins/orlaShoutSigrid
+      orla_tenri: twins/orlaShoutTenri
+      orla_valder: twins/orlaShoutValder
+      orla_vesper: twins/orlaShoutVesper1
+      orla_vespersurprised: twins/orlaShoutVesper2
+      twins_da: twins/twinsShoutDa
+      twins_hit: twins/twinsShoutHit
+      twins_laugh: twins/twinsShoutLaugh
+      twins_wondertwinpowers: twins/twinsShoutWonderTwinPowers
+    alternativeRuns:
+      - id: run_requiem
+    #hidden:
+    #  emotes:
+    #    - rope
+    #    - cactus
+    #    - petting
+    #  alternativeRuns:
+    #    - run_requiem
+    #  shouts:
+    #    - twins_da
+    #    - twins_hit
+    #    - twins_laugh
+    #    - twins_wondertwinpowers  
+    
+    # Vesper (Boss)
+    # Vesper (Boss) does not actually begin with any hidden traits, so this one has been skipped.
+    
+# ======================================================================================================================================================
+#   ARMY UNITS - BARRACKS
+# ======================================================================================================================================================
+    # ----------------------------------------------------------------------------------------------------
+    #   Soldier
+    # ----------------------------------------------------------------------------------------------------
+    # Cherrystone
+  - class: soldier
+    faction: cherrystone
+    name: unit_name_soldier_cherrystone
+    mapAnimation: units/soldier/cherrystone/map_soldier_cherrystone
+    battleAnimation: units/soldier/cherrystone/battle_soldier_cherrystone
+    battleAnimationRiver: fx/river_overlay/battle_soldier_cherrystone_river
+    smallPortrait: units/soldier/cherrystone/portrait_soldier_cherrystone_small.png
+    mediumPortrait: units/soldier/cherrystone/portrait_soldier_cherrystone_medium.png
+    mapSpeed: 4.0
+    grabPos: [13, 14]
+    sounds:
+      attack: soldierAttackRed
+      attackShout: soldierPreAttackRed
+      attackMap: unitAttack
+      captureShout: soldierPreAttackRed
+      death: soldierDieRed
+      deathMap: unitDie
+      run: infantryHeavyEntry
+      runMap: infantryHeavyMapEntry
+      hit: hitOrganic
+      hitMap: hitOrganic
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [0.45, 0.8]
+    shouts:
+      soldier_shout1: soldierShoutRed1
+      soldier_shout2: soldierShoutRed2
+      soldier_shout3: soldierShoutRed3
+      soldier_shout4: soldierShoutRed4
+      soldier_shout5: soldierShoutRed5
+      soldier_shout6: soldierShoutRed6
+      soldier_shout7: soldierShoutRed7
+      soldier_shout8: soldierShoutRed8
+      soldier_shout9: soldierShoutRed9
+      soldier_hit1: soldierHitRed1
+      soldier_hit2: soldierHitRed2
+      soldier_hit3: soldierHitRed3
+      soldier_hit4: soldierHitRed4
+      soldier_hit5: soldierHitRed5
+      crownbearer_panting: cutscene/crownbearerPanting
+      crownbearer_yell: cutscene/crownbearerYell
+    emotes:
+      idle: idle
+      idle_crownbearer: idle_crownbearer
+      idle_crown: emote_idle_crown
+      idle_crown_ragged: emote_idle_crown_ragged
+      cushion: emote_cushion
+      idle_cushion: emote_idle_cushion
+      crown_surprise: emote_crown_surprise
+      telescope: emote_telescope
+      dance: emote_dance
+    alternativeRuns:
+      - id: run_crown
+      - id: run_ragged
+      - id: run_2
+    #hidden:
+    #  emotes:
+    #    - cushion
+    #    - idle_crownbearer
+    #    - idle_crown
+    #    - idle_crown_ragged
+    #    - idle_cushion
+    #    - crown_surprise
+    #    - dance
+    #  shouts:
+    #    - soldier_shout3
+    #    - soldier_shout5
+    #    - soldier_shout6
+    #    - soldier_shout9
+    #  alternativeRuns:
+    #    - run_crown
+    #    - run_ragged
+    #    - run_cushion
+    #    - run_2
+
+    # Felheim
+  - class: soldier
+    faction: felheim
+    name: unit_name_soldier_felheim
+    mapAnimation: units/soldier/felheim/map_soldier_felheim
+    battleAnimation: units/soldier/felheim/battle_soldier_felheim
+    battleAnimationRiver: fx/river_overlay/battle_soldier_felheim_river
+    smallPortrait: units/soldier/felheim/portrait_soldier_felheim_small.png
+    mediumPortrait: units/soldier/felheim/portrait_soldier_felheim_medium.png
+    mapSpeed: 4.0
+    grabPos: [18, 10]
+    sounds:
+      attack: soldierAttackBlue
+      attackShout: soldierPreAttackBlue
+      attackMap: unitAttack
+      captureShout: soldierPreAttackBlue
+      death: soldierDieBlue
+      deathMap: unitDie
+      run: infantrySkeletonEntry
+      runMap: infantrySkeletonMapEntry
+      hit: hitBone
+      hitMap: hitBone
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [0.25, 0.75]
+    shouts:
+      soldier_blue_shout1: soldierShoutBlue1
+      soldier_blue_shout2: soldierShoutBlue2
+    emotes:
+      idle: idle
+      surprise: emote_surprise 
+      negative: emote_negative      
+    
+    # Heavensong
+  - class: soldier
+    faction: heavensong
+    name: unit_name_soldier_heavensong
+    mapAnimation: units/soldier/heavensong/map_soldier_heavensong
+    battleAnimation: units/soldier/heavensong/battle_soldier_heavensong
+    battleAnimationRiver: fx/river_overlay/battle_soldier_heavensong_river
+    smallPortrait: units/soldier/heavensong/portrait_soldier_heavensong_small.png
+    mediumPortrait: units/soldier/heavensong/portrait_soldier_heavensong_medium.png
+    mapSpeed: 4.0
+    grabPos: [12, 10]
+    sounds:
+      attack: soldierAttackYellow
+      attackShout: soldierPreAttackYellow
+      attackMap: unitAttack
+      captureShout: soldierPreAttackYellow
+      death: soldierDieYellow
+      deathMap: unitDie
+      run: infantryHeavyEntry
+      runMap: infantryHeavyMapEntry
+      hit: hitOrganic
+      hitMap: hitOrganic
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [0.85]
+    shouts:
+      soldier_yellow_shout1: soldierShoutYellow1
+      soldier_yellow_shout2: soldierShoutYellow2
+      soldier_yellow_shout3: soldierShoutYellow3
+      soldier_yellow_shout4: soldierShoutYellow4
+      soldier_yellow_shout5: soldierShoutYellow5
+      soldier_yellow_hit1: soldierHitYellow1
+      soldier_yellow_hit2: soldierHitYellow2
+      soldier_yellow_hit3: soldierHitYellow3
+      soldier_yellow_hit4: soldierHitYellow4
+    #hidden:
+    #  shouts:
+    #    - soldier_yellow_shout2
+    #    - soldier_yellow_shout5
+    emotes:
+      idle: idle
+      surprise: emote_surprise 
+      dead: emote_dead 
+
+    # Floran
+  - class: soldier
+    faction: floran
+    name: unit_name_soldier_floran
+    mapAnimation: units/soldier/floran/map_soldier_floran
+    battleAnimation: units/soldier/floran/battle_soldier_floran
+    battleAnimationRiver: fx/river_overlay/battle_soldier_floran_river
+    smallPortrait: units/soldier/floran/portrait_soldier_floran_small.png
+    mediumPortrait: units/soldier/floran/portrait_soldier_floran_medium.png
+    mapSpeed: 4.0
+    grabPos: [18, 18]
+    sounds:
+      attack: soldierAttackGreen
+      attackShout: soldierPreAttackGreen
+      attackMap: unitAttack
+      captureShout: soldierPreAttackGreen
+      death: soldierDieGreen
+      deathMap: unitDie
+      run: infantryLightEntry
+      runMap: infantryLightMapEntry
+      hit: hitOrganic
+      hitMap: hitOrganic
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [0.5, 0.85]
+    shouts:
+      soldier_green_shout1: soldierShoutGreen1
+      soldier_green_shout2: soldierShoutGreen2
+      soldier_green_shout3: soldierShoutGreen3
+      soldier_green_shout4: soldierShoutGreen4
+      soldier_green_shout5: soldierShoutGreen5
+      soldier_green_shout6: soldierShoutGreen6
+      soldier_green_hit1: soldierHitGreen1
+      soldier_green_hit2: soldierHitGreen2
+      soldier_green_hit3: soldierHitGreen3
+    #hidden:
+    #  shouts:
+    #    - soldier_green_shout2
+    #    - soldier_green_shout4
+    #    - soldier_green_shout5
+
+    # ----------------------------------------------------------------------------------------------------
+    #   Dog
+    # ----------------------------------------------------------------------------------------------------
+    # Dogs have no hidden traits!
+    
+    # ----------------------------------------------------------------------------------------------------
+    #   Spearman
+    # ----------------------------------------------------------------------------------------------------
+    # Cherrystone
+  - class: spearman
+    faction: cherrystone
+    name: unit_name_spearman_cherrystone
+    mapAnimation: units/spearman/cherrystone/map_spearman_cherrystone
+    battleAnimation: units/spearman/cherrystone/battle_spearman_cherrystone
+    battleAnimationRiver: fx/river_overlay/battle_spearman_cherrystone_river
+    smallPortrait: units/spearman/cherrystone/portrait_spearman_cherrystone_small.png
+    mediumPortrait: units/spearman/cherrystone/portrait_spearman_cherrystone_medium.png
+    mapSpeed: 4.0
+    grabPos: [18, 12]
+    sounds:
+      attackMap: unitAttack
+      attack: soldierAttackRed
+      attackShout: soldierPreAttackRed
+      captureShout: soldierPreAttackRed
+      death: soldierDieRed
+      deathMap: unitDie
+      run: infantryHeavyEntry
+      runMap: infantryHeavyMapEntry
+      hit: hitOrganic
+      hitMap: hitOrganic
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 0.4
+    shouts:
+      soldier_shout1: soldierShoutRed1
+      soldier_shout2: soldierShoutRed2
+      soldier_shout3: soldierShoutRed3
+      soldier_shout4: soldierShoutRed4
+      soldier_shout5: soldierShoutRed5
+      soldier_shout6: soldierShoutRed6
+      soldier_shout7: soldierShoutRed7
+      soldier_shout8: soldierShoutRed8
+      soldier_shout9: soldierShoutRed9
+      soldier_hit1: soldierHitRed1
+      soldier_hit2: soldierHitRed2
+      soldier_hit3: soldierHitRed3
+      soldier_hit4: soldierHitRed4
+      soldier_hit5: soldierHitRed5
+    #hidden:
+    #  shouts:
+    #    - soldier_shout3
+    #    - soldier_shout5
+    #    - soldier_shout6
+    #    - soldier_shout9
+
+    # Felheim
+  - class: spearman
+    faction: felheim
+    name: unit_name_spearman_felheim
+    mapAnimation: units/spearman/felheim/map_spearman_felheim
+    battleAnimation: units/spearman/felheim/battle_spearman_felheim
+    battleAnimationRiver: fx/river_overlay/battle_spearman_felheim_river
+    smallPortrait: units/spearman/felheim/portrait_spearman_felheim_small.png
+    mediumPortrait: units/spearman/felheim/portrait_spearman_felheim_medium.png
+    mapSpeed: 4.0
+    grabPos: [19, 12]
+    sounds:
+      attackMap: unitAttack
+      attack: soldierAttackRed
+      attackShout: soldierPreAttackBlue
+      captureShout: soldierPreAttackBlue
+      death: soldierDieBlue
+      deathMap: unitDie
+      run: infantrySkeletonEntry
+      runMap: infantrySkeletonMapEntry
+      hit: hitBone
+      hitMap: hitBone
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 0.4
+    #shouts:
+    #  soldier_blue_shout1: soldierShoutBlue1
+    #  soldier_blue_shout2: soldierShoutBlue2
+    
+    # Heavensong
+  - class: spearman
+    faction: heavensong
+    name: unit_name_spearman_heavensong
+    mapAnimation: units/spearman/heavensong/map_spearman_heavensong
+    battleAnimation: units/spearman/heavensong/battle_spearman_heavensong
+    battleAnimationRiver: fx/river_overlay/battle_spearman_heavensong_river
+    smallPortrait: units/spearman/heavensong/portrait_spearman_heavensong_small.png
+    mediumPortrait: units/spearman/heavensong/portrait_spearman_heavensong_medium.png
+    mapSpeed: 4.0
+    grabPos: [18, 11]
+    sounds:
+      attackMap: unitAttack
+      attack: soldierAttackRed
+      attackShout: soldierPreAttackYellow
+      captureShout: soldierPreAttackYellow
+      death: soldierDieYellow
+      deathMap: unitDie
+      run: infantryHeavyEntry
+      runMap: infantryHeavyMapEntry
+      hit: hitOrganic
+      hitMap: hitOrganic
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 0.5
+    shouts:
+      soldier_yellow_shout1: soldierShoutYellow1
+      soldier_yellow_shout2: soldierShoutYellow2
+      soldier_yellow_shout3: soldierShoutYellow3
+      soldier_yellow_shout4: soldierShoutYellow4
+      soldier_yellow_shout5: soldierShoutYellow5
+      soldier_yellow_hit1: soldierHitYellow1
+      soldier_yellow_hit2: soldierHitYellow2
+      soldier_yellow_hit3: soldierHitYellow3
+      soldier_yellow_hit4: soldierHitYellow4
+    #hidden:
+    #  shouts:
+    #    - soldier_yellow_shout2
+    #    - soldier_yellow_shout5
+
+    # Floran
+  - class: spearman
+    faction: floran
+    name: unit_name_spearman_floran
+    mapAnimation: units/spearman/floran/map_spearman_floran
+    battleAnimation: units/spearman/floran/battle_spearman_floran
+    battleAnimationRiver: fx/river_overlay/battle_spearman_floran_river
+    smallPortrait: units/spearman/floran/portrait_spearman_floran_small.png
+    mediumPortrait: units/spearman/floran/portrait_spearman_floran_medium.png
+    mapSpeed: 4.0
+    grabPos: [21, 14]
+    sounds:
+      attackMap: unitAttack
+      attack: spearmanAttackGreen
+      attackShout: soldierPreAttackGreen
+      captureShout: soldierPreAttackGreen
+      death: soldierDieGreen
+      deathMap: unitDie
+      run: infantryLightEntry
+      runMap: infantryLightMapEntry
+      hit: hitOrganic
+      hitMap: hitOrganic
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 0.7
+    shouts:
+      soldier_green_shout1: soldierShoutGreen1
+      soldier_green_shout2: soldierShoutGreen2
+      soldier_green_shout3: soldierShoutGreen3
+      soldier_green_shout4: soldierShoutGreen4
+      soldier_green_shout5: soldierShoutGreen5
+      soldier_green_shout6: soldierShoutGreen6
+      soldier_green_hit1: soldierHitGreen1
+      soldier_green_hit2: soldierHitGreen2
+      soldier_green_hit3: soldierHitGreen3
+    #hidden:
+    #  shouts:
+    #    - soldier_green_shout2
+    #    - soldier_green_shout4
+    #    - soldier_green_shout5
+
+    # ----------------------------------------------------------------------------------------------------
+    #   Wagon
+    # ----------------------------------------------------------------------------------------------------
+    # Wagons have no hidden traits!
+    
+    # ----------------------------------------------------------------------------------------------------
+    #   Mage
+    # ----------------------------------------------------------------------------------------------------
+    # Cherrystone
+  - class: mage
+    faction: cherrystone
+    name: unit_name_mage_cherrystone
+    mapAnimation: units/mage/cherrystone/map_mage_cherrystone
+    battleAnimation: units/mage/cherrystone/battle_mage_cherrystone
+    battleAnimationRiver: fx/river_overlay/battle_mage_cherrystone_river
+    smallPortrait: units/mage/cherrystone/portrait_mage_cherrystone_small.png
+    mediumPortrait: units/mage/cherrystone/portrait_mage_cherrystone_medium.png
+    mapSpeed: 4.0
+    grabPos: [15, 12]
+    sounds:
+      attackMap: unitAttack
+      attack: mageAttackRed
+      attackEffect: mageAttackEffect
+      attackEffect1: mageAttackEffect1
+      attackEffect2: mageAttackEffect2
+      attackEffect3: mageAttackEffect3
+      attackEffect4: mageAttackEffect4
+      captureShout: soldierPreAttackRed
+      death: soldierDieRed
+      deathMap: unitDie
+      run: infantryMediumEntry2
+      runMap: infantryMediumMapEntry2
+      hit: hitOrganic
+      hitMap: hitOrganic
+    attacks:
+      - id: fourMages
+        hitDelay: [1.0, 1.3, 1.6, 1.9]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_mage_attack_4
+        effectDelay: 1.0
+        attackEffectSound: attackEffect4
+        numAttackers: 4
+        ranged: true
+        cutscenePivot: [-50, 175]
+      - id: threeMages
+        hitDelay: [1.0, 1.3, 1.6]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_mage_attack_3
+        effectDelay: 1.0
+        attackEffectSound: attackEffect3
+        numAttackers: 3
+        ranged: true
+        cutscenePivot: [-50, 175]
+      - id: twoMages
+        hitDelay: [1.0, 1.3]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_mage_attack_2
+        effectDelay: 1.0
+        attackEffectSound: attackEffect2
+        numAttackers: 2
+        ranged: true
+        cutscenePivot: [-50, 175]
+      - id: oneMage
+        hitDelay: [1.0]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_mage_attack_1
+        effectDelay: 1.0
+        attackEffectSound: attackEffect1
+        numAttackers: 1
+        ranged: true
+        cutscenePivot: [-50, 175]
+    shouts:
+      soldier_shout1: soldierShoutRed1
+      soldier_shout2: soldierShoutRed2
+      soldier_shout3: soldierShoutRed3
+      soldier_shout4: soldierShoutRed4
+      soldier_shout5: soldierShoutRed5
+      soldier_shout6: soldierShoutRed6
+      soldier_shout7: soldierShoutRed7
+      soldier_shout8: soldierShoutRed8
+      soldier_shout9: soldierShoutRed9
+      soldier_hit1: soldierHitRed1
+      soldier_hit2: soldierHitRed2
+      soldier_hit3: soldierHitRed3
+      soldier_hit4: soldierHitRed4
+      soldier_hit5: soldierHitRed5
+      crownbearer_panting: cutscene/crownbearerPanting
+      crownbearer_yell: cutscene/crownbearerYell
+    emotes:
+      idle: idle
+      summon: emote_summon
+    #hidden:
+    #  shouts:
+    #    - soldier_shout3
+    #    - soldier_shout5
+    #    - soldier_shout6
+    #    - soldier_shout9
+
+    # Felheim
+    # No hidden traits
+
+    # Heavensong
+  - class: mage
+    faction: heavensong
+    name: unit_name_mage_heavensong
+    mapAnimation: units/mage/heavensong/map_mage_heavensong
+    battleAnimation: units/mage/heavensong/battle_mage_heavensong
+    battleAnimationRiver: fx/river_overlay/battle_mage_heavensong_river
+    smallPortrait: units/mage/heavensong/portrait_mage_heavensong_small.png
+    mediumPortrait: units/mage/heavensong/portrait_mage_heavensong_medium.png
+    mapSpeed: 4.0
+    grabPos: [15, 12]
+    sounds:
+      attackMap: unitAttack
+      attack: mageAttackYellow
+      attackEffect: mageAttackEffect
+      attackEffect1: mageAttackEffect1
+      attackEffect2: mageAttackEffect2
+      attackEffect3: mageAttackEffect3
+      attackEffect4: mageAttackEffect4
+      captureShout: soldierPreAttackYellow
+      death: soldierDieYellow
+      deathMap: unitDie
+      run: infantryMediumEntry2
+      runMap: infantryMediumMapEntry2
+      hit: hitOrganic
+      hitMap: hitOrganic
+    attacks:
+      - id: fourMages
+        hitDelay: [2.5, 2.8, 3.1, 3.4]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_mage_attack_4
+        effectDelay: 2.5
+        attackEffectSound: attackEffect4
+        numAttackers: 4
+        ranged: true
+        cutscenePivot: [-50, 175]
+      - id: threeMages
+        hitDelay: [2.5, 2.8, 3.1]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_mage_attack_3
+        effectDelay: 2.5
+        attackEffectSound: attackEffect3
+        numAttackers: 3
+        ranged: true
+        cutscenePivot: [-50, 175]
+      - id: twoMages
+        hitDelay: [2.5, 2.8]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_mage_attack_2
+        effectDelay: 2.5
+        attackEffectSound: attackEffect2
+        numAttackers: 2
+        ranged: true
+        cutscenePivot: [-50, 175]
+      - id: oneMage
+        hitDelay: [2.5]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_mage_attack_1
+        effectDelay: 2.5
+        attackEffectSound: attackEffect1
+        numAttackers: 1
+        ranged: true
+        cutscenePivot: [-50, 175]
+    shouts:
+      soldier_yellow_shout1: soldierShoutYellow1
+      soldier_yellow_shout2: soldierShoutYellow2
+      soldier_yellow_shout3: soldierShoutYellow3
+      soldier_yellow_shout4: soldierShoutYellow4
+      soldier_yellow_shout5: soldierShoutYellow5
+      soldier_yellow_hit1: soldierHitYellow1
+      soldier_yellow_hit2: soldierHitYellow2
+      soldier_yellow_hit3: soldierHitYellow3
+      soldier_yellow_hit4: soldierHitYellow4
+    #hidden:
+    #  shouts:
+    #    - soldier_yellow_shout2
+    #    - soldier_yellow_shout5
+
+    # Floran
+  - class: mage
+    faction: floran
+    name: unit_name_mage_floran
+    mapAnimation: units/mage/floran/map_mage_floran
+    battleAnimation: units/mage/floran/battle_mage_floran
+    battleAnimationRiver: fx/river_overlay/battle_mage_floran_river
+    smallPortrait: units/mage/floran/portrait_mage_floran_small.png
+    mediumPortrait: units/mage/floran/portrait_mage_floran_medium.png
+    mapSpeed: 4.0
+    grabPos: [15, 12]
+    sounds:
+      attackMap: unitAttack
+      attack: mageAttackGreen
+      attackEffect: mageAttackEffect
+      attackEffect1: mageAttackEffect1
+      attackEffect2: mageAttackEffect2
+      attackEffect3: mageAttackEffect3
+      attackEffect4: mageAttackEffect4
+      captureShout: soldierPreAttackGreen
+      death: soldierDieGreen
+      deathMap: unitDie
+      run: infantryMediumEntry2
+      runMap: infantryMediumMapEntry2
+      hit: hitOrganic
+      hitMap: hitOrganic
+    attacks:
+      - id: fourMages
+        hitDelay: [0.9, 1.2, 1.5, 1.8]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_mage_attack_4
+        effectDelay: 0.9
+        attackEffectSound: attackEffect4
+        numAttackers: 4
+        ranged: true
+        cutscenePivot: [-50, 175]
+      - id: threeMages
+        hitDelay: [0.9, 1.2, 1.5]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_mage_attack_3
+        effectDelay: 0.9
+        attackEffectSound: attackEffect3
+        numAttackers: 3
+        ranged: true
+        cutscenePivot: [-50, 175]
+      - id: twoMages
+        hitDelay: [0.9, 1.2]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_mage_attack_2
+        effectDelay: 0.9
+        attackEffectSound: attackEffect2
+        numAttackers: 2
+        ranged: true
+        cutscenePivot: [-50, 175]
+      - id: oneMage
+        hitDelay: [0.9]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_mage_attack_1
+        effectDelay: 0.9
+        attackEffectSound: attackEffect1
+        numAttackers: 1
+        ranged: true
+        cutscenePivot: [-50, 175]
+    shouts:
+      soldier_green_shout1: soldierShoutGreen1
+      soldier_green_shout2: soldierShoutGreen2
+      soldier_green_shout3: soldierShoutGreen3
+      soldier_green_shout4: soldierShoutGreen4
+      soldier_green_shout5: soldierShoutGreen5
+      soldier_green_shout6: soldierShoutGreen6
+      soldier_green_hit1: soldierHitGreen1
+      soldier_green_hit2: soldierHitGreen2
+      soldier_green_hit3: soldierHitGreen3
+    #hidden:
+    #  shouts:
+    #    - soldier_green_shout2
+    #    - soldier_green_shout4
+    #    - soldier_green_shout5
+    
+    # ----------------------------------------------------------------------------------------------------
+    #   Archer
+    # ----------------------------------------------------------------------------------------------------
+    # Cherrystone
+  - class: archer
+    faction: cherrystone
+    name: unit_name_archer_cherrystone
+    mapAnimation: units/archer/cherrystone/map_archer_cherrystone
+    battleAnimation: units/archer/cherrystone/battle_archer_cherrystone
+    battleAnimationRiver: fx/river_overlay/battle_archer_river
+    smallPortrait: units/archer/cherrystone/portrait_archer_cherrystone_small.png
+    mediumPortrait: units/archer/cherrystone/portrait_archer_cherrystone_medium.png
+    mapSpeed: 4.0
+    grabPos: [15, 24]
+    sounds:
+      attackMap: unitAttack
+      attack: archerAttack
+      attackEffect1: archerAttackEffect1
+      attackEffect2: archerAttackEffect2
+      attackEffect3: archerAttackEffect3
+      attackEffect4: archerAttackEffect4
+      captureShout: soldierPreAttackRed
+      death: soldierDieRed
+      deathMap: unitDie
+      run: infantryLightEntry
+      runMap: infantryLightMapEntry
+      hit: hitOrganic
+      hitMap: hitOrganic
+      counter: archerCounterAttack
+    attacks:
+      - id: primary
+        attackAnimationSequence: counter
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 0.8
+        attackSound: counter
+        samePanel: true
+      - id: oneArchers
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.7]
+        effect: fx/bs_archer_attack_1
+        effectDelay: 1.4
+        attackEffectSound: attackEffect1
+        numAttackers: 1
+        ranged: true
+      - id: twoArchers
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.7, 1.9]
+        effect: fx/bs_archer_attack_2
+        effectDelay: 1.4
+        attackEffectSound: attackEffect2
+        numAttackers: 2
+        ranged: true
+      - id: threeArchers
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.7, 1.9, 2.1]
+        effect: fx/bs_archer_attack_3
+        effectDelay: 1.4
+        attackEffectSound: attackEffect3
+        numAttackers: 3
+        ranged: true
+      - id: fourArchers
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.7, 1.9, 2.1, 2.3]
+        effect: fx/bs_archer_attack_4
+        attackEffectSound: attackEffect4
+        effectDelay: 1.4
+        numAttackers: 4
+        ranged: true
+    emotes:
+      idle: idle
+      dance: emote_dance
+      surprise: emote_surprise
+    shouts:
+      soldier_shout1: soldierShoutRed1
+      soldier_shout2: soldierShoutRed2
+      soldier_shout3: soldierShoutRed3
+      soldier_shout4: soldierShoutRed4
+      soldier_shout5: soldierShoutRed5
+      soldier_shout6: soldierShoutRed6
+      soldier_shout7: soldierShoutRed7
+      soldier_shout8: soldierShoutRed8
+      soldier_shout9: soldierShoutRed9
+      soldier_hit1: soldierHitRed1
+      soldier_hit2: soldierHitRed2
+      soldier_hit3: soldierHitRed3
+      soldier_hit4: soldierHitRed4
+      soldier_hit5: soldierHitRed5
+    #hidden:
+    #  shouts:
+    #    - soldier_shout3
+    #    - soldier_shout5
+    #    - soldier_shout6
+    #    - soldier_shout9
+        
+    # Felheim
+    # No hidden traits.
+
+    # Heavensong
+  - class: archer
+    faction: heavensong
+    name: unit_name_archer_heavensong
+    mapAnimation: units/archer/heavensong/map_archer_heavensong
+    battleAnimation: units/archer/heavensong/battle_archer_heavensong
+    battleAnimationRiver: fx/river_overlay/battle_archer_river
+    smallPortrait: units/archer/heavensong/portrait_archer_heavensong_small.png
+    mediumPortrait: units/archer/heavensong/portrait_archer_heavensong_medium.png
+    mapSpeed: 4.0
+    grabPos: [15, 24]
+    sounds:
+      attackMap: unitAttack
+      attack: archerAttack
+      attackEffect1: archerAttackEffect1
+      attackEffect2: archerAttackEffect2
+      attackEffect3: archerAttackEffect3
+      attackEffect4: archerAttackEffect4
+      captureShout: soldierPreAttackYellow
+      death: soldierDieYellow
+      deathMap: unitDie
+      run: infantryLightEntry
+      runMap: infantryLightMapEntry
+      hit: hitOrganic
+      hitMap: hitOrganic
+      counter: archerCounterAttack
+    attacks:
+      - id: primary
+        attackAnimationSequence: counter
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 0.8
+        attackSound: counter
+        samePanel: true
+      - id: oneArchers
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.7]
+        effect: fx/bs_archer_attack_1
+        effectDelay: 1.4
+        attackEffectSound: attackEffect1
+        numAttackers: 1
+        ranged: true
+      - id: twoArchers
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.7, 1.9]
+        effect: fx/bs_archer_attack_2
+        effectDelay: 1.4
+        attackEffectSound: attackEffect2
+        numAttackers: 2
+        ranged: true
+      - id: threeArchers
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.7, 1.9, 2.1]
+        effect: fx/bs_archer_attack_3
+        effectDelay: 1.4
+        attackEffectSound: attackEffect3
+        numAttackers: 3
+        ranged: true
+      - id: fourArchers
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.7, 1.9, 2.1, 2.3]
+        effect: fx/bs_archer_attack_4
+        attackEffectSound: attackEffect4
+        effectDelay: 1.4
+        numAttackers: 4
+        ranged: true
+    shouts:
+      soldier_yellow_shout1: soldierShoutYellow1
+      soldier_yellow_shout2: soldierShoutYellow2
+      soldier_yellow_shout3: soldierShoutYellow3
+      soldier_yellow_shout4: soldierShoutYellow4
+      soldier_yellow_shout5: soldierShoutYellow5
+      soldier_yellow_hit1: soldierHitYellow1
+      soldier_yellow_hit2: soldierHitYellow2
+      soldier_yellow_hit3: soldierHitYellow3
+      soldier_yellow_hit4: soldierHitYellow4
+    #hidden:
+    #  shouts:
+    #    - soldier_yellow_shout2
+    #    - soldier_yellow_shout5
+
+    # Floran
+  - class: archer
+    faction: floran
+    name: unit_name_archer_floran
+    mapAnimation: units/archer/floran/map_archer_floran
+    battleAnimation: units/archer/floran/battle_archer_floran
+    battleAnimationRiver: fx/river_overlay/battle_archer_river
+    smallPortrait: units/archer/floran/portrait_archer_floran_small.png
+    mediumPortrait: units/archer/floran/portrait_archer_floran_medium.png
+    mapSpeed: 4.0
+    grabPos: [15, 24]
+    sounds:
+      attackMap: unitAttack
+      attack: archerAttack
+      attackEffect1: archerAttackEffect1
+      attackEffect2: archerAttackEffect2
+      attackEffect3: archerAttackEffect3
+      attackEffect4: archerAttackEffect4
+      captureShout: soldierPreAttackGreen
+      death: soldierDieGreen
+      deathMap: unitDie
+      run: infantryLightEntry
+      runMap: infantryLightMapEntry
+      hit: hitOrganic
+      hitMap: hitOrganic
+      counter: archerCounterAttack
+    attacks:
+      - id: primary
+        attackAnimationSequence: counter
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 0.8
+        attackSound: counter
+        samePanel: true
+      - id: oneArchers
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.7]
+        effect: fx/bs_archer_attack_1
+        effectDelay: 1.4
+        attackEffectSound: attackEffect1
+        numAttackers: 1
+        ranged: true
+      - id: twoArchers
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.7, 1.9]
+        effect: fx/bs_archer_attack_2
+        effectDelay: 1.4
+        attackEffectSound: attackEffect2
+        numAttackers: 2
+        ranged: true
+      - id: threeArchers
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.7, 1.9, 2.1]
+        effect: fx/bs_archer_attack_3
+        effectDelay: 1.4
+        attackEffectSound: attackEffect3
+        numAttackers: 3
+        ranged: true
+      - id: fourArchers
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.7, 1.9, 2.1, 2.3]
+        effect: fx/bs_archer_attack_4
+        attackEffectSound: attackEffect4
+        effectDelay: 1.4
+        numAttackers: 4
+        ranged: true
+    shouts:
+      soldier_green_shout1: soldierShoutGreen1
+      soldier_green_shout2: soldierShoutGreen2
+      soldier_green_shout3: soldierShoutGreen3
+      soldier_green_shout4: soldierShoutGreen4
+      soldier_green_shout5: soldierShoutGreen5
+      soldier_green_shout6: soldierShoutGreen6
+      soldier_green_hit1: soldierHitGreen1
+      soldier_green_hit2: soldierHitGreen2
+      soldier_green_hit3: soldierHitGreen3
+    #hidden:
+    #  shouts:
+    #    - soldier_green_shout2
+    #    - soldier_green_shout4
+    #    - soldier_green_shout5
 ...
