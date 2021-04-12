@@ -1,5 +1,5 @@
 ---
-
+# Set props hidden property to false to display in the editor.
 cutscene_props:
   - id: "ragnawarship_sail"
     path: "backgrounds/props/ragnawarship_sail"
