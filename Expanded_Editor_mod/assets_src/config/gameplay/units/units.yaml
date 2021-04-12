@@ -1,12 +1,12 @@
 ---
 units:
 
-# ------------------------------
+# ======================================================================================================================================================
 #   COMMANDERS
-# ------------------------------
-  # ------------------------------
+# ======================================================================================================================================================
+  # ----------------------------------------------------------------------------------------------------
   #   Cherrystone
-  # ------------------------------
+  # ----------------------------------------------------------------------------------------------------
   # Mercia
   - class: commander_mercia
     faction: cherrystone
@@ -402,9 +402,9 @@ units:
     #  alternativeRuns:
     #    - angry_run
     
-    # ------------------------------
+    # ----------------------------------------------------------------------------------------------------
     #   Felheim
-    # ------------------------------
+    # ----------------------------------------------------------------------------------------------------
     # Valder
   - class: commander_valder
     faction: felheim
@@ -774,4 +774,329 @@ units:
     #  alternativeRuns:
     #    - run_wet
     
+    # ----------------------------------------------------------------------------------------------------
+    #   Heavensong
+    # ----------------------------------------------------------------------------------------------------
+    # Tenri
+  - class: commander_tenri
+    faction: heavensong
+    name: character_tenri_name
+    mapAnimation: units/commanders/tenri/map_tenri
+    battleAnimation: units/commanders/tenri/battle_tenri
+    battleAnimationRiver: fx/river_overlay/battle_tenri_river
+    smallPortrait: units/commanders/tenri/portrait_tenri_small.png
+    mediumPortrait: units/commanders/tenri/portrait_tenri_medium.png
+    mapSpeed: 4.0
+    skinColour: typeIII
+    grabPos: [30, 28]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    sounds:
+      attackMap: unitAttack
+      preAttack: tenri/tenriPreAttack
+      attack: tenri/tenriAttack
+      attackShout: tenri/tenriAttackShout
+      attackCommanderShout: tenri/tenriCommanderKillShout
+      captureShout: tenri/tenriShoutTheresNoTimeToWaste
+      death: tenri/tenriDie
+      deathMap: tenri/tenriDieGhost
+      deathMapNoBattle: tenri/tenriDieNoBattle
+      run: infantryLightMapEntry
+      runMap: infantryLightMapEntry
+      firstHit: tenri/tenriHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: tenri/tenriGrooveIntro
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 1.5
+    emotes:
+      idle: idle
+      surprise: emote_surprise
+      positive: emote_positive
+      negative: emote_negative
+      laugh: emote_laugh
+      calm: emote_calm
+      bow: emote_bow
+      dance: emote_dance
+    shouts:
+      tenri_acoldwindblows: tenri/tenriShoutAColdWindBlows
+      tenri_astormapproaches: tenri/tenriShoutAStormApproaches
+      tenri_attack1: tenri/tenriShoutAttack1
+      tenri_attack2: tenri/tenriShoutAttack2
+      tenri_attack3: tenri/tenriShoutAttack3
+      tenri_attack4: tenri/tenriShoutAttack4
+      tenri_ihavefailed: tenri/tenriShoutIHaveFailed
+      tenri_imnotheretoplay: tenri/tenriShoutImNotHereToPlay
+      tenri_hit1: tenri/tenriShoutHit1
+      tenri_hit2: tenri/tenriShoutHit2
+      tenri_hit3: tenri/tenriShoutHit3
+      tenri_powerofthetempest: tenri/tenriShoutPowerOfTheTempest
+      tenri_theresnotimetowaste: tenri/tenriShoutTheresNoTimeToWaste
+      tenri_thewindrises: tenri/tenriShoutTheWindRises
+      tenri_illmakethisquick: tenri/tenriShoutIllMakeThisQuick
+      tenri_absolutelynot: tenri/tenriShoutAbsolutelyNot
+      tenri_agreed: tenri/tenriShoutAgreed
+      tenri_fallback: tenri/tenriShoutFallBack
+      tenri_farewell: tenri/tenriShoutFarewell
+      tenri_getoutofmysight: tenri/tenriShoutGetOutOfMySight
+      tenri_greetings: tenri/tenriShoutGreetings
+      tenri_hmph: tenri/tenriShoutHmph
+      tenri_howtimeflies: tenri/tenriShoutHowTimeFlies
+      tenri_itireofyourpresence: tenri/tenriShoutITireOfYourPresence
+      tenri_koji1: tenri/tenriShoutKoji1
+      tenri_koji2: tenri/tenriShoutKoji2
+      tenri_laugh1: tenri/tenriShoutLaugh1
+      tenri_laugh2: tenri/tenriShoutLaugh2
+      tenri_no: tenri/tenriShoutNo
+      tenri_noonethreatensmypeople: tenri/tenriShoutNoOneThreatensMyPeople
+      tenri_sigh: tenri/tenriShoutSigh
+      tenri_standdown: tenri/tenriShoutStandDown
+      tenri_stopthis: tenri/tenriShoutStopThis
+      tenri_victoryshallbeswift: tenri/tenriShoutVictoryShallBeSwift
+      tenri_weareoldfriends: tenri/tenriShoutWeAreOldFriends
+      tenri_westandtogether: tenri/tenriShoutWeStandTogether
+      tenri_whatisthis1: tenri/tenriShoutWhatIsThis1
+      tenri_whatisthis2: tenri/tenriShoutWhatIsThis2
+      tenri_yes: tenri/tenriShoutYes
+      tenri_youfiend: tenri/tenriShoutYouFiend
+      tenri_youhavemythanks: tenri/tenriShoutYouHaveMyThanks
+      tenri_youthinkthisisagame: tenri/tenriShoutYouThinkThisIsAGame
+    alternativeAttackSounds:
+      no_voice: tenri/tenriAttackNoVoice
+    #hidden:
+    #  shouts:
+    #    - tenri_attack1
+    #    - tenri_whatisthis2
+
+    # Koji
+  - class: commander_koji
+    faction: heavensong
+    name: character_koji_name
+    mapAnimation: units/commanders/koji/map_koji
+    battleAnimation: units/commanders/koji/battle_koji
+    battleAnimationRiver: fx/river_overlay/battle_koji_river
+    smallPortrait: units/commanders/koji/portrait_koji_small.png
+    mediumPortrait: units/commanders/koji/portrait_koji_medium.png
+    mapSpeed: 4.0
+    skinColour: typeIII
+    grabPos: [29, 39]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    alternativeCapture:
+      endPosOffset: -160 #coming from the left
+    sounds:
+      attackMap: unitAttack
+      attack: koji/kojiAttack
+      attackShout: koji/kojiPreAttack
+      attackCommanderShout: koji/kojiCommanderKillShout
+      captureShout: koji/kojiCapture
+      capture: koji/kojiCaptureCrash
+      death: koji/kojiDie
+      deathMap: koji/kojiDieGhost
+      deathMapNoBattle: koji/kojiDieNoBattle
+      run: giantEntry
+      runMap: giantEntry
+      firstHit: koji/kojiHit
+      hit: hitWood
+      hitMap: hitWood
+      groove: koji/kojiGrooveIntro
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 2.65
+    shouts:
+      koji_attack1: koji/kojiShoutAttack1
+      koji_attack2: koji/kojiShoutAttack2
+      koji_attack3: koji/kojiShoutAttack3
+      koji_attack4: koji/kojiShoutAttack4
+      koji_capture1: koji/kojiShoutHopeICanFit
+      koji_capture2: koji/kojiShoutAnyoneHome
+      koji_die: koji/kojiShoutSorryMum
+      koji_yeah: koji/kojiShoutYeah1
+      koji_groovecheer1: koji/kojiShoutYeah2
+      koji_groovecheer2: koji/kojiShoutHaha
+      koji_groove: koji/kojiShoutSparrowBombs
+      koji_hey: koji/kojiShoutHey
+      koji_hit1: koji/kojiShoutHit1
+      koji_hit2: koji/kojiShoutHit2
+      koji_hit3: koji/kojiShoutHit3
+      koji_hit4: koji/kojiShoutHit4
+      koji_hit5: koji/kojiShoutHit5
+      koji_imrealsorry: koji/kojiShoutImRealSorry
+      koji_ivemessedup: koji/kojiShoutIveMessedUp
+      koji_iwon: koji/kojiShoutIWon
+      koji_iwonawesome: koji/kojiShoutIWonAwesome
+      koji_preattack1: koji/kojiShoutIaidoStance
+      koji_preattack2: koji/kojiShoutLetsGoTenko
+      koji_preattack3: koji/kojiShoutBattleStanceActivate
+      koji_select1: koji/kojiShoutThisIsMyChance
+      koji_select2: koji/kojiShoutThisWillBeAwesome
+      koji_imadeitmyself: koji/kojiShoutIMadeItMyself
+      koji_introdution: koji/kojiShoutIntroduction
+      koji_letshopethisworks: koji/kojiShoutLetsHopeThisWorks
+      koji_seeya: koji/kojiShoutSeeYa
+      koji_thefinishingblow: koji/kojiShoutTheFinishingBlow
+      koji_thisismypuppettenko: koji/kojiShoutThisIsMyPuppetTenko
+      koji_thiswillbefun: koji/kojiShoutThisWillBeFun
+      koji_waah: koji/kojiShoutWaah
+      koji_youunderestimatedme: koji/kojiShoutYouUnderestimatedMe
+      koji_heyangry: koji/kojiShoutHeyAngry
+      koji_imtougherthanyouthink: koji/kojiShoutImTougherThanYouThink
+      koji_laugh1: koji/kojiShoutLaugh1
+      koji_laugh2: koji/kojiShoutLaugh2
+      koji_naw: koji/kojiShoutNaw
+      koji_oops: koji/kojiShoutOops
+      koji_sigh: koji/kojiShoutSigh
+      koji_tenkoisdueforanupgrade: koji/kojiShoutTenkoIsDueForAnUpgrade
+      koji_thanks: koji/kojiShoutThanks
+      koji_uh: koji/kojiShoutUh
+      koji_wha: koji/kojiShoutWha
+      koji_wow: koji/kojiShoutWow
+      koji_hmph: koji/kojiShoutHmph
+      koji_youshouldntthreatenme: koji/kojiShoutYouShouldntThreatenMe
+    emotes:
+      idle: idle
+      surprise: emote_surprise
+      positive: emote_positive
+      negative: emote_negative
+      hypno: emote_hypno
+      mech: emote_mech
+      bow: emote_bow
+      dance: emote_dance
+    alternativeRuns:
+      - id: emote_mech
+        sound: trebuchetMapEntry
+    alternativeAttackSounds:
+      no_voice: koji/kojiAttackNoVoice
+     #hidden:
+     # emotes:
+     #   - mech
+     # alternativeRuns:
+     #   - emote_mech
+
+    # Ryota
+  - class: commander_ryota
+    faction: heavensong
+    name: character_ryota_name
+    mapAnimation: units/commanders/ryota/map_ryota
+    battleAnimation: units/commanders/ryota/battle_ryota
+    battleAnimationRiver: fx/river_overlay/battle_ryota_river
+    smallPortrait: units/commanders/ryota/portrait_ryota_small.png
+    mediumPortrait: units/commanders/ryota/portrait_ryota_medium.png
+    mapSpeed: 4.0
+    skinColour: typeIII
+    grabPos: [28, 27]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    sounds:
+      attackMap: unitAttack
+      attack: ryota/ryotaAttack
+      attackShout: ryota/ryotaAttackShout
+      attackCommanderShout: ryota/ryotaCommanderKillShout
+      captureShout: ryota/ryotaCapture
+      death: ryota/ryotaDie
+      deathMap: ryota/ryotaDieGhost
+      deathMapNoBattle: ryota/ryotaDieNoBattle
+      run: ryota/ryotaEntry
+      runMap: ryota/ryotaEntry
+      firstHit: ryota/ryotaHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: ryota/ryotaGrooveIntro
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 1.55
+    emotes:
+      idle: idle
+      surprise: emote_surprise
+      positive: emote_positive
+      negative: emote_negative
+      laugh: emote_laugh
+      blush: emote_blush
+      dance: emote_dance
+    shouts:
+      ryota_attack1: ryota/ryotaShoutAttack1
+      ryota_attack2: ryota/ryotaShoutAttack2
+      ryota_attack3: ryota/ryotaShoutAttack3
+      ryota_attack4: ryota/ryotaShoutAttack4
+      ryota_attack5: ryota/ryotaShoutAttack5
+      ryota_attack6: ryota/ryotaShoutAttack6
+      ryota_attack7: ryota/ryotaShoutAttack7
+      ryota_attack8: ryota/ryotaShoutAttack8
+      ryota_drawyourfinalbreath: ryota/ryotaShoutDrawYourFinalBreath
+      ryota_empress: ryota/ryotaShoutEmpress
+      ryota_farewell: ryota/ryotaShoutFarewell
+      ryota_goodriddance: ryota/ryotaShoutGoodRiddance
+      ryota_greetings: ryota/ryotaShoutGreetings
+      ryota_hit1: ryota/ryotaShoutHit1
+      ryota_hit2: ryota/ryotaShoutHit2
+      ryota_hit3: ryota/ryotaShoutHit3
+      ryota_hit4: ryota/ryotaShoutHit4
+      ryota_hit5: ryota/ryotaShoutHit5
+      ryota_hmph1: ryota/ryotaShoutHmph1
+      ryota_hmph2: ryota/ryotaShoutHmph2
+      ryota_howunexpected: ryota/ryotaShoutHowUnexpected
+      ryota_ihavefailed: ryota/ryotaShoutIHaveFailed
+      ryota_illcutyoudown: ryota/ryotaShoutIllCutYouDown
+      ryota_ishalldefendyou: ryota/ryotaShoutIShallDefendYou
+      ryota_ishallfightuntilifall: ryota/ryotaShoutIShallFightUntilIFall
+      ryota_ishalltakethis: ryota/ryotaShoutIShallTakeThis
+      ryota_iwillnotbedefeated: ryota/ryotaShoutIWillNotBeDefeated
+      ryota_laugh1: ryota/ryotaShoutLaugh1
+      ryota_laugh2: ryota/ryotaShoutLaugh2
+      ryota_myempress: ryota/ryotaShoutMyEmpress
+      ryota_no: ryota/ryotaShoutNo
+      ryota_oops: ryota/ryotaShoutOops
+      ryota_pleaseforgiveme: ryota/ryotaShoutPleaseForgiveMe
+      ryota_sedge: ryota/ryotaShoutSedge
+      ryota_sigh: ryota/ryotaShoutSigh
+      ryota_somedayimaybeworthy: ryota/ryotaShoutSomeDayIMayBeWorthy
+      ryota_stepback: ryota/ryotaShoutStepBack
+      ryota_thankyou: ryota/ryotaShoutThankYou
+      ryota_thebeautifulqueenmercia: ryota/ryotaShoutTheBeautifulQueenMercia
+      ryota_theywontseemecoming: ryota/ryotaShoutTheyWontSeeMeComing
+      ryota_victorydrawscloser: ryota/ryotaShoutVictoryDrawsCloser
+      ryota_what: ryota/ryotaShoutWhat
+      ryota_willnotbedefeated: ryota/ryotaShoutWillNotBeDefeated
+      ryota_yes: ryota/ryotaShoutYes
+      ryota_you: ryota/ryotaShoutYou
+      ryota_youarealreadydead: ryota/ryotaShoutYouAreAlreadyDead
+      ryota_youhavebeencareless: ryota/ryotaShoutYouHaveBeenCareless
+      ryota_youllneverseemecoming: ryota/ryotaShoutYoullNeverSeeMeComing
+      ryota_youreamonster: ryota/ryotaShoutYoureAMonster
+      ryota_yourecornered: ryota/ryotaShoutYoureCornered
+    alternativeAttackSounds:
+      no_voice: ryota/ryotaAttackNoVoice
+    #hidden:
+    #  shouts:
+    #    - ryota_attack4
+    #    - ryota_hit4
+    #    - ryota_hit5
+        
+    # ----------------------------------------------------------------------------------------------------
+    #   Floran
+    # ----------------------------------------------------------------------------------------------------
+    
+    # Greenfinger
+    # Nuru
+    # Sedge
+    
+    # ----------------------------------------------------------------------------------------------------
+    #   Outlaws
+    # ----------------------------------------------------------------------------------------------------
+    
+    # Wulfar
+    # Errol & Orla
+    # Vesper
+    
+    # ----------------------------------------------------------------------------------------------------
+    #   Requiem / Other
+    # ----------------------------------------------------------------------------------------------------
+    
+    # Elodie
+    # Dark Mercia
+    # Mercival
 ...
