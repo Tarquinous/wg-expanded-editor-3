@@ -52,8 +52,7 @@ en-GB:
     ui_cutscene_emote_petting: Petting Enid     # Shared by: Orla
     ui_cutscene_emote_cat: Enid Resting
     ui_cutscene_emote_catlay: Enid Laying Down
-    ui_cutscene_emote_catstop: Enid Stops Grooming
-    ui_cutscene_emote_catsstop: Test-2
+    ui_cutscene_emote_catsstop: Enid Stops Grooming
     
     # Orla          - None changed
     # Vesper (Boss) - None changed
