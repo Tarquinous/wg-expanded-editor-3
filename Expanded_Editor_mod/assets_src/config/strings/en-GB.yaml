@@ -1,16 +1,30 @@
 ---
+# Improves readability of unlocked options by changing visual text.
+# Some built-in tools have no string and display as #MISSING# unless manually defined here.
 en-GB:
-    # Cutscene props
+    # CUTSCENE BACKGROUNDS
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    ui_cutscene_background_forest_edited: Forest (Cactus edited)
+    ui_cutscene_background_sand_forest_edited: Desert Vegetation (Less cactus)
+    
+    # CUTSCENE MUSIC
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    music_name_victory: Victory! (Does not loop)
+    music_name_defeat: Defeat! (Does not loop)
+    music_name_intro: Opening Groove (Does not loop)
+    
+    # CUTSCENE PROPS
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     ui_cutscene_prop_cherryship_sail: Sail - Cherrystone
     ui_cutscene_prop_ragnawarship_sail: Sail - Felheim (Torn)
     ui_cutscene_prop_tavernfire: Tavern Fireplace
     ui_cutscene_prop_cutscene_bush: Large Bush
     
-    # Cutscene shouts
-    
-    # Cutscene emotes
+    # CUTSCENE SHOUTS
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     
+    # CUTSCENE EMOTES
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     # Mercia
     ui_cutscene_emote_crouching: Crouching
     ui_cutscene_emote_crouching_loop: Crouching - Still
@@ -56,6 +70,7 @@ en-GB:
     
     # Orla          - None changed
     # Vesper (Boss) - None changed
-
-    # Cutscene walk types
+    
+    # CUTSCENE WALK TYPES
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ...
