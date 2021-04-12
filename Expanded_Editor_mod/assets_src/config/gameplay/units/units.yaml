@@ -4,6 +4,9 @@ units:
 # ------------------------------
 #   COMMANDERS
 # ------------------------------
+  # ------------------------------
+  #   Cherrystone
+  # ------------------------------
   # Mercia
   - class: commander_mercia
     faction: cherrystone
@@ -398,5 +401,377 @@ units:
     #    - caesar_hit3
     #  alternativeRuns:
     #    - angry_run
-...
+    
+    # ------------------------------
+    #   Felheim
+    # ------------------------------
+    # Valder
+  - class: commander_valder
+    faction: felheim
+    name: character_valder_name
+    mapAnimation: units/commanders/valder/map_valder
+    battleAnimation: units/commanders/valder/battle_valder
+    battleAnimationRiver: fx/river_overlay/battle_valder_river
+    smallPortrait: units/commanders/valder/portrait_valder_small.png
+    mediumPortrait: units/commanders/valder/portrait_valder_medium.png
+    mapSpeed: 4.0
+    skinColour: typeIV
+    grabPos: [20, 26]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    stayAfterDeath: true
+    sounds:
+      attackMap: unitAttack
+      attack: valder/valderAttack
+      attackCommander: valder/valderCommanderKillAttack
+      attackEffect: valder/valderAttackEffect
+      captureShout: valder/valderCapture
+      death: valder/valderDie
+      deathMap: valder/valderDieGhost
+      deathMapNoBattle: valder/valderDieNoBattle
+      run: infantryLightMapEntry
+      runMap: infantryLightMapEntry
+      firstHit: valder/valderHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: valder/valderGrooveIntro
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 1.85
+        effect: fx/bs_valder_attack
+        effectDelay: 1.8
+        ranged: true
+    emotes:
+      idle: idle
+      negative: emote_negative
+      laugh: emote_laugh
+      surprise: emote_surprise
+      hypno: emote_hypno
+      bow: emote_bow
+      dance: emote_dance
+    shouts:
+      valder_behold_the_gauntlet: valder/valderBeholdTheGauntlet
+      valder_by_my_hand: valder/valderByMyHand
+      valder_claim_this_power: valder/valderClaimThisPower
+      valder_dead_outnumber: valder/valderDeadOutnumber
+      valder_defeat: valder/valderNotTheEnd
+      valder_felheim_rises: valder/valderFelheimRises
+      valder_fooled: valder/valderFooled
+      valder_goodbye: valder/valderGoodbye
+      valder_hello: valder/valderHello
+      valder_hmm: valder/valderHmm
+      valder_hmph: valder/valderHmph
+      valder_how_did_you: valder/valderHowDidYou
+      valder_interesting: valder/valderInteresting
+      valder_introduction: valder/valderIntroduction
+      valder_laugh: valder/valderLaugh
+      valder_no: valder/valderNo
+      valder_no_escape: valder/valderNoEscape
+      valder_nothing_personal: valder/valderNothingPersonal
+      valder_oops: valder/valderOops
+      valder_our_dominion: valder/valderOurDominion
+      valder_pain1: valder/valderPain1
+      valder_pain2: valder/valderPain2
+      valder_pain3: valder/valderPain3
+      valder_pain4: valder/valderPain4
+      valder_perish: valder/valderPerish
+      valder_ragna: valder/valderRagna
+      valder_ragna_angry: valder/valderRagnaAngry
+      valder_remember: valder/valderRemember
+      valder_retribution: valder/valderRetribution
+      valder_return_to_dust: valder/valderReturnToDust
+      valder_rise: valder/valderRise
+      valder_sigh: valder/valderSigh
+      valder_sigrid: valder/valderSigrid
+      valder_surprise: valder/valderSurprise
+      valder_thanks: valder/valderThanks
+      valder_this_fight: valder/valderThisFight
+      valder_traitor: valder/valderTraitor
+      valder_very_well: valder/valderVeryWell
+      valder_victory: valder/valderVictory
+      valder_what: valder/valderWhat
+      valder_what_darkness: valder/valderWhatDarkness
+      valder_will_not_fail: valder/valderWillNotFail
+      valder_yes: valder/valderYes
+      valder_you_fought_well: valder/valderYouFoughtWell
+      valder_you_must_end_this: valder/valderYouMustEndThis
+      valder_your_kingdom: valder/valderYourKingdom
+    alternativeAttackSounds:
+      no_voice: valder/valderAttackNoVoice
+    #hidden:
+    #  shouts:
+    #    - valder_pain3
+    #  alternativeRuns:
+    #    - angry_run
+    
+    # Sigrid
+  - class: commander_sigrid
+    faction: felheim
+    name: character_sigrid_name
+    mapAnimation: units/commanders/sigrid/map_sigrid
+    battleAnimation: units/commanders/sigrid/battle_sigrid
+    battleAnimationRiver: fx/river_overlay/battle_sigrid_river
+    smallPortrait: units/commanders/sigrid/portrait_sigrid_small.png
+    mediumPortrait: units/commanders/sigrid/portrait_sigrid_medium.png
+    mapSpeed: 4.0
+    skinColour: typeI
+    grabPos: [34, 55]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    attackRunTimeMin: 2.5
+    attackRunTimeMax: 3.5
+    sounds:
+      preAttack: sigrid/sigridHover
+      attackMap: unitAttack
+      attack: sigrid/sigridAttack
+      attackShout: sigrid/sigridPreAttack
+      attackCommander: sigrid/sigridCommanderKillAttack
+      attackCommanderShout: sigrid/sigridCommanderKillShout
+      counter: sigrid/sigridCounterAttack
+      captureShout: sigrid/sigridShoutCalmAmIInvited
+      death: sigrid/sigridDie
+      deathMap: sigrid/sigridDieGhost
+      deathMapNoBattle: sigrid/sigridDieNoBattle
+      run: infantryLightMapEntry
+      angryRun: balloonEntryMap
+      runMap: infantryLightMapEntry
+      firstHit: sigrid/sigridHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: sigrid/sigridGrooveIntro
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.1]
+        ranged: false
+    emotes:
+      idle: idle
+      idle_floating: angry_run
+      surprise: emote_surprise
+      positive: emote_positive
+      negative: emote_negative
+      laugh: emote_laugh
+      attack: counter
+      idle_sword: emote_idle_sword
+      positive_sword: emote_positive_sword
+      brave_sword: emote_brave_sword
+      idle_flying: idle_flying
+      surprise_flying: emote_surprise_flying
+      key: emote_key
+      stab_loop: emote_stab_loop
+      stab: emote_stab
+      swordup: emote_swordup
+      swordswing: emote_swordswing
+      negative_sword: emote_negative_sword
+      dance: emote_dance
+    shouts:
+      sigrid_calminvited: sigrid/sigridShoutCalmAmIInvited
+      sigrid_calmareyouafraid: sigrid/sigridShoutCalmAreYouAfraid
+      sigrid_calmdeadtravelfast: sigrid/sigridShoutCalmDeadTravelFast
+      sigrid_calmfoughtmanybattles: sigrid/sigridShoutCalmFoughtManyBattles
+      sigrid_calmgoodbye: sigrid/sigridShoutCalmGoodbye
+      sigrid_calmhit1: sigrid/sigridShoutCalmHit1
+      sigrid_calmhit2: sigrid/sigridShoutCalmHit2
+      sigrid_calmhit3: sigrid/sigridShoutCalmHit3
+      sigrid_calmhit4: sigrid/sigridShoutCalmHit4
+      sigrid_calmhmm: sigrid/sigridShoutCalmHmm
+      sigrid_calmhmph: sigrid/sigridShoutCalmHmph
+      sigrid_calmhowfoolish: sigrid/sigridShoutCalmHowFoolish
+      sigrid_calmidontcare: sigrid/sigridShoutCalmIDontCare
+      sigrid_calmitssoclose: sigrid/sigridShoutCalmItsSoClose
+      sigrid_calmlaugh: sigrid/sigridShoutCalmLaugh1
+      sigrid_calmlaugh2: sigrid/sigridShoutCalmLaugh2
+      sigrid_calmlaugh3: sigrid/sigridShoutCalmLaugh3
+      sigrid_calmmortallife: sigrid/sigridShoutCalmMortalLife
+      sigrid_calmmortalsdieeasily: sigrid/sigridShoutCalmMortalsDieEasily
+      sigrid_calmno: sigrid/sigridShoutCalmNo
+      sigrid_calmolderthanilook: sigrid/sigridShoutCalmOlderThanILook
+      sigrid_calmqueenmercia: sigrid/sigridShoutCalmQueenMercia
+      sigrid_calmsigh: sigrid/sigridShoutCalmSigh
+      sigrid_calmsobeit: sigrid/sigridShoutCalmSoBeIt
+      sigrid_calmthisistiresome: sigrid/sigridShoutCalmThisIsTiresome
+      sigrid_calmvictorymeanslittle: sigrid/sigridShoutCalmVictoryMeansLittle
+      sigrid_calmwhat: sigrid/sigridShoutCalmWhat
+      sigrid_calmwhatisaman: sigrid/sigridShoutCalmWhatIsAMan
+      sigrid_calmwhatsurprised: sigrid/sigridShoutCalmWhatSurprised
+      sigrid_calmwhythankyou: sigrid/sigridShoutCalmWhyThankYou
+      sigrid_calmyes: sigrid/sigridShoutCalmYes
+      sigrid_calmyetanotherbattle: sigrid/sigridShoutCalmYetAnotherBattle
+      sigrid_feralattack1: sigrid/sigridShoutFeralAttack1
+      sigrid_feralattack2: sigrid/sigridShoutFeralAttack2
+      sigrid_feralattack3: sigrid/sigridShoutFeralAttack3
+      sigrid_feralattack4: sigrid/sigridShoutFeralAttack4
+      sigrid_feralbloodislife: sigrid/sigridShoutFeralBloodIsLife
+      sigrid_feralendyou: sigrid/sigridShoutFeralEndYou
+      sigrid_feralfacemenow: sigrid/sigridShoutFeralFaceMeNow
+      sigrid_feralfallbeforeme: sigrid/sigridShoutFeralFallBeforeMe
+      sigrid_feralhaveatyou: sigrid/sigridShoutFeralHaveAtYou
+      sigrid_feralhit1: sigrid/sigridShoutFeralHit1
+      sigrid_feralhit2: sigrid/sigridShoutFeralHit2
+      sigrid_feralhit3: sigrid/sigridShoutFeralHit3
+      sigrid_feralhit4: sigrid/sigridShoutFeralHit4
+      sigrid_feralihunger: sigrid/sigridShoutFeralIHunger
+      sigrid_feralkillyou: sigrid/sigridShoutFeralKillYou
+      sigrid_feralmynextvictim: sigrid/sigridShoutFeralMyNextVictim
+      sigrid_feralnowheretorun: sigrid/sigridShoutFeralNowhereToRun
+      sigrid_feralsohungry: sigrid/sigridShoutFeralSoHungry
+      sigrid_feralvampiricforce: sigrid/sigridShoutFeralVampiricForce
+      sigrid_feralwaitedlongenough: sigrid/sigridShoutFeralWaitedLongEnough
+      sigrid_feralwhat: sigrid/sigridShoutFeralWhat
+      sigrid_feralwhereisit: sigrid/sigridShoutFeralWhereIsIt
+      sigrid_feralyouarenothing: sigrid/sigridShoutFeralYouAreNothing
+      sigrid_feralscream1: sigrid/sigridShoutFeralScream1
+      sigrid_feralscream2: sigrid/sigridShoutFeralScream2
+      sigrid_feralscream3: sigrid/sigridShoutFeralScream3
+    alternativeRuns:
+      - id: run_sword
+      - id: angryrun_sword
+        sound: balloonEntryMap
+      - id: idle_flying
+        sound: balloonEntryMap
+    alternativeAttackSounds:
+      no_voice: sigrid/sigridAttackNoVoice
+    #hidden:
+    #  emotes:
+    #    - attack
+    #    - idle_sword
+    #    - brave_sword
+    #    - key
+    #    - stab_loop
+    #    - stab
+    #    - swordup
+    #    - swordswing
+    #    - negative_sword
+    #    - positive_sword
+    #  shouts:
+    #    - sigrid_feralattack2
+    #  alternativeRuns:
+    #    - run_sword
+    #    - angryrun_sword
+    
+    # Ragna
+  - class: commander_ragna
+    faction: felheim
+    name: character_ragna_name
+    mapAnimation: units/commanders/ragna/map_ragna
+    battleAnimation: units/commanders/ragna/battle_ragna
+    battleAnimationRiver: fx/river_overlay/battle_ragna_river
+    smallPortrait: units/commanders/ragna/portrait_ragna_small.png
+    mediumPortrait: units/commanders/ragna/portrait_ragna_medium.png
+    mapSpeed: 4.0
+    skinColour: typeI
+    grabPos: [26, 111]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    stayAfterDeath: true
+    sounds:
+      attackMap: unitAttack
+      attack: ragna/ragnaAttack
+      attackShout: ragna/ragnaPreAttack
+      attackCommanderShout: ragna/ragnaCommanderKillShout
+      captureShout: ragna/ragnaCapture
+      death: ragna/ragnaDie
+      deathMap: ragna/ragnaDieGhost
+      deathMapNoBattle: ragna/ragnaDieNoBattle
+      run: infantryMediumMapEntry1
+      runMap: infantryMediumMapEntry1
+      firstHit: ragna/ragnaHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: ragna/ragnaGrooveIntro
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 0.3
+    shouts:
+      ragna_andstaydown: ragna/ragnaShoutAndStayDown
+      ragna_attack1: ragna/ragnaShoutAttack1
+      ragna_attack2: ragna/ragnaShoutAttack2
+      ragna_attack3: ragna/ragnaShoutAttack3
+      ragna_fightme1: ragna/ragnaShoutFightMe1
+      ragna_fightme2: ragna/ragnaShoutFightMe2
+      ragna_fightmemultiple: ragna/ragnaShoutFightMeMultiple
+      ragna_getgood: ragna/ragnaShoutGetGood
+      ragna_getouttamyway: ragna/ragnaShoutGetOuttaMyWay
+      ragna_grr: ragna/ragnaShoutGrr
+      ragna_hit1: ragna/ragnaShoutHit1
+      ragna_hit2: ragna/ragnaShoutHit2
+      ragna_hit3: ragna/ragnaShoutHit3
+      ragna_hit4: ragna/ragnaShoutHit4
+      ragna_hit5: ragna/ragnaShoutHit5
+      ragna_hmph: ragna/ragnaShoutHmph
+      ragna_how: ragna/ragnaShoutHow
+      ragna_beatyouthistime: ragna/ragnaShoutIllBeatYouThisTime
+      ragna_illcrushyou: ragna/ragnaShoutIllCrushYou
+      ragna_tearyoutopieces: ragna/ragnaShoutIllTearYouToPieces
+      ragna_imalreadydead: ragna/ragnaShoutImAlreadyDead
+      ragna_imgonnabreakyou: ragna/ragnaShoutImGonnaBreakYou
+      ragna_imunstoppable: ragna/ragnaShoutImUnstoppable
+      ragna_introduction: ragna/ragnaShoutIntroduction
+      ragna_itsme: ragna/ragnaShoutItsMe
+      ragna_itsnotlike: ragna/ragnaShoutItsNotLike
+      ragna_itsoverloser: ragna/ragnaShoutItsOverLoser
+      ragna_iwon: ragna/ragnaShoutIWon
+      ragna_iwonhah: ragna/ragnaShoutIWonHah
+      ragna_laugh1: ragna/ragnaShoutLaugh1
+      ragna_laugh2: ragna/ragnaShoutLaugh2
+      ragna_laugh3: ragna/ragnaShoutLaugh3
+      ragna_letsendthis: ragna/ragnaShoutLetsEndThis
+      ragna_no: ragna/ragnaShoutNo
+      ragna_noangry: ragna/ragnaShoutNoAngry
+      ragna_oh1: ragna/ragnaShoutOh
+      ragna_shutup: ragna/ragnaShoutShutUp
+      ragna_sigh: ragna/ragnaShoutSigh
+      ragna_specialmove: ragna/ragnaShoutSpecialMove
+      ragna_stopthat: ragna/ragnaShoutStopThat
+      ragna_sureokay: ragna/ragnaShoutSureOkay
+      ragna_takethis: ragna/ragnaShoutTakeThis
+      ragna_thanksiguess: ragna/ragnaShoutThanksIGuess
+      ragna_thisisminenow: ragna/ragnaShoutThisIsMineNow
+      ragna_thisisntfair: ragna/ragnaShoutThisIsntFair
+      ragna_thisisntover: ragna/ragnaShoutThisIsntOver
+      ragna_thissucks: ragna/ragnaShoutThisSucks
+      ragna_ugh: ragna/ragnaShoutUgh
+      ragna_ughfine1: ragna/ragnaShoutUghFine1
+      ragna_ughfine2: ragna/ragnaShoutUghFine2
+      ragna_whatangry: ragna/ragnaShoutWhatAngry
+      ragna_whatshocked: ragna/ragnaShoutWhatShocked
+      ragna_whatever: ragna/ragnaShoutWhatever
+      ragna_whatsthematter: ragna/ragnaShoutWhatsTheMatter
+      ragna_yeah: ragna/ragnaShoutYeah
+      ragna_yourefinished: ragna/ragnaShoutYoureFinished
+      ragna_youregonnaneedstitches: ragna/ragnaShoutYoureGonnaNeedStitches
+      ragna_drowning: ragna/ragnaDrowning
+    emotes:
+      idle: idle
+      surprise: emote_surprise
+      positive: emote_positive
+      negative: emote_negative
+      laugh: emote_laugh
+      idle_wet: idle_wet
+      invisible: invisible
+      shock: emote_shock
+      tantrum: emote_tantrum
+      pose: emote_pose
+      thumbs_up: emote_thumbs_up
+      dance: emote_dance
+    alternativeRuns:
+      - id: run_wet
+        sound: infantryMediumWetMapEntry1
+    alternativeAttackSounds:
+      no_voice: ragna/ragnaAttackNoVoice
+    #hidden:
+    #  emotes:
+    #    - idle_wet
+    #    - invisible
+    #  shouts:
+    #    - ragna_hit4
+    #    - ragna_laugh2
+    #    - ragna_ughfine1
+    #    - ragna_drowning
+    #    - ragna_fightmemultiple
+    #  alternativeRuns:
+    #    - run_wet
+    
 ...
