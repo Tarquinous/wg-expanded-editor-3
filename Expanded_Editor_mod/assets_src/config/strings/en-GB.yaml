@@ -15,28 +15,48 @@ en-GB:
     ui_cutscene_emote_crouching: Crouching
     ui_cutscene_emote_crouching_loop: Crouching - Still
     ui_cutscene_emote_hesitate: Crouching - Hesitating
-    ui_cutscene_emote_reachingdown: Crouching - Reaching
-    ui_cutscene_emote_stab_loop: Stab - Still
+    ui_cutscene_emote_reachingdown: Crouching - Reaching # Shared by: Sigrid
+    ui_cutscene_emote_stab_loop: Stab - Still            # Shared by: Sigrid
     
-    # Emeric
-    # Caesar
-    # Valder
-    # Sigrid
-    # Ragna
-    # Tenri
+    # Emeric      - None changed
+    # Caesar      - None changed
+    # Valder      - None changed
+    # Sigrid      - None changed
+    # Ragna       - None changed
+    # Tenri       - None changed
+    
     # Koji
-    # Ryota
-    # Greenfinger
-    # Nuru
-    # Sedge
+    ui_cutscene_emote_mech: Giant Tenko
+
+    # Ryota       - None changed
+    # Greenfinger - None changed
+    # Nuru        - None changed
+    # Sedge       - None changed
+    
     # Wulfar
-    # Twins
-    # Vesper
-    # Elodie
-    # Mercival
+    ui_cutscene_emote_bush: Bush - Sequence 1  # Shared by: Errol
+    ui_cutscene_emote_bush2: Bush - Sequence 2 # Shared by: Errol
+    ui_cutscene_emote_bush3: Bush - Hidden     # The first stage is the stationary bush, despite the numbering.
+    ui_cutscene_emote_cactus: Cactus Sequence #  Shared by: Errol, Orla
+    ui_cutscene_emote_rope: Rope Sequence      # Shared by: Errol, Orla
+    ui_cutscene_emote_grab: Pick up Twins
+
+    # Twins        - None changed
+    # Vesper       - None changed
+    # Elodie       - None changed
+    # Dark Mercia  - None changed
+    # Mercival     - None changed
+    
     # Errol
-    # Orla
-    # Vesper (Boss)
+    ui_cutscene_emote_pet: Twins Petting Enid
+    ui_cutscene_emote_petting: Petting Enid  # Shared by: Orla
+    ui_cutscene_emote_cat: Enid Resting
+    ui_cutscene_emote_catlay: Enid Laying Down
+    ui_cutscene_emote_catstop: Enid Stops Grooming
+    ui_cutscene_emote_catsstop: Test-2
+    
+    # Orla          - None changed
+    # Vesper (Boss) - None changed
 
     # Cutscene walk types
 ...
