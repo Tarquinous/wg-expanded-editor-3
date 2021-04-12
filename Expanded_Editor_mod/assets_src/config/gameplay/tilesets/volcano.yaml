@@ -9,8 +9,8 @@ tilesets:
         portraitSprite: terrain_portraits_plains
         battleBackgroundSpriteSheet: backgrounds/volcano_battlescreen_extendedbackgrounds
         battleBackgroundSprite: volcano_battlescreen_extendedbackgrounds_volcano
-        iconSpriteSheet: ui
-        iconSprite: terrain_icons_Volcano
+        iconSpriteSheet: ui_ExpandedEditor3
+        iconSprite: ":img:ui/terrain/terrain_icons_Volcano"
         fillColour: '#92b141'
       - types: [ice]
         spriteSheet: tilesets
@@ -19,8 +19,8 @@ tilesets:
         portraitSprite: terrain_portraits_snow_plains
         battleBackgroundSpriteSheet: backgrounds/volcano_battlescreen_extendedbackgrounds
         battleBackgroundSprite: volcano_battlescreen_extendedbackgrounds_volcano
-        iconSpriteSheet: ui
-        iconSprite: terrain_icons_Volcano
+        iconSpriteSheet: ui_ExpandedEditor3
+        iconSprite: ":img:ui/terrain/terrain_icons_Volcano"
         fillColour: '#aec6e3'
       - types: [desert]
         spriteSheet: tilesets
@@ -29,8 +29,8 @@ tilesets:
         portraitSprite: terrain_portraits_sand_plains
         battleBackgroundSpriteSheet: backgrounds/volcano_battlescreen_extendedbackgrounds
         battleBackgroundSprite: volcano_battlescreen_extendedbackgrounds_volcano
-        iconSpriteSheet: ui
-        iconSprite: terrain_icons_Volcano
+        iconSpriteSheet: ui_ExpandedEditor3
+        iconSprite: ":img:ui/terrain/terrain_icons_Volcano"
         fillColour: '#987647'
       - types: [volcano]
         spriteSheet: tilesets
@@ -39,8 +39,8 @@ tilesets:
         portraitSprite: terrain_portraits_sand_plains
         battleBackgroundSpriteSheet: backgrounds/volcano_battlescreen_extendedbackgrounds
         battleBackgroundSprite: volcano_battlescreen_extendedbackgrounds_volcano
-        iconSpriteSheet: ui
-        iconSprite: terrain_icons_Volcano
+        iconSpriteSheet: ui_ExpandedEditor3
+        iconSprite: ":img:ui/terrain/terrain_icons_Volcano"
         fillColour: '#6d5e56'
     primaryConnect: []
     decayTo: plains
