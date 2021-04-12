@@ -1,5 +1,5 @@
 ---
-# default height: 34
+# Set backgrounds hidden property to false to display in the editor.
 cutscene_backgrounds:
   - id: grass_sky
     hidden: false
