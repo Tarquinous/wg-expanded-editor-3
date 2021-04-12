@@ -1,13 +1,24 @@
 ---
+# Music entries are overridden to allow full use without unlocks and freely on the map.
+# The following proprerties are removed:
+#  - availableOnMap
+#  - cutsceneUnlock
+#  - hidden
 
 music:
-    # Remove unlock requirement in the Map Editor
+    # Special unlockable themes - Remove unlock requirement in the Map Editor
+    # - - - - - - - - - - - - - - - - - - - -
   - id: requiem
     name: music_name_requiem
     audioEvent: music/requiem
+    #cutsceneUnlock: gallery_elodie
   - id: newlife
     name: music_name_newlife
     audioEvent: music/newlife
+    #cutsceneUnlock: gallery_elodie
+    
+    # Character themes - Remove unlock requirement in the Map Editor
+    # - - - - - - - - - - - - - - - - - - - -
   - id: mercia
     name: music_name_mercia
     audioEvent: music/mercia
@@ -17,6 +28,7 @@ music:
       animationSequence: emote_dance
       playerColour: red
       skinColour: typeII
+    #cutsceneUnlock: arcade_mercia
   - id: emeric
     name: music_name_emeric
     audioEvent: music/emeric
@@ -26,6 +38,7 @@ music:
       animationSequence: emote_dance
       playerColour: red
       skinColour: typeVI
+    #cutsceneUnlock: arcade_emeric
   - id: caesar
     name: music_name_caesar
     audioEvent: music/caesar
@@ -35,6 +48,7 @@ music:
       animationSequence: emote_dance
       playerColour: red
       skinColour: typeII
+    #cutsceneUnlock: arcade_caesar
   - id: valder
     name: music_name_valder
     audioEvent: music/valder
@@ -44,6 +58,7 @@ music:
       animationSequence: emote_dance
       playerColour: blue
       skinColour: typeIV
+    #cutsceneUnlock: arcade_valder
   - id: ragna
     name: music_name_ragna
     audioEvent: music/ragna
@@ -53,6 +68,7 @@ music:
       animationSequence: emote_dance
       playerColour: blue
       skinColour: typeI
+    #cutsceneUnlock: arcade_ragna
   - id: sigrid
     name: music_name_sigrid
     audioEvent: music/sigrid
@@ -62,6 +78,7 @@ music:
       animationSequence: emote_dance
       playerColour: blue
       skinColour: typeI
+    #cutsceneUnlock: arcade_sigrid
   - id: greenfinger
     name: music_name_greenfinger
     audioEvent: music/greenfinger
@@ -71,6 +88,7 @@ music:
       animationSequence: emote_dance
       playerColour: green
       skinColour: green
+    #cutsceneUnlock: arcade_greenfinger
   - id: nuru
     name: music_name_nuru
     audioEvent: music/nuru
@@ -80,6 +98,7 @@ music:
       animationSequence: emote_dance
       playerColour: green
       skinColour: green
+    #cutsceneUnlock: arcade_greenfinger
   - id: sedge
     name: music_name_sedge
     audioEvent: music/sedge
@@ -89,6 +108,7 @@ music:
       animationSequence: emote_dance
       playerColour: green
       skinColour: green
+    #cutsceneUnlock: arcade_sedge
   - id: tenri
     name: music_name_tenri
     audioEvent: music/tenri
@@ -98,6 +118,7 @@ music:
       animationSequence: emote_dance
       playerColour: yellow
       skinColour: typeIII
+    #cutsceneUnlock: arcade_tenri
   - id: ryota
     name: music_name_ryota
     audioEvent: music/ryota
@@ -107,6 +128,7 @@ music:
       animationSequence: emote_dance
       playerColour: yellow
       skinColour: typeIII
+    #cutsceneUnlock: arcade_ryota
   - id: koji
     name: music_name_koji
     audioEvent: music/koji
@@ -116,6 +138,7 @@ music:
       animationSequence: emote_dance
       playerColour: yellow
       skinColour: typeIII
+    #cutsceneUnlock: arcade_koji
   - id: elodie
     name: music_name_elodie
     audioEvent: music/elodie
@@ -125,6 +148,7 @@ music:
       animationSequence: emote_dance
       playerColour: purple
       skinColour: typeIV
+    #cutsceneUnlock: arcade_elodie
   - id: darkmercia
     name: music_name_darkmercia
     audioEvent: music/darkmercia
@@ -134,6 +158,7 @@ music:
       animationSequence: emote_dance
       playerColour: purple
       skinColour: typeII
+    #cutsceneUnlock: arcade_darkmercia
   - id: mercival
     name: music_name_mercival
     audioEvent: music/mercival
@@ -143,6 +168,7 @@ music:
       animationSequence: emote_dance
       playerColour: red
       skinColour: typeII
+    #cutsceneUnlock: arcade_mercival
   - id: wulfar
     name: music_name_wulfar
     audioEvent: music/wulfar
@@ -152,6 +178,7 @@ music:
       animationSequence: emote_dance
       playerColour: black
       skinColour: typeII
+    #cutsceneUnlock: arcade_wulfar
   - id: twins
     name: music_name_twins
     audioEvent: music/twins
@@ -161,6 +188,7 @@ music:
       animationSequence: emote_dance
       playerColour: black
       skinColour: typeVI
+    #cutsceneUnlock: arcade_twins
   - id: vesper
     name: music_name_vesper
     audioEvent: music/vesper
@@ -170,16 +198,18 @@ music:
       animationSequence: emote_dance
       playerColour: black
       skinColour: typeVI
+    #cutsceneUnlock: arcade_vesper
       
-    # Unhide unused songs
+    # Other songs - Make available on maps
+    # - - - - - - - - - - - - - - - - - - - -
   - id: victory
     name: music_name_victory
     audioEvent: music/victory_only
-    availableOnMap: true
+    #availableOnMap: false
   - id: defeat
     name: music_name_defeat
     audioEvent: music/defeat_only
-    availableOnMap: true
+    #availableOnMap: false
   - id: main_theme
     name: music_name_main_theme
     audioEvent: music/main_theme
@@ -188,7 +218,7 @@ music:
       animationSequence: emote_dance
       playerColour: red
       skinColour: typeII
-    availableOnMap: true
+    #availableOnMap: false
   - id: intro
     name: music_name_intro
     audioEvent: music/intro
@@ -197,9 +227,11 @@ music:
       animationSequence: emote_dance
       playerColour: red
       skinColour: typeII
-    availableOnMap: true
+    #availableOnMap: false
     
-    # Unhide unused ambient sounds
+    # Hidden ambience - Unhide unused ambient sounds
+    # Note: All ambient songs are left in the file for future use.
+    # - - - - - - - - - - - - - - - - - - - -
   - id: no_ambience
     name: music_name_none
     isAmbience: true
@@ -211,7 +243,7 @@ music:
     name: music_name_desert_river_ambience
     audioEvent: environmental/desertRiverAmbience
     isAmbience: true
-    hidden: false
+    #hidden: true
   - id: field_ambience
     name: music_name_field_ambience
     audioEvent: environmental/fieldAmbience
@@ -220,7 +252,7 @@ music:
     name: music_name_field_river_ambience
     audioEvent: environmental/fieldRiverAmbience
     isAmbience: true
-    hidden: false
+    #hidden: true
   - id: forest_ambience
     name: music_name_forest_ambience
     audioEvent: environmental/forestAmbience
@@ -241,7 +273,7 @@ music:
     name: music_name_snow_river_ambience
     audioEvent: environmental/snowRiverAmbience
     isAmbience: true
-    hidden: false
+    #hidden: true
   - id: tundra_ambience
     name: music_name_tundra_ambience
     audioEvent: environmental/tundraAmbience
