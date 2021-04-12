@@ -5,4 +5,38 @@ en-GB:
     ui_cutscene_prop_ragnawarship_sail: Sail - Felheim (Torn)
     ui_cutscene_prop_tavernfire: Tavern Fireplace
     ui_cutscene_prop_cutscene_bush: Large Bush
+    
+    # Cutscene shouts
+    
+    # Cutscene emotes
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    
+    # Mercia
+    ui_cutscene_emote_crouching: Crouching
+    ui_cutscene_emote_crouching_loop: Crouching - Still
+    ui_cutscene_emote_hesitate: Crouching - Hesitating
+    ui_cutscene_emote_reachingdown: Crouching - Reaching
+    ui_cutscene_emote_stab_loop: Stab - Still
+    
+    # Emeric
+    # Caesar
+    # Valder
+    # Sigrid
+    # Ragna
+    # Tenri
+    # Koji
+    # Ryota
+    # Greenfinger
+    # Nuru
+    # Sedge
+    # Wulfar
+    # Twins
+    # Vesper
+    # Elodie
+    # Mercival
+    # Errol
+    # Orla
+    # Vesper (Boss)
+
+    # Cutscene walk types
 ...
