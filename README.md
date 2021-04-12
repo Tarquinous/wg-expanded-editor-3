@@ -93,9 +93,9 @@ Below are some features I would like to implement, if it is found to be possible
 
 ## Version 1.4 checklist
 
-- [ ] Unhide previously hidden content to expand the mod
-  - [ ] Unhide emotes in the Cutscene Editor
-  - [ ] Unhide voicelines in the Cutscene Editor
+- [x] Unhide previously hidden content to expand the mod
+  - [x] Unhide emotes in the Cutscene Editor
+  - [x] Unhide voicelines in the Cutscene Editor
 - [ ] Improve usability of the mod with clearer UI
   - [ ] Introduce modified strings (e.g. removing "#MISSING#" from menues)
   - [ ] Add custom icons for Volcano and Sky terrain
