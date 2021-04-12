@@ -4,21 +4,21 @@
 # isSpawnable: true              -- This allows the Unit: Spawn event use the unit.
 # classIcon: ___                 -- A bug in modifyingUnitClasses makes it wrongly override the classIcon based on the units' names.
 #                                   These are manually specified to prevent erroneous changes.
-# isHiddenInCutsceneEditor: true -- This allows it to be chosen in the Cutscene Editor as an 'actor'.
+# isHiddenInCutsceneEditor: false -- This allows it to be chosen in the Cutscene Editor as an 'actor'.
 modifyingUnitClasses:
   # Naval units
   - id: travelboat # Barge
     replace:
-      isHiddenInCutsceneEditor: true
+      isHiddenInCutsceneEditor: false
   - id: turtle # Turtle
     replace:
-      isHiddenInCutsceneEditor: true
+      isHiddenInCutsceneEditor: false
   - id: harpoonship # Harpoon Ship
     replace:
-      isHiddenInCutsceneEditor: true
+      isHiddenInCutsceneEditor: false
   - id: warship # Warship
     replace:
-      isHiddenInCutsceneEditor: true
+      isHiddenInCutsceneEditor: false
       
   # Groove units
   - id: crystal # Emeric's Crystal
@@ -39,6 +39,9 @@ modifyingUnitClasses:
       classIcon: unit_icons_summon
   
   # Commander units
+  - id: commander_twins # Errol & Orla
+    replace:
+      hiddenFromCutsceneEditior: false
   - id: commander_vesper_boss # Vesper_(Boss)
     replace:
       isHidden: false
