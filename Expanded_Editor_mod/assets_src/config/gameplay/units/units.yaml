@@ -154,7 +154,7 @@ units:
       - id: run_nosword
     alternativeAttackSounds:
       no_voice: mercia/merciaAttackNoVoice
-    #hidden:
+    hidden:
     #  emotes:
     #    - stab_loop
     #    - stab
@@ -169,8 +169,8 @@ units:
     #    - mercia_thispower
     #    - mercia_attack5
     #    - mercia_hit3
-    #  alternativeRuns:
-    #    - angry_run
+      alternativeRuns:
+        - angry_run # identical to default run
   
   # Emeric
   - class: commander_emeric
@@ -402,7 +402,7 @@ units:
       caesar_whimper: caesar/caesarShoutWhimper
     alternativeRuns:
       - id: run_sniff
-    #hidden:
+    hidden:
     #  shouts:
     #    - caesar_bark2
     #    - caesar_bark4
@@ -410,8 +410,8 @@ units:
     #    - caesar_bark6
     #    - caesar_hit2
     #    - caesar_hit3
-    #  alternativeRuns:
-    #    - angry_run
+      alternativeRuns:
+        - angry_run # identical to default run
     
     # ----------------------------------------------------------------------------------------------------
     #   Felheim
@@ -510,11 +510,11 @@ units:
       valder_your_kingdom: valder/valderYourKingdom
     alternativeAttackSounds:
       no_voice: valder/valderAttackNoVoice
-    #hidden:
+    hidden:
     #  shouts:
     #    - valder_pain3
-    #  alternativeRuns:
-    #    - angry_run
+      alternativeRuns:
+        - angry_run # identical to default run
     
     # Sigrid
   - class: commander_sigrid
@@ -659,8 +659,8 @@ units:
     #    - sigrid_feralattack2
     #  alternativeRuns:
     #    - run_sword
-    #    - angryrun_sword
-    
+    #    - angryrun_sword 
+     
     # Ragna
   - class: commander_ragna
     faction: felheim
@@ -1302,14 +1302,14 @@ units:
       sedge_yousmellgood: sedge/sedgeShoutYouSmellGood
     alternativeAttackSounds:
       no_voice: sedge/sedgeAttackNoVoice
-    #hidden:
+    hidden:
     #  emotes:
     #    - dead
     #    - dying
     #  shouts:
     #    - sedge_blades
-    #  alternativeRuns:
-    #    - angry_run
+      alternativeRuns:
+        - angry_run # invisible, no animation
     
     # ----------------------------------------------------------------------------------------------------
     #   Outlaws
@@ -2451,10 +2451,10 @@ units:
     #    - soldier_shout5
     #    - soldier_shout6
     #    - soldier_shout9
-    #  alternativeRuns:
+      alternativeRuns:
     #    - run_crown
     #    - run_ragged
-    #    - run_cushion
+        - run_cushion # Identical to default run
     #    - run_2
 
     # Felheim
