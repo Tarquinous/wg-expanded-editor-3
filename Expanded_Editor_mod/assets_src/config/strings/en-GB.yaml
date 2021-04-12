@@ -37,7 +37,7 @@ en-GB:
     ui_cutscene_emote_bush: Bush - Sequence 1  # Shared by: Errol
     ui_cutscene_emote_bush2: Bush - Sequence 2 # Shared by: Errol
     ui_cutscene_emote_bush3: Bush - Hidden     # The first stage is the stationary bush, despite the numbering.
-    ui_cutscene_emote_cactus: Cactus Sequence #  Shared by: Errol, Orla
+    ui_cutscene_emote_cactus: Cactus Sequence  #  Shared by: Errol, Orla
     ui_cutscene_emote_rope: Rope Sequence      # Shared by: Errol, Orla
     ui_cutscene_emote_grab: Pick up Twins
 
@@ -49,7 +49,7 @@ en-GB:
     
     # Errol
     ui_cutscene_emote_pet: Twins Petting Enid
-    ui_cutscene_emote_petting: Petting Enid  # Shared by: Orla
+    ui_cutscene_emote_petting: Petting Enid     # Shared by: Orla
     ui_cutscene_emote_cat: Enid Resting
     ui_cutscene_emote_catlay: Enid Laying Down
     ui_cutscene_emote_catstop: Enid Stops Grooming
