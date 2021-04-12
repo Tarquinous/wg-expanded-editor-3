@@ -50,11 +50,15 @@ Below are some other mods you might be interested in if you need even more ways 
 
 #### [Expanded Editor](https://www.nexusmods.com/wargroove/mods/28) by Unicarn.
 
-Unlocks menus not possible with the usual modding tools, allowing for even more additional editing options. However, it requires the [Unofficial Modpacker](https://www.nexusmods.com/wargroove/mods/1) to use. Check the [Editor Comparisons](wiki/editor_comparisons) for more information.
+Unlocks menus not possible with the usual modding tools, allowing for even more additional editing options. However, it requires the [Unofficial Modpacker](https://www.nexusmods.com/wargroove/mods/1) to use. Check the [Editor Comparisons](https://github.com/Tarquinous/wg-expanded-editor-3/wiki/Editor-Comparisons) for more information.
 
 #### [**Expanded Terrain**](https://www.nexusmods.com/wargroove/mods/13) by Unicarn.
 
 Completely overhauls how the terrain editor works. This lets you achieve impressively complex results, from lava rivers that work like roads, to simply placing a wall in water in an aesthetically pleasing way. It is, however, more complex to use.
+
+#### [**Expanded Audio**](https://www.nexusmods.com/wargroove/mods/26) by Unicarn.
+
+Allows Ambient sounds to be used as music on maps and cutscenes, and allowing music to be used as ambient sounds in cutscenes (allowing two overlapping songs, if you like). Similar functionality as this mod but doesn't requie disabling the mod any time you want to set something onto the Ambient slot.
 
 ## Features wishlist
 
