@@ -2437,10 +2437,10 @@ units:
       - id: run_crown
       - id: run_ragged
       - id: run_2
-    #hidden:
-    #  emotes:
+    hidden:
+      emotes:
     #    - cushion
-    #    - idle_crownbearer
+        - idle_crownbearer # Identical to idle
     #    - idle_crown
     #    - idle_crown_ragged
     #    - idle_cushion
