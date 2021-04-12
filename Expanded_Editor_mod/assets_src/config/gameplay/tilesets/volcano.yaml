@@ -1,4 +1,6 @@
 ---
+# Override Volcano tileset to allow a custom terrain icon in the map editor, to improve usability.
+
 tilesets:
   - id: volcano
     biomes:
