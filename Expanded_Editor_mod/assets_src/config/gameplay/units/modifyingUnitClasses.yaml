@@ -63,6 +63,7 @@ modifyingUnitClasses:
     replace:
       isHidden: false
       isSpawnable: true
+      classIcon: unit_icons_commander
   - id: garrison # Garrison (the attacker for buildings)
     replace:
       isHidden: false
