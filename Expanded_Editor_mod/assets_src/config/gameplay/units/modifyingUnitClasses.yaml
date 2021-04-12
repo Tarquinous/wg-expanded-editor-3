@@ -41,7 +41,8 @@ modifyingUnitClasses:
   # Other hidden units
   - id: ghost_mercival # Mercival's ghost (seen in Act 3, Mission 2)
     replace:
-      isHidden: false    
+      isHidden: false
+      isSpawnable: true
   - id: garrison # Garrison (the attacker for buildings)
     replace:
       isHidden: false
