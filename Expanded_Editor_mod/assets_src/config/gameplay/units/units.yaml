@@ -1,0 +1,402 @@
+---
+units:
+
+# ------------------------------
+#   COMMANDERS
+# ------------------------------
+  # Mercia
+  - class: commander_mercia
+    faction: cherrystone
+    name: character_mercia_name
+    mapAnimation: units/commanders/mercia/map_mercia
+    battleAnimation: units/commanders/mercia/battle_mercia
+    battleAnimationRiver: fx/river_overlay/battle_mercia_river
+    smallPortrait: units/commanders/mercia/portrait_mercia_small.png
+    mediumPortrait: units/commanders/mercia/portrait_mercia_medium.png
+    mapSpeed: 4.0
+    skinColour: typeII
+    grabPos: [47, 47]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    stayAfterDeath: true
+    sounds:
+      attackMap: unitAttack
+      attack: mercia/merciaAttack
+      attackShout: mercia/merciaAttackShout
+      attackCommanderShout: mercia/merciaCommanderKillShout
+      captureShout: mercia/merciaCapture
+      death: mercia/merciaDie
+      deathMap: mercia/merciaDieGhost
+      deathMapNoBattle: mercia/merciaDieNoBattle
+      run: infantryHeavyMapEntry
+      runMap: infantryHeavyMapEntry
+      firstHit: mercia/merciaHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: mercia/merciaGrooveIntro
+    attacks:
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        hitDelay: 1.2
+    emotes:
+      idle: idle
+      surprise: emote_surprise
+      positive: emote_positive
+      negative: emote_negative
+      laugh: emote_laugh
+      brave: emote_brave
+      brave2: emote_brave2
+      idle_crown: idle_crown
+      crown_surprise: emote_crown_surprise
+      positive_crown: emote_positive_crown
+      idle_nosword: idle_nosword
+      hypno: emote_hypno
+      hurt: emote_hurt
+      surprise_nosword: emote_surprise_nosword
+      talk_nosword: emote_talk_nosword
+      talk: emote_talk
+      sad: emote_sad
+      sad_sword: emote_sad_sword
+      sword_1: emote_sword_1
+      stab_loop: emote_stab_loop
+      stab: emote_stab
+      stare: emote_stare
+      crouching: emote_crouching
+      hesitate: emote_hesitate
+      reachingdown: emote_reachingdown
+      crouching_loop: emote_crouching_loop
+      pickup_sword: emote_pickup
+      pet: emote_pet     
+      talk_crown: emote_talk_crown
+      dance: emote_dance
+    shouts:
+      mercia_laugh1: mercia/merciaShoutLaugh1
+      mercia_laugh2: mercia/merciaShoutLaugh2
+      mercia_dad: mercia/merciaShoutDad
+      mercia_emeric: mercia/merciaShoutEmeric
+      mercia_father: mercia/merciaShoutFather
+      mercia_goodboy: mercia/merciaShoutGoodBoy
+      mercia_hmm1: mercia/merciaShoutHmm1
+      mercia_hmm2: mercia/merciaShoutHmm2
+      mercia_uh: mercia/merciaShoutUh
+      mercia_huh: mercia/merciaShoutHuh
+      mercia_surprise: mercia/merciaShoutSurprise
+      mercia_yeah: mercia/merciaShoutYeah
+      mercia_no1: mercia/merciaShoutNo1
+      mercia_no2: mercia/merciaShoutNo2
+      mercia_no3: mercia/merciaShoutNo3
+      mercia_ohno: mercia/merciaShoutOhNo
+      mercia_but: mercia/merciaShoutBut
+      mercia_oops: mercia/merciaShoutOops
+      mercia_sigh: mercia/merciaShoutSigh
+      mercia_what: mercia/merciaShoutWhat
+      mercia_ragna: mercia/merciaShoutRagna
+      mercia_valder1: mercia/merciaShoutValder1
+      mercia_valder2: mercia/merciaShoutValder2
+      mercia_thankyou: mercia/merciaShoutThankYou
+      mercia_whoareyou: mercia/merciaShoutWhoAreYou
+      mercia_thiscantbe: mercia/merciaShoutThisCantBe
+      mercia_introduction: mercia/merciaShoutIntroduction
+      mercia_introductionqueen: mercia/merciaShoutIntroductionQueen
+      mercia_thisendsnow: mercia/merciaShoutThisEndsNow
+      mercia_war: mercia/merciaShoutWar
+      mercia_healingaura: mercia/merciaShoutHealingAura
+      mercia_wedidit: mercia/merciaShoutWeDidIt
+      mercia_wedidit2: mercia/merciaShoutWeDidItExcited
+      mercia_braceyourself: mercia/merciaShoutBraceYourself
+      mercia_saveyouall: mercia/merciaShoutIllSaveYouAll
+      mercia_endingthis: mercia/merciaShoutImEndingThis
+      mercia_imgoingin: mercia/merciaShoutImGoingIn
+      mercia_heretohelp: mercia/merciaShoutImHereToHelp
+      mercia_imsorry: mercia/merciaShoutImSorry
+      mercia_itsover: mercia/merciaShoutItsOver
+      mercia_ivefailed: mercia/merciaShoutIveFailed
+      mercia_justyouandme: mercia/merciaShoutJustYouAndMe
+      mercia_protein: mercia/merciaShoutHighProteinDiet
+      mercia_letsgo: mercia/merciaShoutLetsGo
+      mercia_nicetomeetyou: mercia/merciaShoutNiceToMeetYou
+      mercia_noneshallfall: mercia/merciaShoutNoneShallFall
+      mercia_thatwastough: mercia/merciaShoutThatWasTough
+      mercia_thefightisntover: mercia/merciaShoutTheFightIsntOverYet
+      mercia_theresnotime: mercia/merciaShoutTheresNoTime
+      mercia_thispower: mercia/merciaShoutThisPower
+      mercia_victorywillbeours: mercia/merciaShoutVictoryWillBeOurs
+      mercia_wecouldusethis: mercia/merciaShoutWeCouldUseThis
+      mercia_wontfail: mercia/merciaShoutWontFail
+      mercia_wontgodowneasily: mercia/merciaShoutWontGoDownEasily
+      mercia_wontholdback: mercia/merciaShoutWontHoldBack
+      mercia_wontletyoudown: mercia/merciaShoutWontLetYouDown    
+      mercia_attack1: mercia/merciaShoutAttack1
+      mercia_attack2: mercia/merciaShoutAttack2
+      mercia_attack3: mercia/merciaShoutAttack3
+      mercia_attack4: mercia/merciaShoutAttack4
+      mercia_attack5: mercia/merciaShoutAttack5
+      mercia_hit1: mercia/merciaShoutHit1
+      mercia_hit2: mercia/merciaShoutHit2
+      mercia_hit3: mercia/merciaShoutHit3
+      mercia_hit4: mercia/merciaShoutHit4
+    alternativeRuns:
+      - id: run_crown
+      - id: run_nosword
+    alternativeAttackSounds:
+      no_voice: mercia/merciaAttackNoVoice
+    #hidden:
+    #  emotes:
+    #    - stab_loop
+    #    - stab
+    #    - stare
+    #    - pickup_sword
+    #    - sword_1
+    #    - crouching
+    #    - hesitate
+    #    - reachingdown
+    #    - crouching_loop
+    #  shouts:
+    #    - mercia_thispower
+    #    - mercia_attack5
+    #    - mercia_hit3
+    #  alternativeRuns:
+    #    - angry_run
+  
+  # Emeric
+  - class: commander_emeric
+    faction: cherrystone
+    name: character_emeric_name
+    mapAnimation: units/commanders/emeric/map_emeric
+    battleAnimation: units/commanders/emeric/battle_emeric
+    battleAnimationRiver: fx/river_overlay/battle_emeric_river
+    smallPortrait: units/commanders/emeric/portrait_emeric_small.png
+    mediumPortrait: units/commanders/emeric/portrait_emeric_medium.png
+    mapSpeed: 4.0
+    skinColour: typeVI
+    grabPos: [40, 28]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    sounds:
+      attackMap: unitAttack
+      attack: emeric/emericAttack
+      attackCommander: emeric/emericCommanderKillAttack
+      captureShout: emeric/emericCapture
+      death: emeric/emericDie
+      deathMap: emeric/emericDieGhost
+      deathMapNoBattle: emeric/emericDieNoBattle
+      run: infantryLightMapEntry
+      runMap: infantryLightMapEntry
+      firstHit: emeric/emericHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: emeric/emericGrooveIntro
+    attacks:
+      - id: closeRange
+        hitSpark: fx/bs_stab_attack
+        effectDelay: 2.95
+        hitDelay: 3.0
+        samePanel: true
+      - id: primary
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_emeric_attack
+        effectDelay: 2.95
+        hitDelay: 3.0
+        ranged: true
+    emotes:
+      idle: idle
+      surprise: emote_surprise
+      positive: emote_positive
+      negative: emote_negative
+      laugh: emote_laugh
+      thinking: emote_thinking
+      hypno: emote_hypno
+      casting: emote_casting
+      idle_river: idle_river
+      positive_river: emote_positive_river
+      negative_river: emote_negative_river
+      thinking_river: emote_thinking_river
+      surprise_river: emote_surprise_river
+      dance: emote_dance
+    shouts:
+      emeric_attack1: emeric/emericShoutAttack1
+      emeric_attack2: emeric/emericShoutAttack2
+      emeric_attack3: emeric/emericShoutAttack3
+      emeric_attack4: emeric/emericShoutAttack4
+      emeric_cherrystonesdefend: emeric/emericShoutCherrystonesDefendUs
+      emeric_educatedchoice: emeric/emericShoutEducatedChoice
+      emeric_farewell: emeric/emericShoutFarewell
+      emeric_gravemistake: emeric/emericShoutGraveMistake
+      emeric_greetings: emeric/emericShoutGreetings
+      emeric_hit1: emeric/emericShoutHit1
+      emeric_hit2: emeric/emericShoutHit2
+      emeric_hit3: emeric/emericShoutHit3
+      emeric_hit4: emeric/emericShoutHit4
+      emeric_hit5: emeric/emericShoutHit5
+      emeric_hmm1: emeric/emericShoutHmm1
+      emeric_hmm2: emeric/emericShoutHmm2
+      emeric_hmm3: emeric/emericShoutHmm3
+      emeric_hmph: emeric/emericShoutHmph
+      emeric_iagree: emeric/emericShoutIAgree
+      emeric_haveaspell1: emeric/emericShoutIHaveASpell1
+      emeric_haveaspell2: emeric/emericShoutIHaveASpell2
+      emeric_proudofyou: emeric/emericShoutImProudOfYou
+      emeric_soproudofyou: emeric/emericShoutImSoProudOfYou
+      emeric_imsorry: emeric/emericShoutImSorry
+      emeric_interesting: emeric/emericShoutInteresting
+      emeric_itisntsafe: emeric/emericShoutItIsntSafe
+      emeric_iwasfoolish: emeric/emericShoutIWasFoolish
+      emeric_laugh1: emeric/emericShoutLaugh1
+      emeric_laugh2: emeric/emericShoutLaugh2
+      emeric_lightningblast: emeric/emericShoutLightningBlast
+      emeric_mercival1: emeric/emericShoutMercival
+      emeric_mercival2: emeric/emericShoutMercivalDistressed
+      emeric_myqueen1: emeric/emericShoutMyQueenDistressed
+      emeric_myqueen2: emeric/emericShoutMyQueenProud
+      emeric_myqueen3: emeric/emericShoutMyQueenSerious
+      emeric_myqueen4: emeric/emericShoutMyQueenSurprised
+      emeric_no: emeric/emericShoutNo
+      emeric_nodoubt: emeric/emericShoutNoDoubt
+      emeric_oops: emeric/emericShoutOops
+      emeric_sigh: emeric/emericShoutSigh
+      emeric_outmatched: emeric/emericShoutSimplyOutmatched
+      emeric_tacticaladvantage: emeric/emericShoutTacticalAdvantage
+      emeric_thankyou: emeric/emericShoutThankYou
+      emeric_theresnotime: emeric/emericShoutThereIsNoTime
+      emeric_dothetrick: emeric/emericShoutThisShouldDoTheTrick
+      emeric_shouldbeadvantageous: emeric/emericShoutThisShouldBeAdvantageous
+      emeric_shouldprotectus: emeric/emericShoutThisShouldProtectUs
+      emeric_verywell: emeric/emericShoutVeryWell
+      emeric_wellearned: emeric/emericShoutVictoryWellEarned
+      emeric_what: emeric/emericShoutWhat
+      emeric_wisedecision: emeric/emericShoutWiseDecision
+      emeric_yes1: emeric/emericShoutYes1
+      emeric_yes2: emeric/emericShoutYes2
+      emeric_yourhighness: emeric/emericShoutYourHighness
+      emeric_youshallnotpass: emeric/emericShoutYouShallNotPass
+      emeric_ghostlaugh: emeric/emericShoutGhostLaugh
+    alternativeRuns:
+      - id: run_river
+        sound: infantryLightRiverMapEntry
+    alternativeAttackSounds:
+      no_voice: emeric/emericAttackNoVoice
+    #hidden:
+    #  emotes:
+    #    - idle_river
+    #    - positive_river
+    #    - negative_river
+    #    - thinking_river
+    #    - surprise_river
+    #  shouts:
+    #    - emeric_attack2
+    #    - emeric_hit3
+    #    - emeric_ghostlaugh
+    #  alternativeRuns:
+    #    - run_river
+
+ # Caesar
+ - class: commander_caesar
+    faction: cherrystone
+    name: character_caesar_name
+    mapAnimation: units/commanders/caesar/map_caesar
+    battleAnimation: units/commanders/caesar/battle_caesar
+    battleAnimationRiver: fx/river_overlay/battle_caesar_river
+    smallPortrait: units/commanders/caesar/portrait_caesar_small.png
+    mediumPortrait: units/commanders/caesar/portrait_caesar_medium.png
+    menuIdleSequence: capture_idle
+    mapSpeed: 4.0
+    skinColour: typeV
+    grabPos: [27, 27]
+    deathMoveMin: 0
+    deathMoveMax: 0
+    sounds:
+      attackMap: unitAttack
+      attack1: caesar/caesarAttack1
+      attack2: caesar/caesarAttack2
+      attack3: caesar/caesarAttack3
+      counter: caesar/caesarCounterAttack
+      captureShout: caesar/caesarShoutExcited
+      death: caesar/caesarDie
+      deathMap: caesar/caesarDieGhost
+      deathMapNoBattle: caesar/caesarDieNoBattle
+      preIdle: caesar/caesarPreIdle
+      run: dogEntry
+      runMap: dogEntry
+      firstHit: caesar/caesarHit
+      hit: hitOrganic
+      hitMap: hitOrganic
+      groove: caesar/caesarGrooveIntro
+      cutsceneAttack: caesar/caesarAttackBarking
+    attacks:
+      - id: primary
+        attackAnimationSequence: counter
+        hitSpark: fx/bs_stab_attack
+        hitDelay: [1.0, 1.1]
+        samePanel: true
+        attackSound: counter
+      - id: secondary
+        attackAnimationSequence: [attack, attack2, attack3]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_caesar_attack
+        effectDelay: 0.7
+        hitDelay: [0.9, 1.1]
+        ranged: true
+        attackSound: [attack1, attack2, attack3]
+        postAttackAnimationSequence: post_attack_idle
+        postAttackHitSequence: post_attack_hit
+        postAttackDeathSequence: post_attack_death
+      - id: cutscene
+        attackAnimationSequence: [cutscene_attack]
+        hitSpark: fx/bs_stab_attack
+        effect: fx/bs_caesar_attack
+        effectDelay: 0.7
+        hitDelay: [0.9, 1.1]
+        ranged: true
+        attackSound: cutsceneAttack
+        postAttackAnimationSequence: post_attack_idle
+        postAttackHitSequence: post_attack_hit
+        postAttackDeathSequence: post_attack_death
+        cutsceneOnly: true
+    cutscenePreIdle: ""
+    cutsceneIdle: capture_idle
+    cutsceneHit: hit_foot
+    emotes:
+      idle: capture_idle
+      surprise: emote_surprise
+      positive: emote_positive
+      negative: emote_negative
+      laugh: emote_laugh
+      sniff: emote_sniff
+      hypno: emote_hypno
+      howl: emote_howl
+      unhappy: emote_unhappy
+      darkcaesar: emote_darkcaesar
+      dance: emote_dance
+      sleep: emote_sleep
+    shouts:
+      caesar_bark1: caesar/caesarShoutBark1
+      caesar_bark2: caesar/caesarShoutBark2
+      caesar_bark3: caesar/caesarShoutBark3
+      caesar_bark4: caesar/caesarShoutBark4
+      caesar_bark5: caesar/caesarShoutBark5
+      caesar_bark6: caesar/caesarShoutBark6
+      caesar_barktwice: caesar/caesarShoutBarkTwice
+      caesar_excited: caesar/caesarShoutExcited
+      caesar_growl: caesar/caesarShoutGrowl
+      caesar_grumble: caesar/caesarShoutGrumble
+      caesar_howl: caesar/caesarShoutHowl
+      caesar_panting: caesar/caesarShoutPanting
+      caesar_hit1: caesar/caesarShoutHit1
+      caesar_hit2: caesar/caesarShoutHit2
+      caesar_hit3: caesar/caesarShoutHit3
+      caesar_hit4: caesar/caesarShoutHit4
+      caesar_whimper: caesar/caesarShoutWhimper
+    alternativeRuns:
+      - id: run_sniff
+    #hidden:
+    #  shouts:
+    #    - caesar_bark2
+    #    - caesar_bark4
+    #    - caesar_bark5
+    #    - caesar_bark6
+    #    - caesar_hit2
+    #    - caesar_hit3
+    #  alternativeRuns:
+    #    - angry_run
+...
+...
