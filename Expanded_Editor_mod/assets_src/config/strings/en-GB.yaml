@@ -23,6 +23,7 @@ en-GB:
     # CUTSCENE SHOUTS
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     
+    
     # CUTSCENE EMOTES
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     # Mercia
@@ -73,4 +74,9 @@ en-GB:
     
     # CUTSCENE WALK TYPES
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    ui_cutscene_walk_type_mech: Giant Tenko
+    ui_cutscene_walk_type_run_requiem: Run With Requiem
+    ui_cutscene_walk_type_cat_running: Enid Running
+    ui_cutscene_walk_type_run_crown: Crown
+    ui_cutscene_walk_type_run_ragged: Crown - Ragged
 ...
