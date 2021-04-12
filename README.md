@@ -80,7 +80,7 @@ Below are some features I would like to implement, if it is found to be possible
   - [x] Shouts references list
   - [ ] Event actions/conditions images
   - [ ] Event actions/conditions descriptions
-  - [ ] Move "Unstable tools" list onto a dedicated page
+  - [x] Move "Unstable tools" list onto a dedicated page
   - [ ] Move unusued tools list onto a dedicated page
 - [ ] Remove avoidable redundant overrides of game data (improves mod compatibility)
 - [ ] Add commenting to old files to make source code easier to understand
