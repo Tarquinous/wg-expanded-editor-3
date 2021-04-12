@@ -98,7 +98,7 @@ Below are some features I would like to implement, if it is found to be possible
   - [x] Unhide voicelines in the Cutscene Editor
 - [ ] Improve usability of the mod with clearer UI
   - [ ] Introduce modified strings (e.g. removing "#MISSING#" from menues)
-  - [ ] Add custom icons for Volcano and Sky terrain
+  - [x] Add custom icons for Volcano and Sky terrain
 - [ ] Expand the wiki
   - [x] Shouts references list
   - [ ] Event actions/conditions images
