@@ -108,3 +108,5 @@ Below are some features I would like to implement, if it is found to be possible
 - [ ] Remove avoidable redundant overrides of game data (improves mod compatibility)
 - [ ] Add commenting to old files to make source code easier to understand
 - [ ] *Optional:* Make Volcano and Sky terrain have looser terrain limitations.
+- [ ] Fix bugs / oversights
+  - [x] Allow Ghost unit to be spawnable through events.
