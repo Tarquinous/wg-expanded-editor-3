@@ -1,5 +1,5 @@
 ---
-
+# Set conditions hidden property to false to display in the editor.
 triggerConditions:
   - id: number_of_stars_map
     scope: map
@@ -7,14 +7,19 @@ triggerConditions:
     parameters:
       - type: integer
 
+    # Functionally identical to the number_of_stars_map condition
+    # (It uses the exact same code in the game's files)
   - id: number_of_stars_campaign
     scope: campaign
-    hidden: false
+    hidden: true
     parameters:
       - type: integer
 
+    # There's no possible way to make this functionally different to number_of_stars_map
+    # without making your campaign maps count as actual official campaign maps, which
+    # is so liable to *actually break save files* I do not see a reason to encourage it
   - id: number_of_stars_after_victory
-    hidden: false
+    hidden: true
     parameters:
       - type: operator
       - type: integer
