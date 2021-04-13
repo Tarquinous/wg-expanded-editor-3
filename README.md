@@ -75,6 +75,8 @@ Below are some features I would like to implement, if it is found to be possible
   - [x] Set all ambient sounds as possible music
 - [ ] Improve usability of the mod with clearer UI
   - [ ] Introduce modified strings (e.g. removing "#MISSING#" from menues)
+    - [ ] Cutscene shouts (voicelines)
+    - [x] Cutscene backgrounds, music, props, emotes, and walk types
   - [x] Add custom icons for Volcano and Sky terrain
 - [ ] Expand the wiki
   - [x] Shouts references list
