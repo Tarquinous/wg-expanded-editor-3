@@ -91,3 +91,9 @@ Below are some features I would like to implement, if it is found to be possible
   - [x] Allow Ghost unit to be spawnable through events.
   - [x] Allow water units to be used in the Cutscene Editor
   - [x] Opening a Unit Info screen with Ghost present would cause an error (only when the mod is active).
+
+## To Do List
+
+- [ ] Make hidden units better aligned to unit placement UI
+- [ ] Fix the animations when placing hidden units (i.e. stop using death animation)
+- [ ] Add some graphic to make Volcano terrain visible to the editor (maybe)
