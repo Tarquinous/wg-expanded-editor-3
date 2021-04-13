@@ -37,7 +37,7 @@ None of your changes to the map will be lost when the mod is removed, as they ar
 
 Unlockable content will return to being locked once the mod is removed if you have not yet unlocked them.
 
-Additionally, I recommend new users check out my [Starter Guide](wiki/starter_guide)!
+Additionally, I recommend new users check out my [Starter Guide](https://github.com/Tarquinous/wg-expanded-editor-3/wiki/Starter-Guide)!
 
 ## Installation
 
