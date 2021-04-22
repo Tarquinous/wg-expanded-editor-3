@@ -91,6 +91,7 @@ Below are some features I would like to implement, if it is found to be possible
   - [x] Allow Ghost unit to be spawnable through events.
   - [x] Allow water units to be used in the Cutscene Editor
   - [x] Opening a Unit Info screen with Ghost present would cause an error (only when the mod is active).
+  - [x] Hide Vesper (Boss) from cutscenes (offers no tools over normal Vesper)
 
 ## To Do List
 
