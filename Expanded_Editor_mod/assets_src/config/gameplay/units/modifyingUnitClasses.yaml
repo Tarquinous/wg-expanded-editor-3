@@ -4,7 +4,8 @@
 # isSpawnable: true                -- This allows the Unit: Spawn event use the unit.
 # classIcon: ___                   -- A bug in modifyingUnitClasses makes it wrongly override the classIcon based on the units' names.
 #                                     These are manually specified to prevent erroneous changes.
-# hiddenFromCutsceneEditior: false -- This allows it to be chosen in the Cutscene Editor as an 'actor'.
+# hiddenFromCutsceneEditior: false -- This allows it to be chosen in the Cutscene Editor as an 'actor'. This is set to true for the
+#                                     units that are completely identical to others (e.g. Vesper (Boss)).
 # isHiddenInCutsceneEditor: false  -- This property actually doesn't work anyway, but is overwritten in case it is patched in future.
 
 modifyingUnitClasses:
@@ -49,6 +50,7 @@ modifyingUnitClasses:
       isHidden: false
       appearsInLists: true
       isSpawnable: true
+      hiddenFromCutsceneEditior: true
   - id: commander_orla # Orla (solo)
     replace:
       isHidden: false
