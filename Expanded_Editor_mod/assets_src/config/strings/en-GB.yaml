@@ -23,57 +23,57 @@ en-GB:
     # CUTSCENE SHOUTS
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     # Mercia
-    mercia_attack5: 'Hyuh!'        # [Grunt 5]
-    mercia_hit3: 'Short grunt'     # [Pain3]
-    mercia_no1: '"No."'            # "No. [1]"
-    mercian_no3: 'Anguished "No!"' # "No!"
+    ui_cutscene_shout_mercia_attack5: 'Hyuh!'        # [Grunt 5]
+    ui_cutscene_shout_mercia_hit3: 'Short grunt'     # [Pain3]
+    ui_cutscene_shout_mercia_no1: '"No."'            # "No. [1]"
+    ui_cutscene_shout_mercian_no3: 'Anguished "No!"' # "No!"
     
     # Emeric      - None changed
-    emeric_attack2: 'Grunt of Exertion 1' # Grunt [2]
-    emeric_attack3: 'Grunt of Exertion 2' # Grunt of Exertion
-    emeric_hit3: 'Surprised Grunt'        # [Pain 3]
+    ui_cutscene_shout_emeric_attack2: 'Grunt of Exertion 1' # Grunt [2]
+    ui_cutscene_shout_emeric_attack3: 'Grunt of Exertion 2' # Grunt of Exertion
+    ui_cutscene_shout_emeric_hit3: 'Surprised Grunt'        # [Pain 3]
     
     # Caesar
-    caesar_bark2: 'High "Bark!"'  # [Bark 2]
-    caesar_bark4: '"Bark!" 4'     # [Bark 4]
-    caesar_bark5: '"Bark!" 5'     # [Bark 5]
-    caesar_bark6: '"Bark!" 6'     # [Bark 6]
-    caesar_hit2: 'Panicked Whine' # [Whine 2]
-    caesar_hit3: 'Pained Whine'   # [Whine 3]
+    ui_cutscene_shout_caesar_bark2: 'High "Bark!"'  # [Bark 2]
+    ui_cutscene_shout_caesar_bark4: '"Bark!" 4'     # [Bark 4]
+    ui_cutscene_shout_caesar_bark5: '"Bark!" 5'     # [Bark 5]
+    ui_cutscene_shout_caesar_bark6: '"Bark!" 6'     # [Bark 6]
+    ui_cutscene_shout_caesar_hit2: 'Panicked Whine' # [Whine 2]
+    ui_cutscene_shout_caesar_hit3: 'Pained Whine'   # [Whine 3]
     
     # Valder
-    valder_pain3: 'Surprised Grunt' # [Pain 3]
+    ui_cutscene_shout_valder_pain3: 'Surprised Grunt' # [Pain 3]
     
     # Sigrid
-    sigrid_feralattack2: 'Short Grunt' # [Feral Attack 2]
-    sigrid_feralattack3: 'Angry Grunt' # "Hyah!"
+    ui_cutscene_shout_sigrid_feralattack2: 'Short Grunt' # [Feral Attack 2]
+    ui_cutscene_shout_sigrid_feralattack3: 'Angry Grunt' # "Hyah!"
     
     # Ragna
-    ragna_hit4: 'Frustrated Grunt'         # [Pain 4]
-    ragna_laugh2: 'Excited Laugh'          # [Laugh 2]
-    ragna_ughfine1: 'Angry "Ugh, fine!"'   # Ugh, fine! [1]
-    ragna_ughfine1: 'Annoyed "Ugh, fine!"' # "Ugh, fine!"
+    ui_cutscene_shout_ragna_hit4: 'Frustrated Grunt'         # [Pain 4]
+    ui_cutscene_shout_ragna_laugh2: 'Excited Laugh'          # [Laugh 2]
+    ui_cutscene_shout_ragna_ughfine1: 'Angry "Ugh, fine!"'   # Ugh, fine! [1]
+    ui_cutscene_shout_ragna_ughfine1: 'Annoyed "Ugh, fine!"' # "Ugh, fine!"
     
     # Tenri
-    tenri_attack1: 'Short Grunt' # [Attack 1]
-    tenri_whatisthis2: 'Scared "What is this?"' # What is this? [2]
+    ui_cutscene_shout_tenri_attack1: 'Short Grunt' # [Attack 1]
+    ui_cutscene_shout_tenri_whatisthis2: 'Scared "What is this?"' # What is this? [2]
     
     # Koji        - None changed
 
     # Ryota
-    ryota_attack4: 'Grunt of Exertion 1' # [Grunt 4]
-    ryota_attack5: 'Grunt of Exertion 2' # Grunt of Exertion
-    ryota_hit4: 'Surprised Grunt'        # [Pain 4]
-    ryota_hit5: 'Agonised Grunt'         # [Pain 5]
+    ui_cutscene_shout_ryota_attack4: 'Grunt of Exertion 1' # [Grunt 4]
+    ui_cutscene_shout_ryota_attack5: 'Grunt of Exertion 2' # Grunt of Exertion
+    ui_cutscene_shout_ryota_hit4: 'Surprised Grunt'        # [Pain 4]
+    ui_cutscene_shout_ryota_hit5: 'Agonised Grunt'         # [Pain 5]
     
     # Greenfinger
-    greenfinger_hit4: 'Short Grunt'     # [Pain 4]
-    greenfinger_hit5: 'Surprised Grunt' # [Pain 5]
+    ui_cutscene_shout_greenfinger_hit4: 'Short Grunt'     # [Pain 4]
+    ui_cutscene_shout_greenfinger_hit5: 'Surprised Grunt' # [Pain 5]
     
     # Nuru        - None changed
 
     # Sedge
-    sedge_blades: 'Sharpen blades' # [Blades sfx]
+    ui_cutscene_shout_sedge_blades: 'Sharpen blades' # [Blades sfx]
     
     # Wulfar       - None changed
     # Twins        - None changed 
@@ -81,71 +81,72 @@ en-GB:
     # Elodie       - None changed
     
     # Dark Mercia
-    darkmercia_dyinggasp: 'Dying Gasp' # [Dying Gasp]
+    ui_cutscene_shout_darkmercia_dyinggasp: 'Dying Gasp' # [Dying Gasp]
 
     # Mercival
-    mercival_ghost_attack1: '[Ghostly] "Hyah!"'                                        # [Ghostly] [Grunt 1]
-    mercival_ghost_attack2: '[Ghostly] "Hah!"'                                         # [Ghostly] [Grunt 2]
-    mercival_ghost_attack3: '[Ghostly] Triumphant Grunt'                               # [Ghostly] [Grunt 3]
-    mercival_ghost_attack4: '[Ghostly] Roar'                                           # [Ghostly] [Grunt 4]
-    mercival_ghost_didnthavetobethisway: '[Ghostly] "It didn''t have to be this way."' # [Ghostly] It didn't have to be this way.
-    mercival_ghost_donotfalter: '[Ghostly] "Do not falter."'                           # [Ghostly] Do not falter.
-    mercival_ghost_donotlosehope: '[Ghostly] "Do not lose hope."'                      # [Ghostly] Do not lose hope.
-    mercival_ghost_donotholdback: '[Ghostly] "Do not hold back."'                      # [Ghostly] Do not hold back.
-    mercival_ghost_doyouunderstand: '[Ghostly] "Do you understand?"'                   # [Ghostly] Do you understand?
-    mercival_ghost_emeric: '[Ghostly] "Emeric!"'                                       # [Ghostly] Emeric!
-    mercival_ghost_farewell: '[Ghostly] "Farewell."'                                   # [Ghostly] Farewell.
-    mercival_ghost_greetings: '[Ghostly] "Greetings."'                                 # [Ghostly] Greetings.
-    mercival_ghost_hellooldfriend: '[Ghostly] "Hello old friend."'                     # [Ghostly] Hello old friend.
-    mercival_ghost_hit1: '[Ghostly] Anguished Grunt'                                   # [Ghostly] [Pain 1]
-    mercival_ghost_hit2: '[Ghostly] Pained Grunt'                                      # [Ghostly] [Pain 2]
-    mercival_ghost_hit3: '[Ghostly] Surprised Grunt'                                   # [Ghostly] [Pain 3]
-    mercival_ghost_hit4: '[Ghostly] Shocked Grunt'                                     # [Ghostly] [Pain 4]
-    mercival_ghost_hmph: '[Ghostly] "Hmph."'                                           # [Ghostly] Hmph.
-    mercival_ghost_iamwithyou: '[Ghostly] "I am with you."'                            # [Ghostly] I am with you.
-    mercival_ghost_ibelieveinyou: '[Ghostly] "I believe in you."'                      # [Ghostly] I believe in you.
-    mercival_ghost_itsinsafehands: '[Ghostly] "It''s in safe hands."'                  # [Ghostly] It's in safe hands.
-    mercival_ghost_laugh1: '[Ghostly] Hearty Laugh'                                    # [Ghostly] [Laugh 1]
-    mercival_ghost_laugh2: '[Ghostly] Amused Laugh'                                    # [Ghostly] [Laugh 2]
-    mercival_ghost_laugh3: '[Ghostly] Triumphant Laugh'                                # [Ghostly] [Laugh 3]
-    mercival_ghost_listen: '[Ghostly] "Listen."'                                       # [Ghostly] Listen.
-    mercival_ghost_mercia1: '[Ghostly] Anguished "Mercia"'                             # [Ghostly] Mercia [1]
-    mercival_ghost_mercia2: '[Ghostly] Pained "Mercia"'                                # [Ghostly] Mercia [2]
-    mercival_ghost_mylittlebluebird1: '[Ghostly] Amused "My little bluebird."'         # [Ghostly] My little bluebird. [1]
-    mercival_ghost_mylittlebluebird2: '[Ghostly] Warm "My little bluebird."'           # [Ghostly] My little bluebird. [2]
-    mercival_ghost_no: '[Ghostly] "No."'                                               # [Ghostly] No.
-    mercival_ghost_offwego: '[Ghostly] "Off we go!"'                                   # [Ghostly] Off we go!
-    mercival_ghost_safehands: '[Ghostly] "Safe hands."'                                # [Ghostly] Safe hands.
-    mercival_ghost_sigh: '[Ghostly] Sigh'                                              # [Ghostly] [Sigh]
-    mercival_ghost_steelyourself: '[Ghostly] "Steel Yourself."'                        # [Ghostly] Steel Yourself.
-    mercival_ghost_tellmercia: '[Ghostly] "Tell... Mercia."'                           # [Ghostly] Tell... Mercia.
-    mercival_ghost_thankyou: '[Ghostly] "Thank you."'                                  # [Ghostly] Thank you.
-    mercival_ghost_thelightshallnotfade: '[Ghostly] "The light shall not fade."'       # [Ghostly] The light shall not fade.
-    mercival_ghost_themorethemerrier: '[Ghostly] "The more the merrier!"'              # [Ghostly] The more the merrier!
-    mercival_ghost_thisshallserveuswell: '[Ghostly] "This shall serve us well!"'       # [Ghostly] This shall serve us well!
-    mercival_ghost_toarms: '[Ghostly] "To arms!"'                                      # [Ghostly] To arms!
-    mercival_ghost_togetherwestand: '[Ghostly] "Together we stand!"'                   # [Ghostly] Together we stand!
-    mercival_ghost_verywellthen: '[Ghostly] "Very well then."'                         # [Ghostly] Very well then.
-    mercival_ghost_weshallprevail:  '[Ghostly] "We shall prevail."'                    # [Ghostly] We shall prevail.
-    mercival_ghost_what: '[Ghostly] "What?"'                                           # [Ghostly] What?
-    mercival_ghost_whoops: '[Ghostly] "Whoops!"'                                       # [Ghostly] Whoops!
-    mercival_ghost_worthyadversary: '[Ghostly] "A worthy adversary."'                  # [Ghostly] A worthy adversary
-    mercival_ghost_yes: '[Ghostly] "Yes."'                                             # [Ghostly] Yes.
-    mercival_ghost_youhaveneverletmedown: '[Ghostly] "You have never let me down."'    # [Ghostly] You have never let me down.
-    mercival_ghost_youhavetoknowthesethings: '[Ghostly] "You have to know..."'         # [Ghostly] You have to know these things
-    mercival_ghost_youmustlisten: '[Ghostly] "You must listen!"'                       # [Ghostly] You must listen!
-    mercival_hit3: 'Surprised Grunt'                                                   # [Pain 3]
+    ui_cutscene_shout_mercival_ghost_attack1: '[Ghostly] "Hyah!"'                                        # [Ghostly] [Grunt 1]
+    ui_cutscene_shout_mercival_ghost_attack2: '[Ghostly] "Hah!"'                                         # [Ghostly] [Grunt 2]
+    ui_cutscene_shout_mercival_ghost_attack3: '[Ghostly] Triumphant Grunt'                               # [Ghostly] [Grunt 3]
+    ui_cutscene_shout_mercival_ghost_attack4: '[Ghostly] Roar'                                           # [Ghostly] [Grunt 4]
+    ui_cutscene_shout_mercival_ghost_didnthavetobethisway: '[Ghostly] "It didn''t have to be this way."' # [Ghostly] It didn't have to be this way.
+    ui_cutscene_shout_mercival_ghost_donotfalter: '[Ghostly] "Do not falter."'                           # [Ghostly] Do not falter.
+    ui_cutscene_shout_mercival_ghost_donotlosehope: '[Ghostly] "Do not lose hope."'                      # [Ghostly] Do not lose hope.
+    ui_cutscene_shout_mercival_ghost_donotholdback: '[Ghostly] "Do not hold back."'                      # [Ghostly] Do not hold back.
+    ui_cutscene_shout_mercival_ghost_doyouunderstand: '[Ghostly] "Do you understand?"'                   # [Ghostly] Do you understand?
+    ui_cutscene_shout_mercival_ghost_emeric: '[Ghostly] "Emeric!"'                                       # [Ghostly] Emeric!
+    ui_cutscene_shout_mercival_ghost_farewell: '[Ghostly] "Farewell."'                                   # [Ghostly] Farewell.
+    ui_cutscene_shout_mercival_ghost_greetings: '[Ghostly] "Greetings."'                                 # [Ghostly] Greetings.
+    ui_cutscene_shout_mercival_ghost_hellooldfriend: '[Ghostly] "Hello old friend."'                     # [Ghostly] Hello old friend.
+    ui_cutscene_shout_mercival_ghost_hit1: '[Ghostly] Anguished Grunt'                                   # [Ghostly] [Pain 1]
+    ui_cutscene_shout_mercival_ghost_hit2: '[Ghostly] Pained Grunt'                                      # [Ghostly] [Pain 2]
+    ui_cutscene_shout_mercival_ghost_hit3: '[Ghostly] Surprised Grunt'                                   # [Ghostly] [Pain 3]
+    ui_cutscene_shout_mercival_ghost_hit4: '[Ghostly] Shocked Grunt'                                     # [Ghostly] [Pain 4]
+    ui_cutscene_shout_mercival_ghost_hmph: '[Ghostly] "Hmph."'                                           # [Ghostly] Hmph.
+    ui_cutscene_shout_mercival_ghost_iamwithyou: '[Ghostly] "I am with you."'                            # [Ghostly] I am with you.
+    ui_cutscene_shout_mercival_ghost_ibelieveinyou: '[Ghostly] "I believe in you."'                      # [Ghostly] I believe in you.
+    ui_cutscene_shout_mercival_ghost_itsinsafehands: '[Ghostly] "It''s in safe hands."'                  # [Ghostly] It's in safe hands.
+    ui_cutscene_shout_mercival_ghost_laugh1: '[Ghostly] Hearty Laugh'                                    # [Ghostly] [Laugh 1]
+    ui_cutscene_shout_mercival_ghost_laugh2: '[Ghostly] Amused Laugh'                                    # [Ghostly] [Laugh 2]
+    ui_cutscene_shout_mercival_ghost_laugh3: '[Ghostly] Triumphant Laugh'                                # [Ghostly] [Laugh 3]
+    ui_cutscene_shout_mercival_ghost_listen: '[Ghostly] "Listen."'                                       # [Ghostly] Listen.
+    ui_cutscene_shout_mercival_ghost_mercia1: '[Ghostly] Anguished "Mercia"'                             # [Ghostly] Mercia [1]
+    ui_cutscene_shout_mercival_ghost_mercia2: '[Ghostly] Pained "Mercia"'                                # [Ghostly] Mercia [2]
+    ui_cutscene_shout_mercival_ghost_mylittlebluebird1: '[Ghostly] Amused "My little bluebird."'         # [Ghostly] My little bluebird. [1]
+    ui_cutscene_shout_mercival_ghost_mylittlebluebird2: '[Ghostly] Warm "My little bluebird."'           # [Ghostly] My little bluebird. [2]
+    ui_cutscene_shout_mercival_ghost_no: '[Ghostly] "No."'                                               # [Ghostly] No.
+    ui_cutscene_shout_mercival_ghost_offwego: '[Ghostly] "Off we go!"'                                   # [Ghostly] Off we go!
+    ui_cutscene_shout_mercival_ghost_safehands: '[Ghostly] "Safe hands."'                                # [Ghostly] Safe hands.
+    ui_cutscene_shout_mercival_ghost_sigh: '[Ghostly] Sigh'                                              # [Ghostly] [Sigh]
+    ui_cutscene_shout_mercival_ghost_steelyourself: '[Ghostly] "Steel Yourself."'                        # [Ghostly] Steel Yourself.
+    ui_cutscene_shout_mercival_ghost_tellmercia: '[Ghostly] "Tell... Mercia."'                           # [Ghostly] Tell... Mercia.
+    ui_cutscene_shout_mercival_ghost_thankyou: '[Ghostly] "Thank you."'                                  # [Ghostly] Thank you.
+    ui_cutscene_shout_mercival_ghost_thelightshallnotfade: '[Ghostly] "The light shall not fade."'       # [Ghostly] The light shall not fade.
+    ui_cutscene_shout_mercival_ghost_themorethemerrier: '[Ghostly] "The more the merrier!"'              # [Ghostly] The more the merrier!
+    ui_cutscene_shout_mercival_ghost_thisshallserveuswell: '[Ghostly] "This shall serve us well!"'       # [Ghostly] This shall serve us well!
+    ui_cutscene_shout_mercival_ghost_toarms: '[Ghostly] "To arms!"'                                      # [Ghostly] To arms!
+    ui_cutscene_shout_mercival_ghost_togetherwestand: '[Ghostly] "Together we stand!"'                   # [Ghostly] Together we stand!
+    ui_cutscene_shout_mercival_ghost_verywellthen: '[Ghostly] "Very well then."'                         # [Ghostly] Very well then.
+    ui_cutscene_shout_mercival_ghost_weshallprevail:  '[Ghostly] "We shall prevail."'                    # [Ghostly] We shall prevail.
+    ui_cutscene_shout_mercival_ghost_what: '[Ghostly] "What?"'                                           # [Ghostly] What?
+    ui_cutscene_shout_mercival_ghost_whoops: '[Ghostly] "Whoops!"'                                       # [Ghostly] Whoops!
+    ui_cutscene_shout_mercival_ghost_worthyadversary: '[Ghostly] "A worthy adversary."'                  # [Ghostly] A worthy adversary
+    ui_cutscene_shout_mercival_ghost_yes: '[Ghostly] "Yes."'                                             # [Ghostly] Yes.
+    ui_cutscene_shout_mercival_ghost_youhaveneverletmedown: '[Ghostly] "You have never let me down."'    # [Ghostly] You have never let me down.
+    ui_cutscene_shout_mercival_ghost_youhavetoknowthesethings: '[Ghostly] "You have to know..."'         # [Ghostly] You have to know these things
+    ui_cutscene_shout_mercival_ghost_youmustlisten: '[Ghostly] "You must listen!"'                       # [Ghostly] You must listen!
+    ui_cutscene_shout_mercival_hit3: 'Surprised Grunt'                                                   # [Pain 3]
     
-    # Errol
-    errol_wow: 
+    # Errol         - None changed
     
     # Orla
-    twins_da: '[Together] "Da!"' # "Da!"
-    twins_hit: '[Together] Shocked' # Both Shocked
-    twins_laugh: '[Together] Laughing' # Both Laughing
-    twins_wondertwinpowers: '[Together] "Wonder Twin Powers!"' # "Wonder Twin Powers, activate!"
+    ui_cutscene_shout_twins_da: '[Together] "Da!"' # "Da!"
+    ui_cutscene_shout_twins_hit: '[Together] Shocked' # Both Shocked
+    ui_cutscene_shout_twins_laugh: '[Together] Laughing' # Both Laughing
+    ui_cutscene_shout_twins_wondertwinpowers: '[Together] "Wonder Twin Powers!"' # "Wonder Twin Powers, activate!"
     
     # Vesper (Boss) - None changed
+    
+    # Generic units - None changed
     
     # CUTSCENE EMOTES
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
