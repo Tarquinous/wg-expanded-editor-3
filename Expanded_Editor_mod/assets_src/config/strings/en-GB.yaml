@@ -26,7 +26,7 @@ en-GB:
     ui_cutscene_shout_mercia_attack5: 'Hyuh!'        # [Grunt 5]
     ui_cutscene_shout_mercia_hit3: 'Short grunt'     # [Pain3]
     ui_cutscene_shout_mercia_no1: '"No."'            # "No. [1]"
-    ui_cutscene_shout_mercian_no3: 'Anguished "No!"' # "No!"
+    ui_cutscene_shout_mercia_no3: 'Anguished "No!"' # "No!"
     
     # Emeric      - None changed
     ui_cutscene_shout_emeric_attack2: 'Grunt of Exertion 1' # Grunt [2]
