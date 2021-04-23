@@ -13,6 +13,8 @@ terrains:
     movementGroupType: air
     placeable: true
 
+    # Volcano is placed on Layer 1 instead of the original Layer 0. This allows you to
+    # see plains graphics below it to look nicer. It will cover up the lower layer anyway.
   - id: volcano
     name: terrain_name_volcano
     defenceBonus: 0
@@ -21,5 +23,6 @@ terrains:
     placeable: true
     hidden: false
     tilesets:
-      0: volcano
+      0: plains
+      1: volcano
 ...
