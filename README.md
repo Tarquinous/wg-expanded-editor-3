@@ -86,7 +86,7 @@ Below are some features I would like to implement, if it is found to be possible
   - [x] Move unusued tools list onto a dedicated page
 - [x] Remove avoidable redundant overrides of game data (improves mod compatibility)
 - [x] Add commenting to old files to make source code easier to understand
-- [ ] *Optional:* Make Volcano and Sky terrain have looser terrain limitations.
+- [ ] ~~*Optional:* Make Volcano and Sky terrain have looser terrain limitations.~~
 - [ ] Fix bugs / oversights
   - [x] Allow Ghost unit to be spawnable through events.
   - [x] Allow water units to be used in the Cutscene Editor
