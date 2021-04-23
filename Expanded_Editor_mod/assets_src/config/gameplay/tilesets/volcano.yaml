@@ -6,7 +6,7 @@ tilesets:
     biomes:
       - types: [grass]
         spriteSheet: tilesets
-        spriteBase: grass_plains_tileset
+        spriteBase: grass_volcano_tileset
         portraitSpriteSheet: terrain/terrain_portraits
         portraitSprite: terrain_portraits_plains
         battleBackgroundSpriteSheet: backgrounds/volcano_battlescreen_extendedbackgrounds
@@ -48,18 +48,4 @@ tilesets:
     decayTo: plains
     tiles:
       - { x: 0, y: 0, adj: "" }
-      - { x: 1, y: 0, adj: "" }
-      - { x: 2, y: 0, adj: "" }
-
-      - { x: 0, y: 1, adj: "" }
-      - { x: 1, y: 1, adj: "" }
-      - { x: 2, y: 1, adj: "" }
-      
-      - { x: 0, y: 2, adj: "" }
-      - { x: 1, y: 2, adj: "" }
-      - { x: 2, y: 2, adj: "" }
-      
-      - { x: 0, y: 3, adj: "" }
-      - { x: 1, y: 3, adj: "" }
-      - { x: 2, y: 3, adj: "" }
 ...
