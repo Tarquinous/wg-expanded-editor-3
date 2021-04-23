@@ -67,34 +67,7 @@ Below are some features I would like to implement, if it is found to be possible
 * Allow terrain to be placed in any location regardless of adjacent terrain
 * Allow custom values for Ammo and Gold of newly placed Rifleman, Thief, and Thief_with_gold
 
-## Version 1.4 checklist
-
-- [x] Unhide previously hidden content to expand the mod
-  - [x] Unhide emotes in the Cutscene Editor
-  - [x] Unhide voicelines in the Cutscene Editor
-  - [x] Set all ambient sounds as possible music
-- [x] Improve usability of the mod with clearer UI
-  - [x] Introduce modified strings (e.g. removing "#MISSING#" from menues)
-    - [x] Cutscene shouts (voicelines)
-    - [x] Cutscene backgrounds, music, props, emotes, and walk types
-  - [x] Add custom icons for Volcano and Sky terrain
-- [ ] Expand the wiki
-  - [x] Shouts references list
-  - [ ] Event actions/conditions images
-  - [x] Event actions/conditions descriptions
-  - [x] Move "Unstable tools" list onto a dedicated page
-  - [x] Move unusued tools list onto a dedicated page
-- [x] Remove avoidable redundant overrides of game data (improves mod compatibility)
-- [x] Add commenting to old files to make source code easier to understand
-- [ ] ~~*Optional:* Make Volcano and Sky terrain have looser terrain limitations.~~
-- [ ] Fix bugs / oversights
-  - [x] Allow Ghost unit to be spawnable through events.
-  - [x] Allow water units to be used in the Cutscene Editor
-  - [x] Opening a Unit Info screen with Ghost present would cause an error (only when the mod is active).
-  - [x] Hide Vesper (Boss) from cutscenes (offers no tools over normal Vesper)
-
 ## To Do List
 
 - [ ] Make hidden units better aligned to unit placement UI
 - [ ] Fix the animations when placing hidden units (i.e. stop using death animation)
-- [ ] Add some graphic to make Volcano terrain visible to the editor (maybe)
