@@ -3,7 +3,7 @@
 id: ExpandedEditor3 # The mod's id. This should not change over the lifetime of the mod.
 name: "Expanded Editor"               # The mod's name. This is looked up in the language string yaml configuration.
 author: "Emo Tarquin"
-description: "Adds hidden features of the Editor!" # The mod's description. This is looked up in the language string yaml configuration.
+description: "Adds hidden features of the Editor!\n\nDisable this mod when done to allow uploading. :) Don't worry, nothing will be lost!" # The mod's description. This is looked up in the language string yaml configuration.
 overwritesPalette: false
 
 ...
