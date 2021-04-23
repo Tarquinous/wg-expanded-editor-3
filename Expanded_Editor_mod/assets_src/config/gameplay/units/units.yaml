@@ -2457,39 +2457,8 @@ units:
         - run_cushion # Identical to default run
     #    - run_2
 
-    # Felheim
-  - class: soldier
-    faction: felheim
-    name: unit_name_soldier_felheim
-    mapAnimation: units/soldier/felheim/map_soldier_felheim
-    battleAnimation: units/soldier/felheim/battle_soldier_felheim
-    battleAnimationRiver: fx/river_overlay/battle_soldier_felheim_river
-    smallPortrait: units/soldier/felheim/portrait_soldier_felheim_small.png
-    mediumPortrait: units/soldier/felheim/portrait_soldier_felheim_medium.png
-    mapSpeed: 4.0
-    grabPos: [18, 10]
-    sounds:
-      attack: soldierAttackBlue
-      attackShout: soldierPreAttackBlue
-      attackMap: unitAttack
-      captureShout: soldierPreAttackBlue
-      death: soldierDieBlue
-      deathMap: unitDie
-      run: infantrySkeletonEntry
-      runMap: infantrySkeletonMapEntry
-      hit: hitBone
-      hitMap: hitBone
-    attacks:
-      - id: primary
-        hitSpark: fx/bs_stab_attack
-        hitDelay: [0.25, 0.75]
-    shouts:
-      soldier_blue_shout1: soldierShoutBlue1
-      soldier_blue_shout2: soldierShoutBlue2
-    emotes:
-      idle: idle
-      surprise: emote_surprise 
-      negative: emote_negative      
+    # Felheim    
+    # No hidden traits.
     
     # Heavensong
   - class: soldier
