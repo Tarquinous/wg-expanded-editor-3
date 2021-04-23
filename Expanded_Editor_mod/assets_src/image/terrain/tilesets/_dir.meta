@@ -2,5 +2,5 @@
 - data:
     tileWidth: 24
     tileHeight: 24
-    atlas: tilesets
+    atlas: terrain_tilesets
 ...
