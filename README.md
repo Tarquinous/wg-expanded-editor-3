@@ -81,7 +81,7 @@ Below are some features I would like to implement, if it is found to be possible
 - [ ] Expand the wiki
   - [x] Shouts references list
   - [ ] Event actions/conditions images
-  - [ ] Event actions/conditions descriptions
+  - [x] Event actions/conditions descriptions
   - [x] Move "Unstable tools" list onto a dedicated page
   - [x] Move unusued tools list onto a dedicated page
 - [x] Remove avoidable redundant overrides of game data (improves mod compatibility)
