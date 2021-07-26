@@ -69,7 +69,7 @@ Below are some features I would like to implement, if it is found to be possible
 
 ## To Do List
 
-- [ ] Make hidden units better aligned to unit placement UI
-- [ ] Fix the animations when placing hidden units (i.e. stop using death animation)
+- [X] Make hidden units better aligned to unit placement UI
+- [X] Fix the animations when placing hidden units (i.e. stop using death animation)
 - [ ] Stop Volcano terrain showing randomly different Plains sprites when mod is enabled
 - [ ] Allow Beach to be placed next to Volcano terrain
