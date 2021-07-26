@@ -1,0 +1,19 @@
+---
+- match:
+    - small_
+    - map_
+  data:
+    palette: image/palettes/wargroove_palette.png
+    material: Wargroove/PaletteSwap
+    atlas: units/map_units_ExpandedEditor3
+- match:
+    - portrait
+  data:
+    palette: image/palettes/wargroove_palette.png
+    material: Wargroove/PaletteSwap
+    atlas: portraits_ExpandedEditor3
+    trim: false
+- data:
+    palette: image/palettes/wargroove_palette.png
+    material: Wargroove/PaletteSwap
+...
