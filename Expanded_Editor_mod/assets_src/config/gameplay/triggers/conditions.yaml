@@ -9,9 +9,10 @@ triggerConditions:
 
     # Functionally identical to the number_of_stars_map condition
     # (It uses the exact same code in the game's files)
+    # But is used within the Campaign editor.
   - id: number_of_stars_campaign
     scope: campaign
-    hidden: true
+    hidden: false
     parameters:
       - type: integer
 
