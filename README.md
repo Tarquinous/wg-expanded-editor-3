@@ -66,11 +66,3 @@ Below are some features I would like to implement, if it is found to be possible
 * Place more than one Commander on the map at a time even after the mod is disabled
 * Allow terrain to be placed in any location regardless of adjacent terrain
 * Allow custom values for Ammo and Gold of newly placed Rifleman, Thief, and Thief_with_gold
-
-## To Do List
-
-- [X] Make hidden units better aligned to unit placement UI
-- [X] Fix the animations when placing hidden units (i.e. stop using death animation)
-- [ ] Stop Volcano terrain showing randomly different Plains sprites when mod is enabled
-- [X] Allow Beach to be placed next to Volcano terrain
-- [X] re-enable number_of_stars_campaign Campaign Editor Condition.
