@@ -6,7 +6,7 @@ tilesets:
     biomes:
       - types: [grass]
         spriteSheet: terrain_tilesets
-        spriteBase: volcano_tileset
+        spriteBase: grass_volcano_tileset
         portraitSpriteSheet: terrain/terrain_portraits
         portraitSprite: terrain_portraits_plains
         battleBackgroundSpriteSheet: backgrounds/volcano_battlescreen_extendedbackgrounds
@@ -16,7 +16,7 @@ tilesets:
         fillColour: '#92b141'
       - types: [ice]
         spriteSheet: terrain_tilesets
-        spriteBase: volcano_tileset
+        spriteBase: snow_volcano_tileset
         portraitSpriteSheet: terrain/terrain_portraits
         portraitSprite: terrain_portraits_snow_plains
         battleBackgroundSpriteSheet: backgrounds/volcano_battlescreen_extendedbackgrounds
@@ -26,7 +26,7 @@ tilesets:
         fillColour: '#aec6e3'
       - types: [desert]
         spriteSheet: terrain_tilesets
-        spriteBase: volcano_tileset
+        spriteBase: sand_volcano_tileset
         portraitSpriteSheet: terrain/terrain_portraits
         portraitSprite: terrain_portraits_sand_plains
         battleBackgroundSpriteSheet: backgrounds/volcano_battlescreen_extendedbackgrounds
@@ -36,7 +36,7 @@ tilesets:
         fillColour: '#987647'
       - types: [volcano]
         spriteSheet: terrain_tilesets
-        spriteBase: volcano_tileset
+        spriteBase: volcano_volcano_tileset
         portraitSpriteSheet: terrain/terrain_portraits
         portraitSprite: terrain_portraits_sand_plains
         battleBackgroundSpriteSheet: backgrounds/volcano_battlescreen_extendedbackgrounds
