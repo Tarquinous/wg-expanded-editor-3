@@ -1,4 +1,6 @@
 ---
+# Overrides the primaryConnect property to allow beaches to be placed next to Volcano terrain.
+
 tilesets:
   - id: beach
     biomes:
