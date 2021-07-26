@@ -73,3 +73,4 @@ Below are some features I would like to implement, if it is found to be possible
 - [X] Fix the animations when placing hidden units (i.e. stop using death animation)
 - [ ] Stop Volcano terrain showing randomly different Plains sprites when mod is enabled
 - [X] Allow Beach to be placed next to Volcano terrain
+- [X] re-enable number_of_stars_campaign Campaign Editor Condition.
